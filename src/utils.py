@@ -1,5 +1,7 @@
 import os
 import json
+import random
+
 import numpy as np
 import pandas as pd
 from scipy.stats import wasserstein_distance
@@ -35,6 +37,11 @@ MODEL_NAMES = {'human max': 'human (worst)',
 
 MODEL_ORDER = {k: ki for ki, k in enumerate(MODEL_NAMES.keys())}
 
+
+def set_seed(seed):
+    os.environ['PYTHONHASHSEED'] = str(seed)
+    random.seed(seed)
+    np.random.seed(seed)
 
 def get_probabilities(lps, references, mapping):
     min_prob = np.exp(np.min(list(lps.values())))
@@ -205,21 +212,21 @@ def get_steering_group(steer_type, steer_df, contexts):
     return steer_dict
 
 
-VIS_STYLES = [dict(selector="th", props=[('width', '90px'), ("font-size", "95%"),
-                                         ('border-left', '1px solid black'),
-                                         ('border-bottom', '1px solid black'),
-                                         ('border-right', '1px solid black'),
-                                         ('border-top', '1px solid black')]),
-              dict(selector="td", props=[('text-align', 'center'),
-                                         ('border-left', '1px solid black'),
-                                         ('border-bottom', '1px solid black'),
-                                         ('border-right', '1px solid black'),
-                                         ('border-top', '1px solid black')]),
-              dict(selector="th.row_heading", props=[('text-align', 'center'), ("font-size", "100%")]),
-              dict(selector="th.col_heading",
-                   props=[('text-align', 'center'),
-                          ('width', '100px'),
-                          ('vertical-align', 'top'),
-                          ("transform", "translate(0%,10%)"),
-                          ("font-size", "70%")
-                          ])]
+# VIS_STYLES = [dict(selector="th", props=[('width', '90px'), ("font-size", "95%"),
+#                                          ('border-left', '1px solid black'),
+#                                          ('border-bottom', '1px solid black'),
+#                                          ('border-right', '1px solid black'),
+#                                          ('border-top', '1px solid black')]),
+#               dict(selector="td", props=[('text-align', 'center'),
+#                                          ('border-left', '1px solid black'),
+#                                          ('border-bottom', '1px solid black'),
+#                                          ('border-right', '1px solid black'),
+#                                          ('border-top', '1px solid black')]),
+#               dict(selector="th.row_heading", props=[('text-align', 'center'), ("font-size", "100%")]),
+#               dict(selector="th.col_heading",
+#                    props=[('text-align', 'center'),
+#                           ('width', '100px'),
+#                           ('vertical-align', 'top'),
+#                           ("transform", "translate(0%,10%)"),
+#                           ("font-size", "70%")
+#                           ])]
