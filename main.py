@@ -7,8 +7,10 @@ import argparse
 import numpy as np
 import pandas as pd
 import os
-
-from src.utils import extract_human_opinions, DEMOGRAPHIC_ATTRIBUTES
+import ast
+from sklearn.model_selection import train_test_split
+from src.aggregate_pairs import create_demo_to_qa_dict
+from src.utils import set_seed
 
 PEW_SURVEY_LIST = [26, 27, 29, 32, 34, 36, 41, 42, 43, 45, 49, 50, 54, 82, 92]
 
@@ -64,12 +66,12 @@ def main(args):
     topic_mapping = topic_mapping.tolist()
     # print(len(topic_mapping), type(topic_mapping), )
     #
-    # for i, (key, value) in enumerate(topic_mapping.items()):
-    #     print("key:", key)
-    #     print("value:", value)
-    #
-    #     if i >= 3:
-    #         break
+    for i, (key, value) in enumerate(topic_mapping.items()):
+        print("key:", key)
+        print("value:", value)
+
+        if i >= 3:
+            break
 
     DATASET_DIR = os.path.join(args.data_dir, 'human_resp')
     RESULT_DIR = os.path.join(args.data_dir, 'runs')
@@ -82,6 +84,8 @@ def main(args):
 
     resp_indi_dict = {}
     total_responses = 0
+    all_qinfo_dict = {}
+    train_data_dict, val_data_dict, test_data_dict = {}, {}, {}
     for SURVEY_NAME in SURVEY_LIST:
         print("############################", SURVEY_NAME, "############################")
         qinfo_df = pd.read_csv(os.path.join(DATASET_DIR, SURVEY_NAME, 'info.csv'))
@@ -92,6 +96,7 @@ def main(args):
         qinfo_dict = load_question_info(qinfo_df)
         qinfo_keys = qinfo_dict.keys()
         print("qinfo_dict:", len(qinfo_dict), qinfo_dict)
+        all_qinfo_dict.update(qinfo_dict)
 
         #### metadata df processing ####
         meta_keys = meta_df['key'].tolist()
@@ -107,108 +112,107 @@ def main(args):
         assert total_implicit_len == total_explicit_len == total_len
         print("total_implicit_len", total_implicit_len, "total_explicit_len", total_explicit_len, len(user_ids))
 
-        for i in range(total_len):
-            explicit_info_dict = {}
-            for meta_key in meta_keys:
-                explicit_info_dict[meta_key] = resp_explicit_dict[meta_key][i]  # list of responses
+        if args.create_demo_dict:
+            """
+            {
+            "demographic information": { 
+                "implicit_info": {
+                        "question": question,
+                        "choice": choices,
+                        "answer": user response,
+                        "question_id": question id
+                    }
+            }
+            """
+            for i in range(total_len):
+                explicit_info_dict = {}
+                for meta_key in meta_keys:
+                    explicit_info_dict[meta_key] = resp_explicit_dict[meta_key][i]  # list of responses
 
-            key = tuple(sorted(explicit_info_dict.items()))
+                key = tuple(sorted(explicit_info_dict.items()))
 
-            implicit_info_dict = {}
-            for info_key in qinfo_keys:
-                response = resp_implicit_dict[info_key][i]  # list of responses
-                if isinstance(response, float) and math.isnan(response):
-                    continue
-                implicit_info = {
-                    "question": qinfo_dict[info_key]['question'],
-                    "choice": qinfo_dict[info_key]['choice'],
-                    "answer": response,
-                    "question_id": info_key
-                }
-                implicit_info_dict[info_key] = implicit_info
+                implicit_info_dict = {}
+                for info_key in qinfo_keys:
+                    response = resp_implicit_dict[info_key][i]  # list of responses
+                    if isinstance(response, float) and math.isnan(response):
+                        continue
+                    implicit_info = {
+                        "question": qinfo_dict[info_key]['question'],
+                        "choice": qinfo_dict[info_key]['choice'],
+                        "answer": response,
+                        "question_id": info_key
+                    }
+                    implicit_info_dict[info_key] = implicit_info
 
-            if key not in resp_indi_dict.keys():
-                resp_indi_dict[key] = {
-                    "implicit_info": [implicit_info_dict]
-                }
-            else:
-                resp_indi_dict[key]["implicit_info"].append(implicit_info_dict)
-                # print("check!", len(resp_indi_dict[key]["implicit_info"]))
+                if key not in resp_indi_dict.keys():
+                    resp_indi_dict[key] = {
+                        "implicit_info": [implicit_info_dict]
+                    }
+                else:
+                    resp_indi_dict[key]["implicit_info"].append(implicit_info_dict)
 
-    demo_to_question_dict = {}
-    for i, key in enumerate(resp_indi_dict.keys()):
-        implicit_info = resp_indi_dict[key]["implicit_info"]
-        if len(implicit_info) <= 1:
-            continue
+        # Make a split of the users into two group: dev and test. Each user datapoint should contain all the info
+        if args.create_split:
 
-        # get all question keys that exist in different responses
-        question_keys = set()
-        for info in implicit_info:
-            question_keys.update(info.keys())
+            print("resp_implicit_dict:", resp_implicit_dict.keys())
+            print("resp_explicit_dict:", resp_explicit_dict.keys())
+            user_resp_list = []
+            for i in range(total_len):
+                user_resp_dict = {}
+                for key in resp_implicit_dict.keys():
+                    response = resp_implicit_dict[key][i]
+                    if isinstance(response, float) and math.isnan(response):
+                        continue
 
-        question_dict = {}
-        for q_key in list(question_keys):
-            if q_key not in question_dict.keys():
-                question_dict[q_key] = []
+                    question = qinfo_dict[key]['question']
+                    choices = qinfo_dict[key]['choice']
+                    choices = ast.literal_eval(choices)
+                    choices = "/".join(choices)
+                    user_resp_dict.update({
+                        f"{question} [{choices}]": response
+                    })
 
-            for info in implicit_info:
-                if q_key not in info.keys():
-                    continue
-                answer = info[q_key]["answer"]
-                question_dict[q_key].append(answer)
-        demo_to_question_dict[key] = question_dict
+                for key in resp_explicit_dict.keys():
+                    user_resp_dict.update({
+                        key: resp_explicit_dict[key][i]
+                    })
+                user_resp_list.append(user_resp_dict)
 
-        if i >=300:
-            break
-
-    # print("demo_to_question_dict:", demo_to_question_dict)
-    new_demo_to_question_dict = {}
-    demo_qa_num = []
-    for key, qa_pair in demo_to_question_dict.items():
-        demo_key = key
-        demo_q_list = []
-        for q, a in qa_pair.items():
-            if len(a) <= 1:
-                continue
-            demo_q_list.append({q: a})
-        if len(demo_q_list) > 0:
-            new_demo_to_question_dict[demo_key] = demo_q_list
-            demo_qa_num.append(len(demo_q_list))
-        # print()
-    # print("avg_demo_qa_num:", sum(demo_qa_num)/len(demo_qa_num))
-
-
-    for i, (demo_key, demo_q_list) in enumerate(new_demo_to_question_dict.items()):
-        print()
-        agreement = 0
-        disagreement = 0
-        for demo_q in demo_q_list:
-            for k, v in demo_q.items():
-                answers = v
-                for combi in list(itertools.combinations(answers, 2)):
-                    if combi[0] == combi[1]:
-                        agreement += 1
-                    else:
-                        disagreement += 1
-        print("demo_q_list:", len(demo_q_list), "agreement:", agreement, "disagreement:", disagreement)
+            x_train ,x_test = train_test_split(user_resp_list, random_state=42, test_size=0.3)
+            x_val, x_test = train_test_split(x_test, random_state=42, test_size=0.5)
+            
+            train_data_dict[SURVEY_NAME] = x_train
+            val_data_dict[SURVEY_NAME] = x_val
+            test_data_dict[SURVEY_NAME] = x_test
 
 
-    # print("new_demo_to_question_dict:", len(new_demo_to_question_dict), new_demo_to_question_dict)
+    if args.create_demo_dict:
+        #  statistics where we show two users having exactly same demographics have different opinion answers for a same question
+        demo_to_question_dict = create_demo_to_qa_dict(resp_indi_dict)
+        with open("demo_to_question_dict.json", "w") as f:
+            json.dump(demo_to_question_dict, f, indent=4)
+
+    if args.create_split:
+        with open("train_data.json", "w") as f:
+            json.dump(train_data_dict, f, indent=4)
+
+        with open("val_data.json", "w") as f:
+            json.dump(val_data_dict, f, indent=4)
+
+        with open("test_data.json", "w") as f:
+            json.dump(test_data_dict, f, indent=4)
 
 
 
-    # print("total_keys:", len(resp_indi_dict.keys()))
-    # print("total_responses:", total_responses)
-    # print("total_pairs:", len(pairs))
 
-
-    # with open("resp_indi_dict.json", "w") as f:
-    #     json.dump(resp_indi_dict, f, indent=4)
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument("--data_dir", type=str, default='data/opinion-qa/', help="start collecting memes from reddit")
-    args = parser.parse_args()
+    parser.add_argument("--create_demo_dict", action='store_true', help="create demographic to qa pair dict")
+    parser.add_argument("--create_split", action='store_true', help="create split of val and test")
 
+    args = parser.parse_args()
+    set_seed(42)
     main(args)
