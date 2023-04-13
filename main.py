@@ -178,9 +178,9 @@ def main(args):
                     })
                 user_resp_list.append(user_resp_dict)
 
-            x_train ,x_test = train_test_split(user_resp_list, random_state=42, test_size=0.3)
+            x_train ,x_test = train_test_split(user_resp_list, random_state=42, test_size=0.2)
             x_val, x_test = train_test_split(x_test, random_state=42, test_size=0.5)
-            
+
             train_data_dict[SURVEY_NAME] = x_train
             val_data_dict[SURVEY_NAME] = x_val
             test_data_dict[SURVEY_NAME] = x_test
