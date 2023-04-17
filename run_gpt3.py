@@ -45,13 +45,15 @@ def generate_output_with_implicit(args, val_dict, test_dict, all_qinfo_dict, all
     if args.num_checklist != -1:
         num_checklist = args.num_checklist
 
+    logger.info("######################## start generate_output_with_implicit ########################")
+    accuracy_dict = {}
     for topic in all_topics[:num_topics]:
 
         if args.num_users == -1:
             user_ids_per_topic = sorted(list(val_dict[topic].keys()))
         else:
             user_ids_per_topic = sorted(list(val_dict[topic].keys()))[:num_users]
-
+        user_accuracy_list = []
         for user_id in user_ids_per_topic:
             logger.info("======================================== user id: {} ===========================================".format(user_id))
             val_responses = val_dict[topic][user_id]
@@ -135,10 +137,26 @@ def generate_output_with_implicit(args, val_dict, test_dict, all_qinfo_dict, all
                     correct += 1
                 else:
                     incorrect += 1
-
             logger.info("correct instances: {}, incorrect instances: {}, total instances: {}".format(correct, incorrect, len(test_answers)))
+            accuracy = correct/len(test_answers)
+            user_accuracy_list.append(accuracy)
+        user_accuracy = sum(user_accuracy_list) / len(user_accuracy_list)
         logger.info("======================================== done user id: {} ===========================================".format(user_id))
 
+        if topic not in accuracy_dict.keys():
+            accuracy_dict[topic] = []
+        accuracy_dict[topic].append(user_accuracy)
+
+    logger.info("accuracy per topic: {}".format(accuracy_dict))
+
+    all_accuracy = []
+    for topic, accuracy_list in accuracy_dict.items():
+        accu = sum(accuracy_list)/len(accuracy_list)
+        all_accuracy.append(accu)
+
+    avg_accuracy = sum(all_accuracy)/len(all_accuracy)
+    logger.info("average accuracy: {}".format(avg_accuracy))
+    logger.info("######################## done generate_output_with_implicit ########################")
 
 
 def generate_output_with_explicit(args, val_dict, test_dict, all_qinfo_dict, all_demographic_dict, api_key):
@@ -172,13 +190,15 @@ def generate_output_with_explicit(args, val_dict, test_dict, all_qinfo_dict, all
         "POLIDEOLOGY": "Political ideology",
         "RACE": "Race",
     }
-
+    logger.info("######################## start generate_output_with_explicit ########################")
     # topic = all_topics[0]
+    accuracy_dict = {}
     for topic in all_topics[:num_topics]:
         if args.num_users == -1:
             user_ids_per_topic = sorted(list(val_dict[topic].keys()))
         else:
             user_ids_per_topic = sorted(list(val_dict[topic].keys()))[:num_users]
+        user_accuracy_list = []
         for user_id in user_ids_per_topic:
             logger.info("======================================== user id: {} ===========================================".format(user_id))
             demographic_info = all_demographic_dict[user_id]
@@ -260,8 +280,24 @@ def generate_output_with_explicit(args, val_dict, test_dict, all_qinfo_dict, all
                     incorrect += 1
 
             logger.info("correct instances: {}, incorrect instances: {}, total instances: {}".format(correct, incorrect, len(test_answers)))
+            accuracy = correct/len(test_answers)
+            user_accuracy_list.append(accuracy)
+        user_accuracy = sum(user_accuracy_list) / len(user_accuracy_list)
         logger.info("======================================== done user id: {} ===========================================".format(user_id))
 
+        if topic not in accuracy_dict.keys():
+            accuracy_dict[topic] = []
+        accuracy_dict[topic].append(user_accuracy)
+
+    logger.info("accuracy per topic: {}".format(accuracy_dict))
+    all_accuracy = []
+    for topic, accuracy_list in accuracy_dict.items():
+        accu = sum(accuracy_list)/len(accuracy_list)
+        all_accuracy.append(accu)
+
+    avg_accuracy = sum(all_accuracy)/len(all_accuracy)
+    logger.info("average accuracy: {}".format(avg_accuracy))
+    logger.info("######################## done generate_output_with_explicit ########################")
 
 def main(args):
     all_qinfo_file = "all_qinfo_dict.json"
@@ -292,8 +328,11 @@ def main(args):
     #     print("test_eval_dict", len(test_eval_dict))
 
     openai_key = args.openai_key
-    generate_output_with_implicit(args, train_checklist_dict, train_eval_dict_file, all_qinfo_dict, all_demographic_dict, openai_key)
-    generate_output_with_explicit(args, train_checklist_dict, train_eval_dict_file, all_qinfo_dict, all_demographic_dict, openai_key)
+    if args.test_implicit:
+        generate_output_with_implicit(args, train_checklist_dict, train_eval_dict_file, all_qinfo_dict, all_demographic_dict, openai_key)
+
+    if args.test_explicit:
+        generate_output_with_explicit(args, train_checklist_dict, train_eval_dict_file, all_qinfo_dict, all_demographic_dict, openai_key)
 
 
 if __name__ == '__main__':
@@ -303,5 +342,7 @@ if __name__ == '__main__':
     parser.add_argument("--num_users", type=int, default=3, help="# of users")
     parser.add_argument("--num_checklist", type=int, default=1, help="# of checklist")
     parser.add_argument("--num_test", type=int, default=20, help="# of test prompts")
+    parser.add_argument("--test_implicit", action='store_true', help="test implicit prompt")
+    parser.add_argument("--test_explicit", action='store_true', help="test explicit prompt")
     args = parser.parse_args()
     main(args)
