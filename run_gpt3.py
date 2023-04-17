@@ -291,13 +291,14 @@ def main(args):
     #     test_eval_dict = json.load(fd)
     #     print("test_eval_dict", len(test_eval_dict))
 
-    openai_key = "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"
+    openai_key = args.openai_key
     generate_output_with_implicit(args, train_checklist_dict, train_eval_dict_file, all_qinfo_dict, all_demographic_dict, openai_key)
     generate_output_with_explicit(args, train_checklist_dict, train_eval_dict_file, all_qinfo_dict, all_demographic_dict, openai_key)
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
+    parser.add_argument("--openai_key", type=str, default="", help="open api key")
     parser.add_argument("--num_topics", type=int, default=1, help="# of topics")
     parser.add_argument("--num_users", type=int, default=3, help="# of users")
     parser.add_argument("--num_checklist", type=int, default=1, help="# of checklist")
