@@ -12,7 +12,7 @@ import ast
 from sklearn.model_selection import train_test_split
 from src.aggregate_pairs import create_demo_to_qa_dict, find_pair_by_demographic, calculate_cohen_kappa_score, \
     calculate_cohen_kappa_score_per_subtopic, find_pair_by_topic, aggregate_responses_by_topic, split_data
-from src.test_gpt3 import generate_output_with_implicit, generate_output_with_explicit
+from src.run_gpt3 import generate_output_with_implicit, generate_output_with_explicit
 from src.utils import set_seed
 
 PEW_SURVEY_LIST = [26, 27, 29, 32, 34, 36, 41, 42, 43, 45, 49, 50, 54, 82, 92]
@@ -178,10 +178,10 @@ def main(args):
             json.dump(all_demographic_dict, f, indent=4)
 
     else:
-        # with open(all_user_responses_file, "r") as fd:
-        #     print("loading all_user_responses...")
-        #     all_user_responses = json.load(fd)
-        #     print(len(all_user_responses))
+        with open(all_user_responses_file, "r") as fd:
+            print("loading all_user_responses...")
+            all_user_responses = json.load(fd)
+            print(len(all_user_responses))
 
         with open(all_qinfo_file, "r") as fd:
             all_qinfo_dict = json.load(fd)
@@ -214,27 +214,83 @@ def main(args):
     # calculate_cohen_kappa_score_per_subtopic(topic_pair_dict)
 
     # aggregate_responses_by_topic(all_user_responses)
-    val_dict_file = "val_resp_by_topic.json"
-    test_dict_file = "test_resp_by_topic.json"
-    if not (os.path.exists(val_dict_file) and os.path.exists(test_dict_file)):
-        val_dict, test_dict = split_data("all_resp_by_topic.json", all_qinfo_dict, all_demographic_dict)
-        with open(val_dict_file, "w") as f:
-            json.dump(val_dict, f, indent=4)
+    survey_to_resp = {}
+    for user_resp in all_user_responses:
+        user_id = user_resp["user_id"]
+        survey_name = user_resp["survey_name"]
+        implicit_info = user_resp["implicit_info"]
+        explicit_info = user_resp["explicit_info"]
 
-        with open(test_dict_file, "w") as f:
-            json.dump(test_dict, f, indent=4)
+        if survey_name not in survey_to_resp.keys():
+            survey_to_resp[survey_name] = []
+
+        survey_to_resp[survey_name].append({
+            "user_id": user_id,
+            "implicit_info": implicit_info,
+            "explicit_info": explicit_info,
+        })
+
+
+    if not (os.path.exists("train_survey_to_resp.json") and os.path.exists("test_survey_to_resp.json")):
+        train_survey_to_resp = {}
+        test_survey_to_resp = {}
+        for survey in survey_to_resp.keys():
+            user_responses = survey_to_resp[survey]
+            x_train, x_test = train_test_split(user_responses, random_state=42, test_size=0.2)
+
+            train_survey_to_resp[survey] = x_train
+            test_survey_to_resp[survey] = x_test
+
+        with open("train_survey_to_resp.json", "w") as f:
+            json.dump(train_survey_to_resp, f, indent=4)
+
+        with open("test_survey_to_resp.json", "w") as f:
+            json.dump(test_survey_to_resp, f, indent=4)
     else:
-        with open(val_dict_file, "r") as fd:
-            val_dict = json.load(fd)
-            print("val_dict", len(val_dict))
-        with open(test_dict_file, "r") as fd:
-            test_dict = json.load(fd)
-            print("test_dict", len(test_dict))
+        with open("train_survey_to_resp.json") as fd:
+            print("train_survey_to_resp.json...")
+            train_survey_to_resp = json.load(fd)
 
-    openai_key = "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"
+        with open("test_survey_to_resp.json") as fd:
+            print("test_survey_to_resp.json...")
+            test_survey_to_resp = json.load(fd)
+
+    train_checklist_dict_file = "sample_train_checklist_dict.json"
+    train_eval_dict_file = "sample_train_eval_dict.json"
+    test_checklist_dict_file = "test_checklist_dict.json"
+    test_eval_dict_file = "test_eval_dict.json"
+    # if not (os.path.exists(train_checklist_dict_file) and os.path.exists(train_eval_dict_file)
+    # and os.path.exists(test_checklist_dict_file) and os.path.exists(test_eval_dict_file)):
+    train_checklist_dict, train_eval_dict, test_checklist_dict, test_eval_dict \
+        = split_data("all_resp_by_topic.json", train_survey_to_resp, test_survey_to_resp)
+    with open(train_checklist_dict_file, "w") as f:
+        json.dump(train_checklist_dict, f, indent=4)
+
+    with open(train_eval_dict_file, "w") as f:
+        json.dump(train_eval_dict, f, indent=4)
+
+    with open(test_checklist_dict_file, "w") as f:
+        json.dump(test_checklist_dict, f, indent=4)
+
+    with open(test_eval_dict_file, "w") as f:
+        json.dump(test_eval_dict, f, indent=4)
+    # else:
+    #     with open(train_checklist_dict_file, "r") as fd:
+    #         train_checklist_dict = json.load(fd)
+    #         print("train_checklist_dict", len(train_checklist_dict))
+    #     with open(train_eval_dict_file, "r") as fd:
+    #         train_eval_dict_file = json.load(fd)
+    #         print("train_eval_dict_file", len(train_eval_dict_file))
+    #     with open(test_checklist_dict_file, "r") as fd:
+    #         test_checklist_dict = json.load(fd)
+    #         print("test_checklist_dict", len(test_checklist_dict))
+    #     with open(test_eval_dict_file, "r") as fd:
+    #         test_eval_dict = json.load(fd)
+    #         print("test_eval_dict", len(test_eval_dict))
+
+    # openai_key = "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"
     # generate_output_with_implicit(val_dict, test_dict, all_qinfo_dict, all_demographic_dict, openai_key)
-
-    generate_output_with_explicit(val_dict, test_dict, all_qinfo_dict, all_demographic_dict, openai_key)
+    # generate_output_with_explicit(val_dict, test_dict, all_qinfo_dict, all_demographic_dict, openai_key)
 
     # user_resp_list
         # if args.create_demo_dict:

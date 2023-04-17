@@ -1,6 +1,7 @@
 import ast
 import itertools
 import json
+import random
 
 import numpy as np
 from matplotlib import pyplot as plt
@@ -548,40 +549,78 @@ def aggregate_responses_by_topic(all_user_responses):
 
 
     # print("all_resp_by_subtopic:", len(all_resp_by_subtopic))
-    print("all_resp_by_topic:", len(all_resp_by_topic), all_resp_by_topic)
+    # print("all_resp_by_topic:", len(all_resp_by_topic), all_resp_by_topic)
 
-    with open("all_resp_by_subtopic.json", "w") as f:
-        json.dump(all_resp_by_subtopic, f, indent=4)
+    # with open("all_resp_by_subtopic.json", "w") as f:
+    #     json.dump(all_resp_by_subtopic, f, indent=4)
+    #
+    # with open("all_resp_by_topic.json", "w") as f:
+    #     json.dump(all_resp_by_topic, f, indent=4)
 
-    with open("all_resp_by_topic.json", "w") as f:
-        json.dump(all_resp_by_topic, f, indent=4)
 
-
-def split_data(json_data_path, all_qinfo_dict, all_demographic_dict):
+def split_data(json_data_path, train_survey_to_resp, test_survey_to_resp):
     with open(json_data_path) as fd:
         resp_by_topic = json.load(fd)
 
-    val_dict, test_dict = {}, {}
+    train_user_ids, test_user_ids = {}, {}
+    for topic, user_responses in train_survey_to_resp.items():
+        for user_resp in user_responses:
+            user_id = user_resp["user_id"]
+            if topic not in train_user_ids.keys():
+                train_user_ids[topic] = []
+            train_user_ids[topic].append(user_id)
+
+    for topic, user_responses in test_survey_to_resp.items():
+        for user_resp in user_responses:
+            user_id = user_resp["user_id"]
+            if topic not in test_user_ids.keys():
+                test_user_ids[topic] = []
+            test_user_ids[topic].append(user_id)
+
+    train_checklist_dict, train_eval_dict = {}, {}
+    test_checklist_dict, test_eval_dict = {}, {}
+    count = 0
     for topic, user_responses in resp_by_topic.items():
-        print("topic", topic)
         for user_id, qa_pair in user_responses.items():
             if len(qa_pair) == 1:
                 continue
+            user_id = int(user_id)
 
-            x_val, x_test = train_test_split(qa_pair, random_state=42, test_size=0.8)
-            if topic not in val_dict.keys():
-                val_dict[topic] = {}
+            if user_id in random.sample(train_user_ids[topic], 2) and count <= 20:
+                x_val, x_test = train_test_split(qa_pair, random_state=42, test_size=0.8)
+                if topic not in train_checklist_dict.keys():
+                    train_checklist_dict[topic] = {}
 
-            if topic not in test_dict.keys():
-                test_dict[topic] = {}
+                if topic not in train_eval_dict.keys():
+                    train_eval_dict[topic] = {}
 
-            if user_id not in val_dict[topic].keys():
-                val_dict[topic][user_id] = []
+                if user_id not in train_checklist_dict[topic].keys():
+                    train_checklist_dict[topic][user_id] = []
 
-            if user_id not in test_dict[topic].keys():
-                test_dict[topic][user_id] = []
+                if user_id not in train_eval_dict[topic].keys():
+                    train_eval_dict[topic][user_id] = []
 
-            val_dict[topic][user_id] = x_val
-            test_dict[topic][user_id] = x_test
+                train_checklist_dict[topic][user_id] = x_val
+                train_eval_dict[topic][user_id] = x_test
+                count += 1
 
-    return val_dict, test_dict
+            if user_id in test_user_ids[topic]:
+                x_val, x_test = train_test_split(qa_pair, random_state=42, test_size=0.8)
+                if topic not in test_checklist_dict.keys():
+                    test_checklist_dict[topic] = {}
+
+                if topic not in test_eval_dict.keys():
+                    test_eval_dict[topic] = {}
+
+                if user_id not in test_checklist_dict[topic].keys():
+                    test_checklist_dict[topic][user_id] = []
+
+                if user_id not in test_eval_dict[topic].keys():
+                    test_eval_dict[topic][user_id] = []
+
+                test_checklist_dict[topic][user_id] = x_val
+                test_eval_dict[topic][user_id] = x_test
+
+    print(len(train_checklist_dict), len(train_eval_dict), len(test_checklist_dict), len(test_eval_dict))
+
+    return train_checklist_dict, train_eval_dict, test_checklist_dict, test_eval_dict
