@@ -12,7 +12,6 @@ import ast
 from sklearn.model_selection import train_test_split
 from src.aggregate_pairs import create_demo_to_qa_dict, find_pair_by_demographic, calculate_cohen_kappa_score, \
     calculate_cohen_kappa_score_per_subtopic, find_pair_by_topic, aggregate_responses_by_topic, split_data
-from src.run_gpt3 import generate_output_with_implicit, generate_output_with_explicit
 from src.utils import set_seed
 
 PEW_SURVEY_LIST = [26, 27, 29, 32, 34, 36, 41, 42, 43, 45, 49, 50, 54, 82, 92]
@@ -287,10 +286,6 @@ def main(args):
     #     with open(test_eval_dict_file, "r") as fd:
     #         test_eval_dict = json.load(fd)
     #         print("test_eval_dict", len(test_eval_dict))
-
-    # openai_key = "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"
-    # generate_output_with_implicit(val_dict, test_dict, all_qinfo_dict, all_demographic_dict, openai_key)
-    # generate_output_with_explicit(val_dict, test_dict, all_qinfo_dict, all_demographic_dict, openai_key)
 
     # user_resp_list
         # if args.create_demo_dict:
