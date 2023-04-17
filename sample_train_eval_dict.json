@@ -1,0 +1,4610 @@
+{
+    "American_Trends_Panel_W26": {
+        "806": [
+            [
+                "CRIMEVICTIM_W26",
+                "No"
+            ],
+            [
+                "GROWUPGUN4_W26",
+                "Only a few"
+            ],
+            [
+                "GROWUPGUN6_W26",
+                "Never"
+            ],
+            [
+                "GUNTHREAT_W26",
+                "No"
+            ],
+            [
+                "GUNKILLF2_W26",
+                "They would find a way to do it whether they had access to a gun or not"
+            ],
+            [
+                "GUNACTIVITYB_W26",
+                "Never"
+            ],
+            [
+                "WORRYF_W26",
+                "Do not worry at all"
+            ],
+            [
+                "GUNCOMMUNITY_W26",
+                "Positive way"
+            ],
+            [
+                "EVEROWN_W26",
+                "No, have never owned a gun"
+            ],
+            [
+                "WORRYE_W26",
+                "Do not worry at all"
+            ],
+            [
+                "GUN_W26",
+                "No, I don't own any guns"
+            ],
+            [
+                "GUNRESPKIDSA_W26",
+                "Essential"
+            ],
+            [
+                "GUNRESPKIDSF_W26",
+                "Essential"
+            ],
+            [
+                "GUNCONTRIBB_W26",
+                "Not too much"
+            ],
+            [
+                "GUNLOADED1_W26",
+                "Refused"
+            ],
+            [
+                "SHOOTFREQ_W26",
+                "Never"
+            ],
+            [
+                "GUNACTIVITYC_W26",
+                "Never"
+            ],
+            [
+                "GUNCOURSES_W26",
+                "No"
+            ],
+            [
+                "EVERSHOT_W26",
+                "Yes, I have fired a gun"
+            ],
+            [
+                "GUNLOCKED1_W26",
+                "Refused"
+            ],
+            [
+                "GUNRESPKIDSD_W26",
+                "Not important"
+            ],
+            [
+                "GROWUPGUN7_W26",
+                "Hardly ever"
+            ],
+            [
+                "SAFECRIME_W26",
+                "Very safe"
+            ],
+            [
+                "GUNRESPKIDSC_W26",
+                "Essential"
+            ],
+            [
+                "GUNACTIVITYD_W26",
+                "Never"
+            ],
+            [
+                "WORRYG_W26",
+                "Worry a little"
+            ],
+            [
+                "GUNSOCIETY_W26",
+                "Positive way"
+            ],
+            [
+                "GUNRESPKIDSG_W26",
+                "Essential"
+            ],
+            [
+                "WORLDDANGER_W26",
+                "The world we live in is neither safer nor more dangerous"
+            ],
+            [
+                "GUNACTIVITYA_W26",
+                "Never"
+            ],
+            [
+                "GUNCONTRIBF_W26",
+                "Not too much"
+            ],
+            [
+                "WORRYD_W26",
+                "Do not worry at all"
+            ],
+            [
+                "GUNRESPKIDSH_W26",
+                "Essential"
+            ],
+            [
+                "GROWUPGUN1_W26",
+                "No, there were no guns in my household"
+            ],
+            [
+                "DEFENDGUN_W26",
+                "No"
+            ],
+            [
+                "GUNFRIEND_W26",
+                "Only a few"
+            ]
+        ],
+        "2756": [
+            [
+                "GROWUPGUN7_W26",
+                "Never"
+            ],
+            [
+                "GUNSAFE_W26",
+                "No more or less safe"
+            ],
+            [
+                "EVEROWN_W26",
+                "No, have never owned a gun"
+            ],
+            [
+                "GUNRESPNOKIDSA_W26",
+                "Essential"
+            ],
+            [
+                "WORRYC_W26",
+                "Do not worry at all"
+            ],
+            [
+                "GUNACTIVITYE_W26",
+                "Refused"
+            ],
+            [
+                "GUNCONTRIBC_W26",
+                "A great deal"
+            ],
+            [
+                "GUNACTIVITYD_W26",
+                "Never"
+            ],
+            [
+                "GUNRESPNOKIDSF_W26",
+                "Essential"
+            ],
+            [
+                "GUN_W26",
+                "No, I don't own any guns"
+            ],
+            [
+                "GUNRESPNOKIDSB_W26",
+                "Essential"
+            ],
+            [
+                "GUNCOMMUNITY_W26",
+                "Positive way"
+            ],
+            [
+                "GUNCONTRIBA_W26",
+                "A great deal"
+            ],
+            [
+                "EVERSHOT_W26",
+                "No, I have never fired a gun"
+            ],
+            [
+                "GUNLOCKED1_W26",
+                "None are kept in a locked place"
+            ],
+            [
+                "DEFENDGUN_W26",
+                "No"
+            ],
+            [
+                "GUNLOADED1_W26",
+                "None are kept loaded"
+            ],
+            [
+                "MARGUN_W26",
+                "Yes"
+            ],
+            [
+                "CRIMEVICTIM_W26",
+                "No"
+            ],
+            [
+                "SAFECRIME_W26",
+                "Somewhat safe"
+            ],
+            [
+                "GUNRESPNOKIDSC_W26",
+                "Essential"
+            ],
+            [
+                "WORRYG_W26",
+                "Do not worry at all"
+            ],
+            [
+                "GUNSOCIETY_W26",
+                "Positive way"
+            ],
+            [
+                "WORLDDANGER_W26",
+                "We live in a more dangerous world"
+            ],
+            [
+                "GUNRESPNOKIDSG_W26",
+                "Essential"
+            ],
+            [
+                "GROWUPVIOL_W26",
+                "A small problem"
+            ],
+            [
+                "WORRYA_W26",
+                "Worry a little"
+            ],
+            [
+                "GUNKILLF1_W26",
+                "People who want to kill or harm others are less likely to do it if they don't have a gun"
+            ],
+            [
+                "GUNACTIVITYB_W26",
+                "Never"
+            ],
+            [
+                "WORRYB_W26",
+                "Worry a little"
+            ],
+            [
+                "GUNACTIVITYA_W26",
+                "Never"
+            ],
+            [
+                "GROWUPGUN4_W26",
+                "Some"
+            ],
+            [
+                "GUNTHREAT_W26",
+                "No"
+            ]
+        ],
+        "3431": [
+            [
+                "GUNCONTRIBD_W26",
+                "Not too much"
+            ],
+            [
+                "GUNCONTRIBA_W26",
+                "Not too much"
+            ],
+            [
+                "GUNCOURSES_W26",
+                "No"
+            ],
+            [
+                "GUNRESPNOKIDSB_W26",
+                "Essential"
+            ],
+            [
+                "WORRYC_W26",
+                "Worry a little"
+            ],
+            [
+                "GUNCOMMUNITY_W26",
+                "Negative way"
+            ],
+            [
+                "GUNACTIVITYC_W26",
+                "Never"
+            ],
+            [
+                "GUNRESPNOKIDSC_W26",
+                "Essential"
+            ],
+            [
+                "GUNACTIVITYE_W26",
+                "Never"
+            ],
+            [
+                "GUN_W26",
+                "No, I don't own any guns"
+            ],
+            [
+                "GUNRESPNOKIDSA_W26",
+                "Important but not essential"
+            ],
+            [
+                "EVERSHOT_W26",
+                "Yes, I have fired a gun"
+            ],
+            [
+                "SHOOTFREQ_W26",
+                "Never"
+            ],
+            [
+                "GUNKILLF1_W26",
+                "People who want to kill or harm others will find a way to do it whether they have a gun or not"
+            ],
+            [
+                "CRIMEVICTIM_W26",
+                "No"
+            ],
+            [
+                "EVEROWN_W26",
+                "No, have never owned a gun"
+            ],
+            [
+                "GUNCONTRIBB_W26",
+                "Not too much"
+            ],
+            [
+                "GROWUPGUN7_W26",
+                "Never"
+            ],
+            [
+                "SAFECRIME_W26",
+                "Somewhat safe"
+            ],
+            [
+                "GUNTHREAT_W26",
+                "No"
+            ],
+            [
+                "WORRYG_W26",
+                "Worry a little"
+            ],
+            [
+                "GUNSOCIETY_W26",
+                "Negative way"
+            ],
+            [
+                "WORLDDANGER_W26",
+                "We live in a more dangerous world"
+            ],
+            [
+                "GUNRESPNOKIDSF_W26",
+                "Important but not essential"
+            ],
+            [
+                "GROWUPGUN1_W26",
+                "No, there were no guns in my household"
+            ],
+            [
+                "WORRYA_W26",
+                "Do not worry at all"
+            ],
+            [
+                "GUNRESPNOKIDSG_W26",
+                "Essential"
+            ],
+            [
+                "GUNACTIVITYB_W26",
+                "Hardly ever"
+            ],
+            [
+                "WORRYB_W26",
+                "Do not worry at all"
+            ],
+            [
+                "GUNACTIVITYA_W26",
+                "Never"
+            ],
+            [
+                "GROWUPGUN6_W26",
+                "Hardly ever"
+            ],
+            [
+                "DEFENDGUN_W26",
+                "No"
+            ]
+        ]
+    },
+    "American_Trends_Panel_W27": {
+        "4784": [
+            [
+                "HIRING6B_W27",
+                "About the same"
+            ],
+            [
+                "DRONE4B_W27",
+                "Should not be allowed"
+            ],
+            [
+                "CAREREL_W27",
+                "Very likely"
+            ],
+            [
+                "WORK5A_W27",
+                "No"
+            ],
+            [
+                "CARS1_W27",
+                "A little"
+            ],
+            [
+                "DRONE4C_W27",
+                "It depends"
+            ],
+            [
+                "CARS9C_W27",
+                "Strongly favor"
+            ],
+            [
+                "CARS7B_W27",
+                "Not too safe"
+            ],
+            [
+                "DRONE4E_W27",
+                "Should not be allowed"
+            ],
+            [
+                "ROBJOB4D_W27",
+                "No, not likely"
+            ],
+            [
+                "ROBJOB5B_W27",
+                "Strongly favor"
+            ],
+            [
+                "CARS4_W27",
+                "10 to less than 50 years"
+            ],
+            [
+                "ROBJOB8D_W27",
+                "Not very likely"
+            ],
+            [
+                "CARS8_W27",
+                "Stay about the same"
+            ],
+            [
+                "ROBJOB5C_W27",
+                "Strongly oppose"
+            ],
+            [
+                "ROBJOB3A_W27",
+                "Not too enthusiastic"
+            ],
+            [
+                "PREDICTC_W27",
+                "Will probably not happen"
+            ],
+            [
+                "CARS10A_W27",
+                "Yes, likely"
+            ],
+            [
+                "ROBJOB8C_W27",
+                "Not very likely"
+            ],
+            [
+                "CARS3B_W27",
+                "Somewhat worried"
+            ],
+            [
+                "CARS2_W27",
+                "A mix of both"
+            ],
+            [
+                "ROBJOB4B_W27",
+                "No, not likely"
+            ],
+            [
+                "PREDICTD_W27",
+                "Will probably not happen"
+            ],
+            [
+                "HIRING1_W27",
+                "A little"
+            ],
+            [
+                "ROBJOB6_W27",
+                "Individuals would have an obligation to take care of their own financial well-being, even if robots and computers"
+            ],
+            [
+                "CARS10C_W27",
+                "No, not likely"
+            ],
+            [
+                "HIRING6D_W27",
+                "Worse job than humans"
+            ],
+            [
+                "DRONE1_W27",
+                "No"
+            ],
+            [
+                "HIRING7B_W27",
+                "Better"
+            ],
+            [
+                "HIRING3A_W27",
+                "Not too enthusiastic"
+            ],
+            [
+                "ROBJOB4E_W27",
+                "No, not likely"
+            ],
+            [
+                "ROBJOB8G_W27",
+                "Somewhat likely"
+            ],
+            [
+                "DRONE4D_W27",
+                "Should be allowed"
+            ],
+            [
+                "CARS9B_W27",
+                "Strongly favor"
+            ],
+            [
+                "ROBJOB4A_W27",
+                "No, not likely"
+            ],
+            [
+                "ROBJOB3B_W27",
+                "Somewhat worried"
+            ],
+            [
+                "ROBJOB2_W27",
+                "Somewhat realistic"
+            ],
+            [
+                "WORK7_W27",
+                "No"
+            ],
+            [
+                "CARS7A_W27",
+                "Somewhat safe"
+            ],
+            [
+                "ROBJOB4F_W27",
+                "Yes, likely"
+            ],
+            [
+                "DRONE4A_W27",
+                "Should not be allowed"
+            ],
+            [
+                "WORK6_W27",
+                "No"
+            ],
+            [
+                "ROBJOB7_W27",
+                "If businesses can receive better work at lower cost by replacing humans with robots and computers, they are justified"
+            ],
+            [
+                "ROBJOB4C_W27",
+                "Yes, likely"
+            ],
+            [
+                "ROBJOB8F_W27",
+                "Somewhat likely"
+            ],
+            [
+                "HIRING2_W27",
+                "Somewhat realistic"
+            ],
+            [
+                "PREDICTA_W27",
+                "Will probably happen"
+            ],
+            [
+                "CARS10E_W27",
+                "No, not likely"
+            ],
+            [
+                "PREDICTB_W27",
+                "Will probably not happen"
+            ],
+            [
+                "HIRING6A_W27",
+                "Worse job than humans"
+            ],
+            [
+                "ROBJOB8B_W27",
+                "Not very likely"
+            ],
+            [
+                "ROBJOB5D_W27",
+                "Favor"
+            ],
+            [
+                "HIRING4_W27",
+                "No"
+            ]
+        ],
+        "6274": [
+            [
+                "ROBJOB1_W27",
+                "A lot"
+            ],
+            [
+                "CAREREL_W27",
+                "Very likely"
+            ],
+            [
+                "ROBJOB2_W27",
+                "Extremely realistic"
+            ],
+            [
+                "CARS7A_W27",
+                "Somewhat safe"
+            ],
+            [
+                "CARS4_W27",
+                "10 to less than 50 years"
+            ],
+            [
+                "VOICE5D_W27",
+                "Minor reason"
+            ],
+            [
+                "WORK4A_W27",
+                "Less demanding"
+            ],
+            [
+                "PREDICTC_W27",
+                "Will probably happen"
+            ],
+            [
+                "ROBJOB8B_W27",
+                "Very likely"
+            ],
+            [
+                "CAREGIV6C_W27",
+                "No, not likely"
+            ],
+            [
+                "CAREGIV3A_W27",
+                "Somewhat enthusiastic"
+            ],
+            [
+                "CARS10E_W27",
+                "Yes, likely"
+            ],
+            [
+                "VOICE3_W27",
+                "No"
+            ],
+            [
+                "ROBJOB8G_W27",
+                "Very likely"
+            ],
+            [
+                "CARS10A_W27",
+                "Yes, likely"
+            ],
+            [
+                "ROBJOB5C_W27",
+                "Strongly favor"
+            ],
+            [
+                "WORK4B_W27",
+                "More interesting"
+            ],
+            [
+                "WORK7_W27",
+                "No"
+            ],
+            [
+                "CARS3B_W27",
+                "Not too worried"
+            ],
+            [
+                "PREDICTD_W27",
+                "Will probably happen"
+            ],
+            [
+                "ROBJOB3A_W27",
+                "Not too enthusiastic"
+            ],
+            [
+                "ROBJOB4C_W27",
+                "No, not likely"
+            ],
+            [
+                "CAREGIV6D_W27",
+                "No, not likely"
+            ],
+            [
+                "ROBJOB8F_W27",
+                "Somewhat likely"
+            ],
+            [
+                "ROBJOB4D_W27",
+                "No, not likely"
+            ],
+            [
+                "CARS9B_W27",
+                "Favor"
+            ],
+            [
+                "ROBJOB4F_W27",
+                "Yes, likely"
+            ],
+            [
+                "ROBJOB7_W27",
+                "If businesses can receive better work at lower cost by replacing humans with robots and computers, they are justified"
+            ],
+            [
+                "ROBJOB8C_W27",
+                "Somewhat likely"
+            ],
+            [
+                "CARS2_W27",
+                "Mostly positive"
+            ],
+            [
+                "WORK3E_W27",
+                "Positive impact"
+            ],
+            [
+                "VOICE5A_W27",
+                "Major reason"
+            ],
+            [
+                "ROBJOB5D_W27",
+                "Strongly favor"
+            ],
+            [
+                "CAREGIV6F_W27",
+                "Yes, likely"
+            ],
+            [
+                "CARS10B_W27",
+                "Yes, likely"
+            ],
+            [
+                "CAREGIV6B_W27",
+                "Yes, likely"
+            ],
+            [
+                "WORK3B_W27",
+                "Positive impact"
+            ],
+            [
+                "ROBJOB9_W27",
+                "Not very likely"
+            ],
+            [
+                "CARS7B_W27",
+                "Somewhat safe"
+            ],
+            [
+                "WORK5A_W27",
+                "No"
+            ],
+            [
+                "PREDICTB_W27",
+                "Will probably happen"
+            ],
+            [
+                "CARS9C_W27",
+                "Favor"
+            ],
+            [
+                "ROBJOB4B_W27",
+                "No, not likely"
+            ],
+            [
+                "CARS3A_W27",
+                "Somewhat enthusiastic"
+            ],
+            [
+                "CAREGIV3B_W27",
+                "Not too worried"
+            ],
+            [
+                "CARS1_W27",
+                "A lot"
+            ],
+            [
+                "ROBJOB3B_W27",
+                "Somewhat worried"
+            ],
+            [
+                "VOICE5B_W27",
+                "Major reason"
+            ],
+            [
+                "CAREGIV6A_W27",
+                "Yes, likely"
+            ],
+            [
+                "ROBJOB6_W27",
+                "The government would have an obligation to take care of people whose jobs are displaced by robots and computers"
+            ],
+            [
+                "VOICE5C_W27",
+                "Minor reason"
+            ],
+            [
+                "CARS9A_W27",
+                "Favor"
+            ],
+            [
+                "WORK3D_W27",
+                "Positive impact"
+            ],
+            [
+                "ROBJOB4E_W27",
+                "No, not likely"
+            ],
+            [
+                "WORK3C_W27",
+                "Positive impact"
+            ],
+            [
+                "ROBJOB8A_W27",
+                "Very likely"
+            ],
+            [
+                "WORK3A_W27",
+                "Positive impact"
+            ],
+            [
+                "ROBJOB5B_W27",
+                "Strongly favor"
+            ],
+            [
+                "CAREGIV7_W27",
+                "Better"
+            ],
+            [
+                "WORK6_W27",
+                "No"
+            ],
+            [
+                "CARS5_W27",
+                "Yes"
+            ],
+            [
+                "WORK4C_W27",
+                "Decreased your opportunities"
+            ],
+            [
+                "VOICE4_W27",
+                "Most of the time"
+            ]
+        ],
+        "7716": [
+            [
+                "PREDICTC_W27",
+                "Will definitely happen"
+            ],
+            [
+                "ROBJOB3A_W27",
+                "Somewhat enthusiastic"
+            ],
+            [
+                "CARS4_W27",
+                "10 to less than 50 years"
+            ],
+            [
+                "CAREREL_W27",
+                "Very likely"
+            ],
+            [
+                "ROBJOB5D_W27",
+                "Favor"
+            ],
+            [
+                "ROBJOB7_W27",
+                "There should be limits on how many jobs businesses can replace with robots and computers, even if they can do those"
+            ],
+            [
+                "HIRING6C_W27",
+                "Worse job than humans"
+            ],
+            [
+                "ROBJOB8F_W27",
+                "Not very likely"
+            ],
+            [
+                "ROBJOB8C_W27",
+                "Somewhat likely"
+            ],
+            [
+                "WORK3E_W27",
+                "Positive impact"
+            ],
+            [
+                "HIRING7A_W27",
+                "Worse"
+            ],
+            [
+                "DRONE4C_W27",
+                "Should be allowed"
+            ],
+            [
+                "CARS10A_W27",
+                "Yes, likely"
+            ],
+            [
+                "CARS7A_W27",
+                "Somewhat safe"
+            ],
+            [
+                "WORK7_W27",
+                "No"
+            ],
+            [
+                "ROBJOB1_W27",
+                "A little"
+            ],
+            [
+                "CARS3B_W27",
+                "Somewhat worried"
+            ],
+            [
+                "PREDICTD_W27",
+                "Will definitely happen"
+            ],
+            [
+                "ROBJOB2_W27",
+                "Extremely realistic"
+            ],
+            [
+                "CARS10E_W27",
+                "No, not likely"
+            ],
+            [
+                "WORK4A_W27",
+                "More demanding"
+            ],
+            [
+                "ROBJOB4D_W27",
+                "Yes, likely"
+            ],
+            [
+                "ROBJOB4C_W27",
+                "Yes, likely"
+            ],
+            [
+                "CARS9B_W27",
+                "Strongly favor"
+            ],
+            [
+                "HIRING6B_W27",
+                "Worse job than humans"
+            ],
+            [
+                "ROBJOB8G_W27",
+                "Not at all likely"
+            ],
+            [
+                "WORK4B_W27",
+                "Less interesting"
+            ],
+            [
+                "CARS2_W27",
+                "A mix of both"
+            ],
+            [
+                "HIRING3B_W27",
+                "Somewhat worried"
+            ],
+            [
+                "ROBJOB5C_W27",
+                "Oppose"
+            ],
+            [
+                "DRONE4B_W27",
+                "It depends"
+            ],
+            [
+                "ROBJOB8B_W27",
+                "Not at all likely"
+            ],
+            [
+                "DRONE4E_W27",
+                "It depends"
+            ],
+            [
+                "CARS10B_W27",
+                "Yes, likely"
+            ],
+            [
+                "HIRING6A_W27",
+                "Worse job than humans"
+            ],
+            [
+                "WORK3B_W27",
+                "Positive impact"
+            ],
+            [
+                "ROBJOB4F_W27",
+                "Yes, likely"
+            ],
+            [
+                "CARS7B_W27",
+                "Not too safe"
+            ],
+            [
+                "ROBJOB9_W27",
+                "Somewhat likely"
+            ],
+            [
+                "PREDICTB_W27",
+                "Will definitely happen"
+            ],
+            [
+                "CARS9C_W27",
+                "Strongly favor"
+            ],
+            [
+                "ROBJOB4B_W27",
+                "Yes, likely"
+            ],
+            [
+                "CARS3A_W27",
+                "Somewhat enthusiastic"
+            ],
+            [
+                "HIRING3A_W27",
+                "Not too enthusiastic"
+            ],
+            [
+                "CARS1_W27",
+                "A lot"
+            ],
+            [
+                "ROBJOB3B_W27",
+                "Somewhat worried"
+            ],
+            [
+                "DRONE1_W27",
+                "No"
+            ],
+            [
+                "WORK5A_W27",
+                "No"
+            ],
+            [
+                "ROBJOB6_W27",
+                "Individuals would have an obligation to take care of their own financial well-being, even if robots and computers"
+            ],
+            [
+                "DRONE4D_W27",
+                "It depends"
+            ],
+            [
+                "CARS9A_W27",
+                "Strongly favor"
+            ],
+            [
+                "WORK3D_W27",
+                "Positive impact"
+            ],
+            [
+                "ROBJOB4E_W27",
+                "No, not likely"
+            ],
+            [
+                "WORK3C_W27",
+                "Positive impact"
+            ],
+            [
+                "ROBJOB8A_W27",
+                "Somewhat likely"
+            ],
+            [
+                "WORK3A_W27",
+                "No impact either way"
+            ],
+            [
+                "ROBJOB5B_W27",
+                "Favor"
+            ],
+            [
+                "HIRING7B_W27",
+                "Better"
+            ],
+            [
+                "WORK6_W27",
+                "No"
+            ],
+            [
+                "CARS5_W27",
+                "No"
+            ],
+            [
+                "WORK4C_W27",
+                "Decreased your opportunities"
+            ],
+            [
+                "DRONE4A_W27",
+                "Should not be allowed"
+            ]
+        ],
+        "8065": [
+            [
+                "HIRING6B_W27",
+                "Worse job than humans"
+            ],
+            [
+                "DRONE4B_W27",
+                "Should not be allowed"
+            ],
+            [
+                "CAREREL_W27",
+                "I am already doing this"
+            ],
+            [
+                "WORK5A_W27",
+                "No"
+            ],
+            [
+                "CARS1_W27",
+                "A lot"
+            ],
+            [
+                "DRONE4C_W27",
+                "Should not be allowed"
+            ],
+            [
+                "CARS9C_W27",
+                "Favor"
+            ],
+            [
+                "CARS7B_W27",
+                "Somewhat safe"
+            ],
+            [
+                "DRONE4E_W27",
+                "Should not be allowed"
+            ],
+            [
+                "ROBJOB4D_W27",
+                "No, not likely"
+            ],
+            [
+                "ROBJOB5B_W27",
+                "Favor"
+            ],
+            [
+                "CARS4_W27",
+                "10 to less than 50 years"
+            ],
+            [
+                "ROBJOB8D_W27",
+                "Not at all likely"
+            ],
+            [
+                "CARS8_W27",
+                "Increase"
+            ],
+            [
+                "ROBJOB5C_W27",
+                "Favor"
+            ],
+            [
+                "ROBJOB3A_W27",
+                "Not too enthusiastic"
+            ],
+            [
+                "PREDICTC_W27",
+                "Will probably not happen"
+            ],
+            [
+                "CARS10A_W27",
+                "Yes, likely"
+            ],
+            [
+                "ROBJOB8C_W27",
+                "Not at all likely"
+            ],
+            [
+                "CARS3B_W27",
+                "Not too worried"
+            ],
+            [
+                "CARS2_W27",
+                "A mix of both"
+            ],
+            [
+                "ROBJOB4B_W27",
+                "Yes, likely"
+            ],
+            [
+                "PREDICTD_W27",
+                "Will probably not happen"
+            ],
+            [
+                "HIRING1_W27",
+                "Nothing at all"
+            ],
+            [
+                "ROBJOB6_W27",
+                "The government would have an obligation to take care of people whose jobs are displaced by robots and computers"
+            ],
+            [
+                "CARS10C_W27",
+                "Yes, likely"
+            ],
+            [
+                "HIRING6D_W27",
+                "About the same"
+            ],
+            [
+                "DRONE1_W27",
+                "No"
+            ],
+            [
+                "HIRING7B_W27",
+                "Better"
+            ],
+            [
+                "HIRING3A_W27",
+                "Not too enthusiastic"
+            ],
+            [
+                "ROBJOB4E_W27",
+                "No, not likely"
+            ],
+            [
+                "ROBJOB8G_W27",
+                "Somewhat likely"
+            ],
+            [
+                "DRONE4D_W27",
+                "It depends"
+            ],
+            [
+                "CARS9B_W27",
+                "Favor"
+            ],
+            [
+                "ROBJOB4A_W27",
+                "Yes, likely"
+            ],
+            [
+                "ROBJOB3B_W27",
+                "Somewhat worried"
+            ],
+            [
+                "ROBJOB2_W27",
+                "Somewhat realistic"
+            ],
+            [
+                "WORK7_W27",
+                "No"
+            ],
+            [
+                "CARS7A_W27",
+                "Somewhat safe"
+            ],
+            [
+                "ROBJOB4F_W27",
+                "Yes, likely"
+            ],
+            [
+                "DRONE4A_W27",
+                "It depends"
+            ],
+            [
+                "WORK6_W27",
+                "No"
+            ],
+            [
+                "ROBJOB7_W27",
+                "There should be limits on how many jobs businesses can replace with robots and computers, even if they can do those"
+            ],
+            [
+                "ROBJOB4C_W27",
+                "No, not likely"
+            ],
+            [
+                "ROBJOB8F_W27",
+                "Not very likely"
+            ],
+            [
+                "HIRING2_W27",
+                "Not very realistic"
+            ],
+            [
+                "PREDICTA_W27",
+                "Will definitely happen"
+            ],
+            [
+                "CARS10E_W27",
+                "No, not likely"
+            ],
+            [
+                "PREDICTB_W27",
+                "Will probably not happen"
+            ],
+            [
+                "HIRING6A_W27",
+                "About the same"
+            ],
+            [
+                "ROBJOB8B_W27",
+                "Not very likely"
+            ],
+            [
+                "ROBJOB5D_W27",
+                "Favor"
+            ],
+            [
+                "HIRING4_W27",
+                "Yes"
+            ]
+        ]
+    },
+    "American_Trends_Panel_W32": {
+        "16006": [
+            [
+                "IMMCULT2_W32",
+                "The growing number of newcomers from other countries strengthens American society"
+            ],
+            [
+                "SATLIFEA_W32",
+                "Very satisfied"
+            ],
+            [
+                "NEIGHKEYS_W32",
+                "Yes"
+            ],
+            [
+                "SUCCESSIMPA_W32",
+                "Important but not essential"
+            ],
+            [
+                "INCFUTURE_W32",
+                "Yes"
+            ],
+            [
+                "WANTMOVE_W32",
+                "Would not want to move"
+            ],
+            [
+                "FEELD_W32",
+                "Hardly ever"
+            ],
+            [
+                "COMMIMPF_W32",
+                "Very important"
+            ],
+            [
+                "SATLIFEE_W32",
+                "Somewhat satisfied"
+            ],
+            [
+                "GROWUPUSR_W32",
+                "Suburban"
+            ],
+            [
+                "LOCALPROBM_F2_W32",
+                "Major problem in my local community"
+            ],
+            [
+                "HARASS4_W32",
+                "No"
+            ],
+            [
+                "LOCALPROBG_W32",
+                "Major problem in my local community"
+            ],
+            [
+                "ABORTIONRESTR_W32",
+                "There are some situations in which abortion should be restricted"
+            ],
+            [
+                "NEIGHINTERB_W32",
+                "Less than once a month"
+            ],
+            [
+                "NEIGHINTERA_W32",
+                "Every day"
+            ],
+            [
+                "LOCALPROBE_W32",
+                "Major problem in my local community"
+            ],
+            [
+                "WOMENOPPS_W32",
+                "There are still significant obstacles that make it harder for women to get ahead than men"
+            ],
+            [
+                "HARASS1A_W32",
+                "Minor problem"
+            ],
+            [
+                "LIFELOC_W32",
+                "Lived in or near this community my entire life"
+            ],
+            [
+                "INC_W32",
+                "No"
+            ],
+            [
+                "LOCALPROBB_W32",
+                "Major problem in my local community"
+            ],
+            [
+                "LOCALPROBK_W32",
+                "Minor problem in my local community"
+            ],
+            [
+                "FEDSHAREC_W32",
+                "About the right amount"
+            ],
+            [
+                "FEELC_W32",
+                "All or most of the time"
+            ],
+            [
+                "PROBURBAN_W32",
+                "Somewhat well"
+            ],
+            [
+                "COMMYRS_W32",
+                "More than 20 years"
+            ],
+            [
+                "HARASS1D_W32",
+                "Minor problem"
+            ],
+            [
+                "LOCALPROBC_W32",
+                "Not a problem in my local community"
+            ],
+            [
+                "LOCALPROBF_W32",
+                "Not a problem in my local community"
+            ],
+            [
+                "HARASS1C_W32",
+                "Minor problem"
+            ],
+            [
+                "MISINFT_W32",
+                "People's freedom to publish and access information should be protected"
+            ],
+            [
+                "COMMIMPD_W32",
+                "Not too important"
+            ],
+            [
+                "IMMIMPACT_W32",
+                "Mostly positive"
+            ],
+            [
+                "FEELA_W32",
+                "Never"
+            ],
+            [
+                "SUBURBNEAR_W32",
+                "Somewhat close to that city"
+            ],
+            [
+                "NEIGHINTERC_W32",
+                "Less than once a month"
+            ],
+            [
+                "COMMIMPG_W32",
+                "Somewhat important"
+            ],
+            [
+                "PROBRURAL_W32",
+                "Somewhat well"
+            ],
+            [
+                "SUCCESSIMPD_W32",
+                "Essential"
+            ],
+            [
+                "NEIGHKNOW_W32",
+                "Know most of them"
+            ],
+            [
+                "COMMIMPA_W32",
+                "Very important"
+            ],
+            [
+                "NEIGHSAMEC_W32",
+                "About half"
+            ],
+            [
+                "SATLIFED_W32",
+                "Somewhat satisfied"
+            ],
+            [
+                "COMMIMPE_W32",
+                "Very important"
+            ],
+            [
+                "LOCALPROBJ_W32",
+                "Minor problem in my local community"
+            ],
+            [
+                "FEELB_W32",
+                "All or most of the time"
+            ],
+            [
+                "COMTYPE2_W32",
+                "Suburban"
+            ],
+            [
+                "COMATTACH_W32",
+                "Very attached"
+            ],
+            [
+                "LOCALPROBH_W32",
+                "Minor problem in my local community"
+            ],
+            [
+                "ECONFAIR2_W32",
+                "The economic system in this country is generally fair to most Americans"
+            ],
+            [
+                "NEIGHSAMEB_W32",
+                "Only some of them"
+            ],
+            [
+                "VALUEURBAN_W32",
+                "Somewhat similar to your values"
+            ],
+            [
+                "HARASS3F2_W32",
+                "Hasn't made much difference"
+            ],
+            [
+                "CLASS_W32",
+                "Middle class"
+            ],
+            [
+                "COMMIMPC_W32",
+                "Somewhat important"
+            ],
+            [
+                "FEDSHAREB_W32",
+                "About the right amount"
+            ],
+            [
+                "JOBSFUTURE_W32",
+                "Stay about the same"
+            ],
+            [
+                "FEDSHAREA_W32",
+                "About the right amount"
+            ],
+            [
+                "GROWUPNEAR_W32",
+                "Yes"
+            ],
+            [
+                "SUCCESSIMPC_W32",
+                "Essential"
+            ],
+            [
+                "HARASS1B_W32",
+                "Minor problem"
+            ],
+            [
+                "ABORTION_W32",
+                "legal in all or most cases"
+            ],
+            [
+                "GOVT_ROLE_W32",
+                "Government should do more to solve problems"
+            ],
+            [
+                "NEIGHINTERD_W32",
+                "Less than once a month"
+            ],
+            [
+                "LOCALPROBD_W32",
+                "Not a problem in my local community"
+            ],
+            [
+                "GAYMARR2_W32",
+                "Very good thing"
+            ],
+            [
+                "NEIGHKIDS_W32",
+                "Yes"
+            ]
+        ]
+    },
+    "American_Trends_Panel_W34": {
+        "20149": [
+            [
+                "SCI1_W34",
+                "Easier"
+            ],
+            [
+                "SCI3B_W34",
+                "Government investments usually pay off in the long run"
+            ],
+            [
+                "MED2E_W34",
+                "A big problem"
+            ],
+            [
+                "MED6B_W34",
+                "Not at all likely"
+            ],
+            [
+                "EAT3H_W34",
+                "Not selected"
+            ],
+            [
+                "BIOTECHE_W34",
+                "An appropriate use of technology"
+            ],
+            [
+                "MED2B_W34",
+                "A big problem"
+            ],
+            [
+                "MED6E_W34",
+                "Not at all likely"
+            ],
+            [
+                "EAT3G_W34",
+                "Not selected"
+            ],
+            [
+                "BIO15_W34",
+                "Yes"
+            ],
+            [
+                "MED6C_W34",
+                "Very likely"
+            ],
+            [
+                "BIOTECHA_W34",
+                "Taking technology too far"
+            ],
+            [
+                "MED1_W34",
+                "Medical treatments these days are worth the costs because they allow people to live longer and better quality lives"
+            ],
+            [
+                "SCI2C_W34",
+                "Refused"
+            ],
+            [
+                "BIOTECHC_W34",
+                "An appropriate use of technology"
+            ],
+            [
+                "FUD22_W34",
+                "Not too much"
+            ],
+            [
+                "EAT1_W34",
+                "About half of the time"
+            ],
+            [
+                "SCI4_W34",
+                "Private investment will ensure that enough scientific progress is made, even without government investment"
+            ],
+            [
+                "MED4A_W34",
+                "Taking medical technology too far"
+            ],
+            [
+                "SCI3A_W34",
+                "Government investments usually pay off in the long run"
+            ],
+            [
+                "MED5_W34",
+                "Not at all well"
+            ],
+            [
+                "EAT5A_W34",
+                "Not too much health risk"
+            ],
+            [
+                "MED2C_W34",
+                "A small problem"
+            ],
+            [
+                "G1_W34",
+                "No"
+            ],
+            [
+                "FUD33A_W34",
+                "Neither better nor worse for your health than foods with no genetically modified ingredients"
+            ],
+            [
+                "EVOBIOA_W34",
+                "Humans have evolved over time due to processes such as natural selection"
+            ],
+            [
+                "EAT3J_W34",
+                "Not selected"
+            ],
+            [
+                "FUD37A_W34",
+                "Fairly likely"
+            ],
+            [
+                "EAT2_W34",
+                "About half of the time"
+            ],
+            [
+                "FUD37D_W34",
+                "Fairly likely"
+            ],
+            [
+                "FUD35_W34",
+                "Not too much"
+            ],
+            [
+                "EAT3K_W34",
+                "Not selected"
+            ],
+            [
+                "FUD32_W34",
+                "A little"
+            ],
+            [
+                "EVOONE_W34",
+                "Humans have existed in their present form since the beginning of time"
+            ],
+            [
+                "EAT3F_W34",
+                "Not selected"
+            ],
+            [
+                "MED2A_W34",
+                "A small problem"
+            ],
+            [
+                "BIOTECHD_W34",
+                "An appropriate use of technology"
+            ],
+            [
+                "MED4B_W34",
+                "An appropriate use of medical technology"
+            ],
+            [
+                "MED2F_W34",
+                "A small problem"
+            ],
+            [
+                "FUD37C_W34",
+                "Not too likely"
+            ],
+            [
+                "MED6A_W34",
+                "Very likely"
+            ],
+            [
+                "SCI2A_W34",
+                "Mostly positive"
+            ],
+            [
+                "EAT5C_W34",
+                "No health risk at all"
+            ],
+            [
+                "SCI2B_W34",
+                "Mostly positive"
+            ],
+            [
+                "MED6D_W34",
+                "Not at all likely"
+            ],
+            [
+                "MED3_W34",
+                "A little"
+            ],
+            [
+                "MED2D_W34",
+                "A small problem"
+            ],
+            [
+                "EAT6_W34",
+                "The average person is exposed to additives in the food they eat every day but they eat such a small amount that this doe"
+            ]
+        ],
+        "21587": [
+            [
+                "BIOTECHA_W34",
+                "Taking technology too far"
+            ],
+            [
+                "EVOTHREE_W34",
+                "Humans have evolved over time due to processes that were guided or allowed by God or a higher power"
+            ],
+            [
+                "SCI1_W34",
+                "Easier"
+            ],
+            [
+                "EVOBIOA_W34",
+                "Not sure"
+            ],
+            [
+                "SCI3B_W34",
+                "Government investments usually pay off in the long run"
+            ],
+            [
+                "MED6E_W34",
+                "Fairly likely"
+            ],
+            [
+                "EAT3K_W34",
+                "Not selected"
+            ],
+            [
+                "EAT3G_W34",
+                "Artificial preservatives"
+            ],
+            [
+                "FUD33A_W34",
+                "Worse for your health than foods with no genetically modified ingredients"
+            ],
+            [
+                "BIO15_W34",
+                "Yes"
+            ],
+            [
+                "FUD37D_W34",
+                "Very likely"
+            ],
+            [
+                "EAT2_W34",
+                "Less than half of the time"
+            ],
+            [
+                "MED6D_W34",
+                "Very likely"
+            ],
+            [
+                "EAT3H_W34",
+                "Artificial colors"
+            ],
+            [
+                "MED2B_W34",
+                "A big problem"
+            ],
+            [
+                "MED2C_W34",
+                "A big problem"
+            ],
+            [
+                "SCI2C_W34",
+                "Mostly positive"
+            ],
+            [
+                "FUD22_W34",
+                "Some of it"
+            ],
+            [
+                "BIOTECHE_W34",
+                "Taking technology too far"
+            ],
+            [
+                "EAT1_W34",
+                "All of the time"
+            ],
+            [
+                "SCI4_W34",
+                "Government investment in research is essential for scientific progress"
+            ],
+            [
+                "MED1_W34",
+                "Medical treatments these days are worth the costs because they allow people to live longer and better quality lives"
+            ],
+            [
+                "SCI3A_W34",
+                "Government investments usually pay off in the long run"
+            ],
+            [
+                "MED6B_W34",
+                "Very likely"
+            ],
+            [
+                "EAT5A_W34",
+                "Some health risk"
+            ],
+            [
+                "BIOTECHC_W34",
+                "An appropriate use of technology"
+            ],
+            [
+                "MED2E_W34",
+                "A big problem"
+            ],
+            [
+                "BIOTECHD_W34",
+                "Taking technology too far"
+            ],
+            [
+                "MED4B_W34",
+                "An appropriate use of medical technology"
+            ],
+            [
+                "EVOBIOB_W34",
+                "Humans have evolved over time due to processes such as natural selection"
+            ],
+            [
+                "EAT3J_W34",
+                "Not selected"
+            ],
+            [
+                "MED4A_W34",
+                "Taking medical technology too far"
+            ],
+            [
+                "FUD37A_W34",
+                "Very likely"
+            ],
+            [
+                "FUD35_W34",
+                "A great deal"
+            ],
+            [
+                "FUD32_W34",
+                "A lot"
+            ],
+            [
+                "MED6A_W34",
+                "Very likely"
+            ],
+            [
+                "EAT3F_W34",
+                "Not selected"
+            ],
+            [
+                "MED2A_W34",
+                "A small problem"
+            ],
+            [
+                "EVOONE_W34",
+                "Humans have evolved over time"
+            ],
+            [
+                "MED5_W34",
+                "Not too well"
+            ],
+            [
+                "MED2F_W34",
+                "A small problem"
+            ],
+            [
+                "FUD37C_W34",
+                "Not too likely"
+            ],
+            [
+                "MED6C_W34",
+                "Very likely"
+            ],
+            [
+                "SCI2A_W34",
+                "Mostly positive"
+            ],
+            [
+                "EAT5C_W34",
+                "A great deal of health risk"
+            ],
+            [
+                "SCI2B_W34",
+                "Mostly positive"
+            ],
+            [
+                "MED7_W34",
+                "An appropriate use of medical technology"
+            ],
+            [
+                "MED3_W34",
+                "A little"
+            ],
+            [
+                "MED2D_W34",
+                "A big problem"
+            ],
+            [
+                "EAT6_W34",
+                "The average person is exposed to additives in the food they eat every day, which pose a serious risk to their health"
+            ]
+        ]
+    },
+    "American_Trends_Panel_W41": {
+        "26736": [
+            [
+                "HAPPENc_W41",
+                "Race relations will improve"
+            ],
+            [
+                "FUTR_ABR_W41",
+                "Legal with no restrictions"
+            ],
+            [
+                "HAPPENj_W41",
+                "The country will be more politically divided"
+            ],
+            [
+                "OPTIMIST_W41",
+                "Somewhat pessimistic"
+            ],
+            [
+                "GOVPRIOkF2_W41",
+                "An important, but not a top priority"
+            ],
+            [
+                "SSMONEY_W41",
+                "No"
+            ],
+            [
+                "ELDCARE_W41",
+                "less prepared financially for retirement than older adults today"
+            ],
+            [
+                "HAPPEN2b_W41",
+                "Will probably not happen"
+            ],
+            [
+                "SOLVPROBc_W41",
+                "A somewhat positive impact"
+            ],
+            [
+                "FUTR_DIV_W41",
+                "More likely to get divorced than people are now"
+            ],
+            [
+                "GOVPRIOe_W41",
+                "Should not be done"
+            ],
+            [
+                "JOBBENEFITS_W41",
+                "Not as good as they are now"
+            ],
+            [
+                "LEGALIMG_W41",
+                "Maintained at current levels"
+            ],
+            [
+                "HAPPEN2h_W41",
+                "Will probably happen"
+            ],
+            [
+                "HAPPENiF2_W41",
+                "Children will have a worse standard of living"
+            ],
+            [
+                "FTRWORRYa_W41",
+                "Not at all worried"
+            ],
+            [
+                "HAPPENd_W41",
+                "The U.S. will be less important in the world"
+            ],
+            [
+                "GOVPRIOd_W41",
+                "An important, but not a top priority"
+            ],
+            [
+                "HARASS3NOWRKF2_W41",
+                "Has made it harder for men"
+            ],
+            [
+                "FUTR_K_W41",
+                "Less likely to have children than people are now"
+            ],
+            [
+                "GOVPRIOoF2_W41",
+                "A lower priority"
+            ],
+            [
+                "WRKTRN1F2_W41",
+                "Individuals themselves"
+            ],
+            [
+                "HAPPEN2f_W41",
+                "Will probably happen"
+            ],
+            [
+                "ROBWRK_W41",
+                "Probably happen"
+            ],
+            [
+                "ROBWRK2_W41",
+                "A somewhat bad thing for the country"
+            ],
+            [
+                "GOVPRIOa_W41",
+                "A top priority"
+            ],
+            [
+                "HAPPENf_W41",
+                "The public education system will get worse"
+            ],
+            [
+                "ETHNCMAJMOD_W41",
+                "A somewhat bad thing"
+            ],
+            [
+                "ROBIMPACTa_W41",
+                "Yes, likely"
+            ],
+            [
+                "GOVPRIOb_W41",
+                "Should not be done"
+            ],
+            [
+                "HARASS1NOWRKF2a_W41",
+                "Major problem"
+            ],
+            [
+                "FUTRCLASSa_W41",
+                "Decrease"
+            ],
+            [
+                "NATDEBT_W41",
+                "Grow larger"
+            ],
+            [
+                "SSCUT_W41",
+                "Some reductions in benefits for future retirees will need to be made"
+            ],
+            [
+                "FTRWORRYd_W41",
+                "Not at all worried"
+            ],
+            [
+                "SOLVPROBi_W41",
+                "A very negative impact"
+            ],
+            [
+                "HAPPEN2c_W41",
+                "Will probably not happen"
+            ],
+            [
+                "HARASS1NOWRKF2c_W41",
+                "Minor problem"
+            ],
+            [
+                "HAPPENb_W41",
+                "Health care will be less affordable"
+            ],
+            [
+                "HAPPEN2g_W41",
+                "Will probably not happen"
+            ],
+            [
+                "GOVPRIOnF2_W41",
+                "An important, but not a top priority"
+            ],
+            [
+                "HAPPENg_W41",
+                "Religion will become less important"
+            ],
+            [
+                "SOLVPROBg_W41",
+                "A somewhat negative impact"
+            ],
+            [
+                "HAPPENe_W41",
+                "The gap between the rich and the poor will grow"
+            ],
+            [
+                "GOVPRIOlF2_W41",
+                "A lower priority"
+            ],
+            [
+                "SOLVPROBb_W41",
+                "A somewhat negative impact"
+            ],
+            [
+                "HARASS1NOWRKF2d_W41",
+                "Minor problem"
+            ],
+            [
+                "AUTOLKLY_W41",
+                "Probably not happen"
+            ],
+            [
+                "SOLVPROBh_W41",
+                "A very negative impact"
+            ],
+            [
+                "HAPPEN2e_W41",
+                "Will probably happen"
+            ],
+            [
+                "FTRWORRYf_W41",
+                "Not at all worried"
+            ],
+            [
+                "JOBSECURITY_W41",
+                "Less job security"
+            ],
+            [
+                "FTRWORRYe_W41",
+                "Not at all worried"
+            ],
+            [
+                "ROBIMPACTb_W41",
+                "No, not likely"
+            ],
+            [
+                "FTRWORRYc_W41",
+                "Not at all worried"
+            ],
+            [
+                "AUTOWKPLC_W41",
+                "Neither helped nor hurt"
+            ],
+            [
+                "SOLVPROBa_W41",
+                "A somewhat positive impact"
+            ],
+            [
+                "HARASS4_W41",
+                "No"
+            ],
+            [
+                "HAPPEN2a_W41",
+                "Will definitely happen"
+            ],
+            [
+                "GOVPRIOc_W41",
+                "An important, but not a top priority"
+            ]
+        ],
+        "26758": [
+            [
+                "HAPPENc_W41",
+                "Race relations will get worse"
+            ],
+            [
+                "GOVPRIOfF1_W41",
+                "Should not be done"
+            ],
+            [
+                "HAPPENj_W41",
+                "The country will be more politically divided"
+            ],
+            [
+                "OPTIMIST_W41",
+                "Somewhat optimistic"
+            ],
+            [
+                "ROBWRK2_W41",
+                "A somewhat good thing for the country"
+            ],
+            [
+                "ROBIMPACTa_W41",
+                "Yes, likely"
+            ],
+            [
+                "FUTR_DIV_W41",
+                "About as likely to get divorced as people are now"
+            ],
+            [
+                "HARASS1F1a_W41",
+                "Minor problem"
+            ],
+            [
+                "FUTRCLASSa_W41",
+                "Increase"
+            ],
+            [
+                "ELDCARE_W41",
+                "less prepared financially for retirement than older adults today"
+            ],
+            [
+                "FUTR_K_W41",
+                "Less likely to have children than people are now"
+            ],
+            [
+                "SOLVPROBc_W41",
+                "A somewhat positive impact"
+            ],
+            [
+                "HAPPEN2h_W41",
+                "Will probably not happen"
+            ],
+            [
+                "HAPPEN2b_W41",
+                "Will probably happen"
+            ],
+            [
+                "HARASS4_W41",
+                "No"
+            ],
+            [
+                "GOVPRIOd_W41",
+                "An important, but not a top priority"
+            ],
+            [
+                "HAPPENhF1_W41",
+                "People 65 and older will have a better standard of living"
+            ],
+            [
+                "HAPPENd_W41",
+                "The U.S. will be less important in the world"
+            ],
+            [
+                "GOVPRIOe_W41",
+                "An important, but not a top priority"
+            ],
+            [
+                "FTRWORRYa_W41",
+                "Not too worried"
+            ],
+            [
+                "GOVPRIOa_W41",
+                "A top priority"
+            ],
+            [
+                "WRKTRN1F1_W41",
+                "Individuals themselves"
+            ],
+            [
+                "GOVPRIOjF1_W41",
+                "An important, but not a top priority"
+            ],
+            [
+                "HAPPEN2f_W41",
+                "Will probably happen"
+            ],
+            [
+                "FUTR_ABR_W41",
+                "Legal but with some restrictions"
+            ],
+            [
+                "HARASS1F1b_W41",
+                "Minor problem"
+            ],
+            [
+                "GOVPRIOb_W41",
+                "A top priority"
+            ],
+            [
+                "HAPPENf_W41",
+                "The public education system will get worse"
+            ],
+            [
+                "SSMONEY_W41",
+                "Yes, but at reduced levels"
+            ],
+            [
+                "ROBWRK_W41",
+                "Definitely happen"
+            ],
+            [
+                "SOLVPROBf_W41",
+                "A very negative impact"
+            ],
+            [
+                "LEGALIMG_W41",
+                "Maintained at current levels"
+            ],
+            [
+                "SOLVPROBi_W41",
+                "A somewhat positive impact"
+            ],
+            [
+                "NATDEBT_W41",
+                "Stay about the same"
+            ],
+            [
+                "SSCUT_W41",
+                "Social Security benefits should not be reduced in any way"
+            ],
+            [
+                "FTRWORRYd_W41",
+                "Fairly worried"
+            ],
+            [
+                "JOBBENEFITS_W41",
+                "Not as good as they are now"
+            ],
+            [
+                "HAPPEN2c_W41",
+                "Will probably happen"
+            ],
+            [
+                "HARASS1F1c_W41",
+                "Minor problem"
+            ],
+            [
+                "HAPPENb_W41",
+                "Health care will be less affordable"
+            ],
+            [
+                "HAPPEN2g_W41",
+                "Will probably happen"
+            ],
+            [
+                "GOVPRIOiF1_W41",
+                "An important, but not a top priority"
+            ],
+            [
+                "HAPPENg_W41",
+                "Religion will become less important"
+            ],
+            [
+                "INTRMAR_W41",
+                "A somewhat good thing"
+            ],
+            [
+                "HAPPENe_W41",
+                "The gap between the rich and the poor will grow"
+            ],
+            [
+                "GOVPRIOgF1_W41",
+                "An important, but not a top priority"
+            ],
+            [
+                "SOLVPROBb_W41",
+                "A somewhat positive impact"
+            ],
+            [
+                "HARASS1F1d_W41",
+                "Minor problem"
+            ],
+            [
+                "AUTOLKLY_W41",
+                "Probably happen"
+            ],
+            [
+                "SOLVPROBh_W41",
+                "A somewhat positive impact"
+            ],
+            [
+                "HAPPEN2e_W41",
+                "Will probably happen"
+            ],
+            [
+                "FTRWORRYf_W41",
+                "Very worried"
+            ],
+            [
+                "JOBSECURITY_W41",
+                "About the same"
+            ],
+            [
+                "FTRWORRYe_W41",
+                "Fairly worried"
+            ],
+            [
+                "ROBIMPACTb_W41",
+                "No, not likely"
+            ],
+            [
+                "FTRWORRYc_W41",
+                "Fairly worried"
+            ],
+            [
+                "AUTOWKPLC_W41",
+                "Neither helped nor hurt"
+            ],
+            [
+                "SOLVPROBa_W41",
+                "A somewhat positive impact"
+            ],
+            [
+                "HARASS3F1_W41",
+                "Hasn't made much difference"
+            ],
+            [
+                "HAPPEN2a_W41",
+                "Will probably happen"
+            ],
+            [
+                "GOVPRIOc_W41",
+                "An important, but not a top priority"
+            ]
+        ],
+        "27580": [
+            [
+                "HAPPENc_W41",
+                "Race relations will improve"
+            ],
+            [
+                "FUTR_M_W41",
+                "More likely to get married than people are now"
+            ],
+            [
+                "HAPPEN2h_W41",
+                "Will definitely not happen"
+            ],
+            [
+                "OPTIMIST_W41",
+                "Somewhat optimistic"
+            ],
+            [
+                "ELDCARE_W41",
+                "better prepared financially for retirement than older adults are today"
+            ],
+            [
+                "FUTRCLASSc_W41",
+                "Decrease"
+            ],
+            [
+                "HAPPENj_W41",
+                "The country will be less politically divided"
+            ],
+            [
+                "GOVPRIOe_W41",
+                "An important, but not a top priority"
+            ],
+            [
+                "HAPPEN2b_W41",
+                "Will probably not happen"
+            ],
+            [
+                "HARASS3NOWRKF2_W41",
+                "Has made it harder for men"
+            ],
+            [
+                "LEGALIMG_W41",
+                "Maintained at current levels"
+            ],
+            [
+                "GOVPRIOb_W41",
+                "A top priority"
+            ],
+            [
+                "HAPPENiF2_W41",
+                "Children will have a better standard of living"
+            ],
+            [
+                "ROBIMPACTa_W41",
+                "Yes, likely"
+            ],
+            [
+                "HAPPENd_W41",
+                "The U.S. will be less important in the world"
+            ],
+            [
+                "FTRWORRYa_W41",
+                "Not too worried"
+            ],
+            [
+                "ETHNCMAJMOD_W41",
+                "Neither a good nor bad thing"
+            ],
+            [
+                "FUTRCLASSb_W41",
+                "Decrease"
+            ],
+            [
+                "GOVPRIOd_W41",
+                "A top priority"
+            ],
+            [
+                "GOVPRIOoF2_W41",
+                "An important, but not a top priority"
+            ],
+            [
+                "SSCUT_W41",
+                "Social Security benefits should not be reduced in any way"
+            ],
+            [
+                "HAPPEN2f_W41",
+                "Will probably not happen"
+            ],
+            [
+                "GOVPRIOkF2_W41",
+                "A top priority"
+            ],
+            [
+                "ROBWRK_W41",
+                "Probably not happen"
+            ],
+            [
+                "SOLVPROBg_W41",
+                "A very positive impact"
+            ],
+            [
+                "HAPPENf_W41",
+                "The public education system will improve"
+            ],
+            [
+                "HARASS4_W41",
+                "No"
+            ],
+            [
+                "JOBBENEFITS_W41",
+                "Better than they are now"
+            ],
+            [
+                "GOVPRIOa_W41",
+                "A top priority"
+            ],
+            [
+                "ROBIMPACTb_W41",
+                "No, not likely"
+            ],
+            [
+                "SOLVPROBi_W41",
+                "A very positive impact"
+            ],
+            [
+                "NATDEBT_W41",
+                "Be reduced"
+            ],
+            [
+                "INTRMAR_W41",
+                "Neither a good nor bad thing"
+            ],
+            [
+                "FTRWORRYd_W41",
+                "Fairly worried"
+            ],
+            [
+                "WRKTRN1F2_W41",
+                "The education system"
+            ],
+            [
+                "HAPPEN2c_W41",
+                "Will probably happen"
+            ],
+            [
+                "SOLVPROBa_W41",
+                "A somewhat positive impact"
+            ],
+            [
+                "HAPPENb_W41",
+                "Health care will be more affordable"
+            ],
+            [
+                "HAPPEN2g_W41",
+                "Will probably not happen"
+            ],
+            [
+                "GOVPRIOnF2_W41",
+                "An important, but not a top priority"
+            ],
+            [
+                "HAPPENg_W41",
+                "Religion will be about as important as it is now"
+            ],
+            [
+                "AGEMAJ_W41",
+                "A somewhat bad thing"
+            ],
+            [
+                "HAPPENe_W41",
+                "The gap between the rich and the poor will get smaller"
+            ],
+            [
+                "GOVPRIOlF2_W41",
+                "A lower priority"
+            ],
+            [
+                "SOLVPROBc_W41",
+                "A very positive impact"
+            ],
+            [
+                "HARASS1NOWRKF2d_W41",
+                "Major problem"
+            ],
+            [
+                "SOLVPROBh_W41",
+                "A very positive impact"
+            ],
+            [
+                "HAPPEN2e_W41",
+                "Will definitely happen"
+            ],
+            [
+                "FTRWORRYf_W41",
+                "Fairly worried"
+            ],
+            [
+                "JOBSECURITY_W41",
+                "About the same"
+            ],
+            [
+                "FTRWORRYe_W41",
+                "Very worried"
+            ],
+            [
+                "FUTRCLASSa_W41",
+                "Increase"
+            ],
+            [
+                "FTRWORRYc_W41",
+                "Fairly worried"
+            ],
+            [
+                "FUTR_DIV_W41",
+                "About as likely to get divorced as people are now"
+            ],
+            [
+                "SOLVPROBb_W41",
+                "A somewhat positive impact"
+            ],
+            [
+                "HAPPEN2a_W41",
+                "Will probably not happen"
+            ],
+            [
+                "GOVPRIOc_W41",
+                "A top priority"
+            ],
+            [
+                "SOLVPROBf_W41",
+                "A somewhat positive impact"
+            ]
+        ],
+        "28451": [
+            [
+                "HAPPENc_W41",
+                "Race relations will improve"
+            ],
+            [
+                "FUTR_M_W41",
+                "Less likely to get married than people are now"
+            ],
+            [
+                "HAPPEN2h_W41",
+                "Will probably not happen"
+            ],
+            [
+                "OPTIMIST_W41",
+                "Somewhat optimistic"
+            ],
+            [
+                "ELDCARE_W41",
+                "better prepared financially for retirement than older adults are today"
+            ],
+            [
+                "SOLVPROBi_W41",
+                "A very positive impact"
+            ],
+            [
+                "HAPPENj_W41",
+                "The country will be more politically divided"
+            ],
+            [
+                "GOVPRIOe_W41",
+                "An important, but not a top priority"
+            ],
+            [
+                "HAPPEN2b_W41",
+                "Will probably not happen"
+            ],
+            [
+                "HARASS3NOWRKF2_W41",
+                "Has made it harder for men"
+            ],
+            [
+                "SOLVPROBa_W41",
+                "A very positive impact"
+            ],
+            [
+                "GOVPRIOb_W41",
+                "An important, but not a top priority"
+            ],
+            [
+                "HAPPENiF2_W41",
+                "Children will have a better standard of living"
+            ],
+            [
+                "ROBWRK2_W41",
+                "A somewhat good thing for the country"
+            ],
+            [
+                "HAPPENd_W41",
+                "The U.S. will be more important in the world"
+            ],
+            [
+                "FTRWORRYa_W41",
+                "Fairly worried"
+            ],
+            [
+                "ETHNCMAJMOD_W41",
+                "Neither a good nor bad thing"
+            ],
+            [
+                "FUTRCLASSb_W41",
+                "Increase"
+            ],
+            [
+                "GOVPRIOd_W41",
+                "A top priority"
+            ],
+            [
+                "GOVPRIOoF2_W41",
+                "A top priority"
+            ],
+            [
+                "SOLVPROBg_W41",
+                "A very positive impact"
+            ],
+            [
+                "HAPPEN2f_W41",
+                "Will probably not happen"
+            ],
+            [
+                "GOVPRIOkF2_W41",
+                "An important, but not a top priority"
+            ],
+            [
+                "ROBWRK_W41",
+                "Probably happen"
+            ],
+            [
+                "FUTR_ABR_W41",
+                "Illegal except in certain cases"
+            ],
+            [
+                "HAPPENf_W41",
+                "The public education system will improve"
+            ],
+            [
+                "HARASS4_W41",
+                "No"
+            ],
+            [
+                "JOBBENEFITS_W41",
+                "Better than they are now"
+            ],
+            [
+                "GOVPRIOa_W41",
+                "A top priority"
+            ],
+            [
+                "ROBIMPACTb_W41",
+                "No, not likely"
+            ],
+            [
+                "FUTRCLASSa_W41",
+                "Stay about the same"
+            ],
+            [
+                "NATDEBT_W41",
+                "Stay about the same"
+            ],
+            [
+                "INTRMAR_W41",
+                "Neither a good nor bad thing"
+            ],
+            [
+                "FTRWORRYd_W41",
+                "Fairly worried"
+            ],
+            [
+                "WRKTRN1F2_W41",
+                "The education system"
+            ],
+            [
+                "HAPPEN2c_W41",
+                "Will probably happen"
+            ],
+            [
+                "HARASS1NOWRKF2c_W41",
+                "Major problem"
+            ],
+            [
+                "HAPPENb_W41",
+                "Health care will be more affordable"
+            ],
+            [
+                "HAPPEN2g_W41",
+                "Will probably happen"
+            ],
+            [
+                "GOVPRIOnF2_W41",
+                "A top priority"
+            ],
+            [
+                "HAPPENg_W41",
+                "Religion will be about as important as it is now"
+            ],
+            [
+                "AGEMAJ_W41",
+                "Neither a good nor bad thing"
+            ],
+            [
+                "HAPPENe_W41",
+                "The gap between the rich and the poor will get smaller"
+            ],
+            [
+                "GOVPRIOlF2_W41",
+                "An important, but not a top priority"
+            ],
+            [
+                "SOLVPROBc_W41",
+                "A very positive impact"
+            ],
+            [
+                "HARASS1NOWRKF2d_W41",
+                "Major problem"
+            ],
+            [
+                "ROBIMPACTa_W41",
+                "No, not likely"
+            ],
+            [
+                "SOLVPROBh_W41",
+                "A very positive impact"
+            ],
+            [
+                "HAPPEN2e_W41",
+                "Will probably happen"
+            ],
+            [
+                "FTRWORRYf_W41",
+                "Very worried"
+            ],
+            [
+                "JOBSECURITY_W41",
+                "More job security"
+            ],
+            [
+                "FTRWORRYe_W41",
+                "Fairly worried"
+            ],
+            [
+                "LEGALIMG_W41",
+                "Increased"
+            ],
+            [
+                "FTRWORRYc_W41",
+                "Very worried"
+            ],
+            [
+                "FUTR_DIV_W41",
+                "About as likely to get divorced as people are now"
+            ],
+            [
+                "SOLVPROBb_W41",
+                "A very positive impact"
+            ],
+            [
+                "HAPPEN2a_W41",
+                "Will probably not happen"
+            ],
+            [
+                "GOVPRIOc_W41",
+                "A top priority"
+            ],
+            [
+                "SOLVPROBf_W41",
+                "A somewhat positive impact"
+            ]
+        ],
+        "28567": [
+            [
+                "HAPPENc_W41",
+                "Race relations will improve"
+            ],
+            [
+                "FUTR_ABR_W41",
+                "Legal but with some restrictions"
+            ],
+            [
+                "HAPPENj_W41",
+                "The country will be less politically divided"
+            ],
+            [
+                "OPTIMIST_W41",
+                "Somewhat optimistic"
+            ],
+            [
+                "GOVPRIOfF1_W41",
+                "Should not be done"
+            ],
+            [
+                "INTRMAR_W41",
+                "A somewhat good thing"
+            ],
+            [
+                "ELDCARE_W41",
+                "less prepared financially for retirement than older adults today"
+            ],
+            [
+                "HAPPEN2b_W41",
+                "Will probably not happen"
+            ],
+            [
+                "SOLVPROBc_W41",
+                "A very positive impact"
+            ],
+            [
+                "FUTR_DIV_W41",
+                "About as likely to get divorced as people are now"
+            ],
+            [
+                "GOVPRIOe_W41",
+                "A lower priority"
+            ],
+            [
+                "JOBBENEFITS_W41",
+                "About the same as they are now"
+            ],
+            [
+                "FUTRCLASSa_W41",
+                "Stay about the same"
+            ],
+            [
+                "HAPPEN2h_W41",
+                "Will probably not happen"
+            ],
+            [
+                "HAPPENhF1_W41",
+                "People 65 and older will have a worse standard of living"
+            ],
+            [
+                "FTRWORRYa_W41",
+                "Very worried"
+            ],
+            [
+                "HAPPENd_W41",
+                "The U.S. will be less important in the world"
+            ],
+            [
+                "GOVPRIOd_W41",
+                "Should not be done"
+            ],
+            [
+                "HARASS3F1_W41",
+                "Has made it harder for men"
+            ],
+            [
+                "FUTR_K_W41",
+                "Less likely to have children than people are now"
+            ],
+            [
+                "GOVPRIOjF1_W41",
+                "An important, but not a top priority"
+            ],
+            [
+                "WRKTRN1F1_W41",
+                "Employers"
+            ],
+            [
+                "HAPPEN2f_W41",
+                "Will probably happen"
+            ],
+            [
+                "ROBWRK_W41",
+                "Probably not happen"
+            ],
+            [
+                "AUTOLKLY_W41",
+                "Probably not happen"
+            ],
+            [
+                "GOVPRIOa_W41",
+                "A top priority"
+            ],
+            [
+                "HAPPENf_W41",
+                "The public education system will get worse"
+            ],
+            [
+                "HARASS5_W41",
+                "Outside of a professional or work setting"
+            ],
+            [
+                "ROBIMPACTb_W41",
+                "No, not likely"
+            ],
+            [
+                "GOVPRIOb_W41",
+                "A top priority"
+            ],
+            [
+                "HARASS1F1b_W41",
+                "Minor problem"
+            ],
+            [
+                "FUTRCLASSb_W41",
+                "Increase"
+            ],
+            [
+                "NATDEBT_W41",
+                "Grow larger"
+            ],
+            [
+                "SSCUT_W41",
+                "Social Security benefits should not be reduced in any way"
+            ],
+            [
+                "FTRWORRYd_W41",
+                "Fairly worried"
+            ],
+            [
+                "SOLVPROBi_W41",
+                "A very positive impact"
+            ],
+            [
+                "HAPPEN2c_W41",
+                "Will probably happen"
+            ],
+            [
+                "HARASS1F1c_W41",
+                "Minor problem"
+            ],
+            [
+                "HAPPENb_W41",
+                "Health care will be less affordable"
+            ],
+            [
+                "HAPPEN2g_W41",
+                "Will probably not happen"
+            ],
+            [
+                "GOVPRIOiF1_W41",
+                "An important, but not a top priority"
+            ],
+            [
+                "HAPPENg_W41",
+                "Religion will become less important"
+            ],
+            [
+                "SOLVPROBg_W41",
+                "A somewhat negative impact"
+            ],
+            [
+                "HAPPENe_W41",
+                "The gap between the rich and the poor will get smaller"
+            ],
+            [
+                "GOVPRIOgF1_W41",
+                "A top priority"
+            ],
+            [
+                "SOLVPROBb_W41",
+                "A somewhat negative impact"
+            ],
+            [
+                "HARASS1F1d_W41",
+                "Major problem"
+            ],
+            [
+                "ROBIMPACTa_W41",
+                "No, not likely"
+            ],
+            [
+                "SOLVPROBh_W41",
+                "A somewhat negative impact"
+            ],
+            [
+                "HAPPEN2e_W41",
+                "Will probably happen"
+            ],
+            [
+                "FTRWORRYf_W41",
+                "Not too worried"
+            ],
+            [
+                "JOBSECURITY_W41",
+                "About the same"
+            ],
+            [
+                "FTRWORRYe_W41",
+                "Very worried"
+            ],
+            [
+                "LEGALIMG_W41",
+                "Maintained at current levels"
+            ],
+            [
+                "FTRWORRYc_W41",
+                "Very worried"
+            ],
+            [
+                "AUTOWKPLC_W41",
+                "Neither helped nor hurt"
+            ],
+            [
+                "SOLVPROBa_W41",
+                "A somewhat positive impact"
+            ],
+            [
+                "HARASS4_W41",
+                "Yes"
+            ],
+            [
+                "HAPPEN2a_W41",
+                "Will definitely happen"
+            ],
+            [
+                "GOVPRIOc_W41",
+                "An important, but not a top priority"
+            ]
+        ],
+        "28763": [
+            [
+                "HAPPENc_W41",
+                "Race relations will get worse"
+            ],
+            [
+                "GOVPRIOkF2_W41",
+                "An important, but not a top priority"
+            ],
+            [
+                "HAPPENj_W41",
+                "Refused"
+            ],
+            [
+                "OPTIMIST_W41",
+                "Somewhat optimistic"
+            ],
+            [
+                "ROBWRK2_W41",
+                "A very bad thing for the country"
+            ],
+            [
+                "ROBIMPACTa_W41",
+                "Yes, likely"
+            ],
+            [
+                "FUTR_DIV_W41",
+                "About as likely to get divorced as people are now"
+            ],
+            [
+                "HARASS1NOWRKF2a_W41",
+                "Minor problem"
+            ],
+            [
+                "FUTRCLASSa_W41",
+                "Stay about the same"
+            ],
+            [
+                "ELDCARE_W41",
+                "less prepared financially for retirement than older adults today"
+            ],
+            [
+                "FUTR_K_W41",
+                "About as likely to have children as people are now"
+            ],
+            [
+                "SOLVPROBc_W41",
+                "A somewhat negative impact"
+            ],
+            [
+                "HAPPEN2h_W41",
+                "Will probably happen"
+            ],
+            [
+                "HAPPEN2b_W41",
+                "Will definitely happen"
+            ],
+            [
+                "HARASS5_W41",
+                "Outside of a professional or work setting"
+            ],
+            [
+                "GOVPRIOd_W41",
+                "A lower priority"
+            ],
+            [
+                "HAPPENiF2_W41",
+                "Refused"
+            ],
+            [
+                "HAPPENd_W41",
+                "The U.S. will be less important in the world"
+            ],
+            [
+                "GOVPRIOe_W41",
+                "A top priority"
+            ],
+            [
+                "FTRWORRYa_W41",
+                "Fairly worried"
+            ],
+            [
+                "GOVPRIOa_W41",
+                "An important, but not a top priority"
+            ],
+            [
+                "WRKTRN1F2_W41",
+                "The education system"
+            ],
+            [
+                "GOVPRIOoF2_W41",
+                "A top priority"
+            ],
+            [
+                "HAPPEN2f_W41",
+                "Will probably not happen"
+            ],
+            [
+                "FUTR_ABR_W41",
+                "Legal but with some restrictions"
+            ],
+            [
+                "HARASS1NOWRKF2c_W41",
+                "Major problem"
+            ],
+            [
+                "GOVPRIOb_W41",
+                "An important, but not a top priority"
+            ],
+            [
+                "HAPPENf_W41",
+                "Refused"
+            ],
+            [
+                "SSMONEY_W41",
+                "No"
+            ],
+            [
+                "ROBWRK_W41",
+                "Definitely happen"
+            ],
+            [
+                "SOLVPROBf_W41",
+                "A somewhat positive impact"
+            ],
+            [
+                "LEGALIMG_W41",
+                "Increased"
+            ],
+            [
+                "SOLVPROBi_W41",
+                "A somewhat positive impact"
+            ],
+            [
+                "NATDEBT_W41",
+                "Grow larger"
+            ],
+            [
+                "SSCUT_W41",
+                "Social Security benefits should not be reduced in any way"
+            ],
+            [
+                "FTRWORRYd_W41",
+                "Very worried"
+            ],
+            [
+                "JOBBENEFITS_W41",
+                "Not as good as they are now"
+            ],
+            [
+                "HAPPEN2c_W41",
+                "Will probably not happen"
+            ],
+            [
+                "HARASS1NOWRKF2d_W41",
+                "Major problem"
+            ],
+            [
+                "HAPPENb_W41",
+                "Refused"
+            ],
+            [
+                "HAPPEN2g_W41",
+                "Will definitely happen"
+            ],
+            [
+                "GOVPRIOnF2_W41",
+                "Should not be done"
+            ],
+            [
+                "HAPPENg_W41",
+                "Refused"
+            ],
+            [
+                "INTRMAR_W41",
+                "Neither a good nor bad thing"
+            ],
+            [
+                "HAPPENe_W41",
+                "The gap between the rich and the poor will grow"
+            ],
+            [
+                "GOVPRIOlF2_W41",
+                "A lower priority"
+            ],
+            [
+                "SOLVPROBb_W41",
+                "A very negative impact"
+            ],
+            [
+                "HARASS3NOWRKF2_W41",
+                "Has made it harder for men"
+            ],
+            [
+                "AUTOLKLY_W41",
+                "Definitely happen"
+            ],
+            [
+                "SOLVPROBh_W41",
+                "A somewhat positive impact"
+            ],
+            [
+                "HAPPEN2e_W41",
+                "Will definitely happen"
+            ],
+            [
+                "FTRWORRYf_W41",
+                "Very worried"
+            ],
+            [
+                "JOBSECURITY_W41",
+                "Less job security"
+            ],
+            [
+                "FTRWORRYe_W41",
+                "Fairly worried"
+            ],
+            [
+                "ROBIMPACTb_W41",
+                "No, not likely"
+            ],
+            [
+                "FTRWORRYc_W41",
+                "Fairly worried"
+            ],
+            [
+                "AUTOWKPLC_W41",
+                "Mostly hurt American workers"
+            ],
+            [
+                "SOLVPROBa_W41",
+                "A somewhat positive impact"
+            ],
+            [
+                "HARASS4_W41",
+                "Yes"
+            ],
+            [
+                "HAPPEN2a_W41",
+                "Will definitely happen"
+            ],
+            [
+                "GOVPRIOc_W41",
+                "A top priority"
+            ]
+        ]
+    },
+    "American_Trends_Panel_W42": {
+        "30672": [
+            [
+                "RQ4_F1Ba_W42",
+                "Some of the time"
+            ],
+            [
+                "PAST_W42",
+                "Better"
+            ],
+            [
+                "RQ4_F1Bb_W42",
+                "Some of the time"
+            ],
+            [
+                "RQ1_F1A_W42",
+                "Mostly positive"
+            ],
+            [
+                "POLICY2_W42",
+                "Public opinion should not play an important role to guide policy decisions about scientific issues because these issues"
+            ],
+            [
+                "POP3_W42",
+                "Rely more on people with practical experience with the problems, even if they aren't considered experts"
+            ],
+            [
+                "RQ3_F1Bb_W42",
+                "No, did not learn about this in school"
+            ],
+            [
+                "CONFc_W42",
+                "A great deal of confidence"
+            ],
+            [
+                "RQ4_F1Cb_W42",
+                "All or most of time"
+            ],
+            [
+                "SCM5d_W42",
+                "Does not describe research scientists well"
+            ],
+            [
+                "Q8F1_W42",
+                "Makes no difference either way"
+            ],
+            [
+                "RQ4_F1Ae_W42",
+                "All or most of time"
+            ],
+            [
+                "SCM5j_W42",
+                "Describes research scientists well"
+            ],
+            [
+                "RQ6_F1C_W42",
+                "Signs of a broader problem"
+            ],
+            [
+                "RQ4_F1Aa_W42",
+                "All or most of time"
+            ],
+            [
+                "RQ3_F1Ca_W42",
+                "No, do not know someone who does this"
+            ],
+            [
+                "RQ3_F1Bc_W42",
+                "Yes, learned about this in my job"
+            ],
+            [
+                "SCM4b_W42",
+                "Essential"
+            ],
+            [
+                "POLICY1_W42",
+                "Scientists should focus on establishing sound scientific facts and stay out of public policy debates"
+            ],
+            [
+                "CONFd_F1_W42",
+                "A great deal of confidence"
+            ],
+            [
+                "RQ4_F1Bc_W42",
+                "Only a little of the time"
+            ],
+            [
+                "RQ6_F1B_W42",
+                "Signs of a broader problem"
+            ],
+            [
+                "SCM5e_W42",
+                "Does not describe research scientists well"
+            ],
+            [
+                "RQ5_F1C_W42",
+                "A moderately big problem"
+            ],
+            [
+                "RQ7_F1B_W42",
+                "Most environmental research scientists have good intentions, it's the research system that's broken"
+            ],
+            [
+                "RQ3_F1Ac_W42",
+                "No, did not learn about this in my job"
+            ],
+            [
+                "RQ1_F1C_W42",
+                "Neither positive nor negative"
+            ],
+            [
+                "RQ3_F1Cd_W42",
+                "Yes, have heard or read about this in the news"
+            ],
+            [
+                "RQ4_F1Cc_W42",
+                "Only a little of the time"
+            ],
+            [
+                "CONFf_W42",
+                "A fair amount of confidence"
+            ],
+            [
+                "RQ2_F1B_W42",
+                "A little"
+            ],
+            [
+                "SCM3_W42",
+                "Scientists' judgments are just as likely to be biased as other people's"
+            ],
+            [
+                "RQ3_F1Cb_W42",
+                "No, did not learn about this in school"
+            ],
+            [
+                "SCM5g_W42",
+                "Does not describe research scientists well"
+            ],
+            [
+                "RQ4_F1Ab_W42",
+                "All or most of time"
+            ],
+            [
+                "SCM5c_W42",
+                "Does not describe research scientists well"
+            ],
+            [
+                "RQ7_F1A_W42",
+                "Refused"
+            ],
+            [
+                "RQ7_F1C_W42",
+                "Most nutrition research scientists have good intentions, it's the research system that's broken"
+            ],
+            [
+                "RQ2_F1A_W42",
+                "A lot"
+            ],
+            [
+                "RQ8_F1C_W42",
+                "None of the time"
+            ],
+            [
+                "CONFb_W42",
+                "Not too much confidence"
+            ],
+            [
+                "RQ3_F1Ad_W42",
+                "Yes, have heard or read about this in the news"
+            ],
+            [
+                "RQ5_F1B_W42",
+                "A moderately big problem"
+            ],
+            [
+                "CONFg_W42",
+                "A fair amount of confidence"
+            ],
+            [
+                "Q9F1_W42",
+                "Trust the research findings less"
+            ],
+            [
+                "CONFe_W42",
+                "A fair amount of confidence"
+            ],
+            [
+                "RQ4_F1Bd_W42",
+                "Some of the time"
+            ],
+            [
+                "POP1_W42",
+                "Ordinary people would do a better job solving the country's problems than elected officials"
+            ],
+            [
+                "SCM5b_W42",
+                "Does not describe research scientists well"
+            ],
+            [
+                "RQ3_F1Cc_W42",
+                "No, did not learn about this in my job"
+            ],
+            [
+                "POP2_W42",
+                "Not too much concern for how the policies affect people like you"
+            ],
+            [
+                "RQ3_F1Ab_W42",
+                "Yes, learned about this in school"
+            ],
+            [
+                "RQ1_F1B_W42",
+                "Mostly negative"
+            ],
+            [
+                "RQ8_F1B_W42",
+                "Only a little of the time"
+            ],
+            [
+                "RQ8_F1A_W42",
+                "Some of the time"
+            ],
+            [
+                "RQ4_F1Ca_W42",
+                "Some of the time"
+            ],
+            [
+                "RQ6_F1A_W42",
+                "Isolated incidents"
+            ],
+            [
+                "RQ2_F1C_W42",
+                "A little"
+            ],
+            [
+                "SCM5h_W42",
+                "Does not describe research scientists well"
+            ],
+            [
+                "SCM4a_W42",
+                "Essential"
+            ],
+            [
+                "POLICY3_W42",
+                "neither better noR worse at making good policy decisions about scientific issues than other people"
+            ],
+            [
+                "RQ3_F1Bd_W42",
+                "Yes, have heard or read about this in the news"
+            ],
+            [
+                "SCM2_W42",
+                "The scientific method generally produces accurate conclusions"
+            ]
+        ],
+        "33041": [
+            [
+                "CONFd_F2_W42",
+                "A great deal of confidence"
+            ],
+            [
+                "SCM5f_W42",
+                "Describes research scientists well"
+            ],
+            [
+                "PQ4_F2Ab_W42",
+                "All or most of the time"
+            ],
+            [
+                "SC1_W42",
+                "Mostly positive"
+            ],
+            [
+                "PQ4_F2Ba_W42",
+                "Some of the time"
+            ],
+            [
+                "POP3_W42",
+                "Rely more on people who are considered experts about the problems, even if they don't have much practical experience"
+            ],
+            [
+                "POLICY3_W42",
+                "Usually better at making good policy decisions about scientific issues than other people"
+            ],
+            [
+                "PQ6_F2B_W42",
+                "Signs of a broader problem"
+            ],
+            [
+                "PQ2_F2A_W42",
+                "A lot"
+            ],
+            [
+                "Q7F2_W42",
+                "Trust the recommendation more"
+            ],
+            [
+                "SCM5h_W42",
+                "Describes research scientists well"
+            ],
+            [
+                "PQ4_F2Bd_W42",
+                "Only a little of the time"
+            ],
+            [
+                "POLICY2_W42",
+                "Public opinion should not play an important role to guide policy decisions about scientific issues because these issues"
+            ],
+            [
+                "PQ4_F2Cc_W42",
+                "Some of the time"
+            ],
+            [
+                "CONFe_W42",
+                "No confidence at all"
+            ],
+            [
+                "PQ5_F2A_W42",
+                "A moderately big problem"
+            ],
+            [
+                "Q9F2_W42",
+                "Trust the recommendation less"
+            ],
+            [
+                "PQ7_F2C_W42",
+                "Most dietitians have good intentions, it's the system that's broken"
+            ],
+            [
+                "PQ5_F2B_W42",
+                "A small problem"
+            ],
+            [
+                "PQ3_F2Ca_W42",
+                "No, do not know someone who does this"
+            ],
+            [
+                "POP1_W42",
+                "Ordinary people would do no better solving the country's problems than elected officials"
+            ],
+            [
+                "PQ3_F2Ad_W42",
+                "Yes, have heard or read about this in the news"
+            ],
+            [
+                "PQ7_F2B_W42",
+                "Most environmental health specialists have good intentions, it's the system that's broken"
+            ],
+            [
+                "PQ4_F2Cb_W42",
+                "Some of the time"
+            ],
+            [
+                "SCM5d_W42",
+                "Does not describe research scientists well"
+            ],
+            [
+                "CONFg_W42",
+                "A fair amount of confidence"
+            ],
+            [
+                "Q8F2_W42",
+                "Makes no difference either way"
+            ],
+            [
+                "PQ3_F2Cd_W42",
+                "No, have not heard or read about this in the news"
+            ],
+            [
+                "PQ4_F2Bc_W42",
+                "Only a little of the time"
+            ],
+            [
+                "PQ4_F2Ce_W42",
+                "All or most of the time"
+            ],
+            [
+                "PQ6_F2C_W42",
+                "Isolated incidents"
+            ],
+            [
+                "PQ4_F2Ac_W42",
+                "All or most of the time"
+            ],
+            [
+                "SCM5b_W42",
+                "Describes research scientists well"
+            ],
+            [
+                "PQ8_F2A_W42",
+                "All or most of the time"
+            ],
+            [
+                "PQ3_F2Cb_W42",
+                "Yes, learned about this in school"
+            ],
+            [
+                "PQ3_F2Aa_W42",
+                "Yes, know someone who does this"
+            ],
+            [
+                "SCM4b_W42",
+                "Essential"
+            ],
+            [
+                "CONFc_W42",
+                "Not too much confidence"
+            ],
+            [
+                "PQ4_F2Aa_W42",
+                "All or most of the time"
+            ],
+            [
+                "PQ2_F2C_W42",
+                "A little"
+            ],
+            [
+                "POLICY1_W42",
+                "Scientists should take an active role in public policy debates about scientific issues"
+            ],
+            [
+                "SCM5a_W42",
+                "Describes research scientists well"
+            ],
+            [
+                "CONFf_W42",
+                "A great deal of confidence"
+            ],
+            [
+                "PQ8_F2B_W42",
+                "Only a little of the time"
+            ],
+            [
+                "SCM5j_W42",
+                "Does not describe research scientists well"
+            ],
+            [
+                "Q6F2_W42",
+                "Makes no difference either way"
+            ],
+            [
+                "PQ4_F2Cd_W42",
+                "Only a little of the time"
+            ],
+            [
+                "POP2_W42",
+                "Not too much concern for how the policies affect people like you"
+            ],
+            [
+                "PQ3_F2Ac_W42",
+                "No, did not learn about this in my job"
+            ],
+            [
+                "PQ2_F2B_W42",
+                "Nothing at all"
+            ],
+            [
+                "PQ3_F2Cc_W42",
+                "No, did not learn about this in my job"
+            ],
+            [
+                "PQ1_F2B_W42",
+                "Mostly positive"
+            ],
+            [
+                "PQ5_F2C_W42",
+                "A moderately big problem"
+            ],
+            [
+                "PQ7_F2A_W42",
+                "Most medical doctors have good intentions, it's the system that's broken"
+            ],
+            [
+                "SCM5e_W42",
+                "Does not describe research scientists well"
+            ],
+            [
+                "SCM5i_W42",
+                "Does not describe research scientists well"
+            ],
+            [
+                "PQ1_F2A_W42",
+                "Mostly positive"
+            ],
+            [
+                "PQ4_F2Be_W42",
+                "All or most of the time"
+            ],
+            [
+                "SCM3_W42",
+                "Scientists' judgments are just as likely to be biased as other people's"
+            ]
+        ]
+    },
+    "American_Trends_Panel_W45": {
+        "40663": [
+            [
+                "INFOWHYc_W45",
+                "Major reason"
+            ],
+            [
+                "NEWS_PLATFORMg_W45",
+                "Never"
+            ],
+            [
+                "INFOWHYd_W45",
+                "Not a reason"
+            ],
+            [
+                "INFOCONFUSEe_W45",
+                "A great deal"
+            ],
+            [
+                "INFOCONFUSEc_W45",
+                "A great deal"
+            ],
+            [
+                "SNSUSE_W45",
+                "No"
+            ],
+            [
+                "INFORESTRICTe_W45",
+                "The freedom to publish and access it should be protected"
+            ],
+            [
+                "SOURCESKEPb_W45",
+                "Some"
+            ],
+            [
+                "MADEUPRESb_W45",
+                "No, have not done this"
+            ],
+            [
+                "MADEUPSOLVE_W45",
+                "Stay the same"
+            ],
+            [
+                "DIGWDOG_3_W45",
+                "Represents more than one side"
+            ],
+            [
+                "INFOOWNe_W45",
+                "I find it easy to recognize it"
+            ],
+            [
+                "RESTRICTWHO_W45",
+                "The public"
+            ],
+            [
+                "MADEUPIMPb_W45",
+                "Small impact"
+            ],
+            [
+                "INFOOWNa_W45",
+                "I find it easy to recognize it"
+            ],
+            [
+                "MADEUPTOPICd_W45",
+                "A lot"
+            ],
+            [
+                "INFOWHYa_W45",
+                "Major reason"
+            ],
+            [
+                "MADEUPDIS_W45",
+                "Sometimes"
+            ],
+            [
+                "INFOCONFUSEb_W45",
+                "A great deal"
+            ],
+            [
+                "SOURCESKEPc_W45",
+                "Not much"
+            ],
+            [
+                "INFOCREATEa_W45",
+                "A lot"
+            ],
+            [
+                "INFOCREATEe_W45",
+                "A lot"
+            ],
+            [
+                "INFOCHALa_W45",
+                "A very big challenge"
+            ],
+            [
+                "MADEUPIMPa_W45",
+                "Big impact"
+            ],
+            [
+                "MADEUPOFT_W45",
+                "Often"
+            ],
+            [
+                "INFOKNOWd_W45",
+                "It is too much to ask of the average American to be able to recognize it"
+            ],
+            [
+                "MADEUPSHARE2_W45",
+                "No"
+            ],
+            [
+                "MADEUPLEVELb_W45",
+                "Not much"
+            ],
+            [
+                "MADEUPRESc_W45",
+                "Yes, have done this"
+            ],
+            [
+                "SOURCESKEPe_W45",
+                "Not at all"
+            ],
+            [
+                "INFORESTRICTc_W45",
+                "The freedom to publish and access it should be protected"
+            ],
+            [
+                "FCFAIR_W45",
+                "Deal fairly with all sides"
+            ],
+            [
+                "MADEUPTOPICf_W45",
+                "Some"
+            ],
+            [
+                "INFOCHALc_W45",
+                "A very big challenge"
+            ],
+            [
+                "INFOOWNb_W45",
+                "I find it easy to recognize it"
+            ],
+            [
+                "VIDOFT_W45",
+                "Sometimes"
+            ],
+            [
+                "SEEK_W45",
+                "I mostly get news because I'm looking for it"
+            ],
+            [
+                "MADEUPIMPc_W45",
+                "Big impact"
+            ],
+            [
+                "INFOKNOWa_W45",
+                "It is too much to ask of the average American to be able to recognize it"
+            ],
+            [
+                "MADEUPIMPd_W45",
+                "No impact at all"
+            ],
+            [
+                "SOURCESKEPa_W45",
+                "A great deal"
+            ],
+            [
+                "INFOKNOWe_W45",
+                "It is too much to ask of the average American to be able to recognize it"
+            ],
+            [
+                "INFOCREATEd_W45",
+                "Not much"
+            ],
+            [
+                "INFOCONFUSEa_W45",
+                "A great deal"
+            ],
+            [
+                "NEWSPROBa_W45",
+                "A very big problem"
+            ],
+            [
+                "SOURCESKEPd_W45",
+                "A great deal"
+            ],
+            [
+                "INFOCREATEb_W45",
+                "A lot"
+            ],
+            [
+                "WATCHDOG_1_W45",
+                "Keep political leaders from doing their job"
+            ],
+            [
+                "NEWSPROBc_W45",
+                "A moderately big problem"
+            ],
+            [
+                "MADEUPLEVELa_W45",
+                "A lot"
+            ],
+            [
+                "WATCHDOG_3_W45",
+                "Tend to favor one side"
+            ],
+            [
+                "INFOKNOWc_W45",
+                "It is too much to ask of the average American to be able to recognize it"
+            ],
+            [
+                "INFORESTRICTb_W45",
+                "The freedom to publish and access it should be protected"
+            ],
+            [
+                "MADEUPSHARE1_W45",
+                "Yes"
+            ],
+            [
+                "INFORESTRICTa_W45",
+                "The freedom to publish and access it should be protected"
+            ],
+            [
+                "MADEUPRESa_W45",
+                "Yes, have done this"
+            ],
+            [
+                "LEAD_W45",
+                "Lead the conversation more than listen"
+            ],
+            [
+                "MADEUPTOPICb_W45",
+                "A lot"
+            ],
+            [
+                "INFOCHALd_W45",
+                "A very big challenge"
+            ],
+            [
+                "MADEUPIMPe_W45",
+                "No impact at all"
+            ],
+            [
+                "INFOCONFUSEd_W45",
+                "A great deal"
+            ],
+            [
+                "INFOWHYb_W45",
+                "Major reason"
+            ],
+            [
+                "ACCCHECK_W45",
+                "Very confident"
+            ]
+        ]
+    },
+    "American_Trends_Panel_W49": {
+        "47208": [
+            [
+                "POSNEGCO_W49",
+                "The potential risks of companies collecting data about me outweigh the benefits I get"
+            ],
+            [
+                "DATAUSEc_W49",
+                "Unacceptable"
+            ],
+            [
+                "DATAUSEb_W49",
+                "Unacceptable"
+            ],
+            [
+                "DNATEST_W49",
+                "No, have not used this"
+            ],
+            [
+                "RTBFb_W49",
+                "Yes, should be able to remove this from online searches"
+            ],
+            [
+                "TALKDISASNSINT_W49",
+                "Stressful and frustrating"
+            ],
+            [
+                "CONTROLCO_W49",
+                "No control"
+            ],
+            [
+                "DB1b_W49",
+                "No"
+            ],
+            [
+                "SOCMEDIAUSEd_W49",
+                "No, do not use this"
+            ],
+            [
+                "PP5e_W49",
+                "Not confident at all"
+            ],
+            [
+                "TRACKCO1a_W49",
+                "None of it"
+            ],
+            [
+                "HOMEASSIST1_W49",
+                "No"
+            ],
+            [
+                "CONTROLGRPc_W49",
+                "No control"
+            ],
+            [
+                "SECUR1_W49",
+                "About the same"
+            ],
+            [
+                "PP6b_W49",
+                "Not comfortable at all"
+            ],
+            [
+                "ELECTFTGSNSINT_W49",
+                "I don't feel strongly about these posts one way or the other"
+            ],
+            [
+                "GOVREGV1_W49",
+                "About the same amount"
+            ],
+            [
+                "CONTROLGRPa_W49",
+                "No control"
+            ],
+            [
+                "RTBFc_W49",
+                "Yes, should be able to remove this from online searches"
+            ],
+            [
+                "PP6a_W49",
+                "Not comfortable at all"
+            ],
+            [
+                "FACE1_W49",
+                "Nothing at all"
+            ],
+            [
+                "CONCERNCO_W49",
+                "Not at all concerned"
+            ],
+            [
+                "HOMEIOT_W49",
+                "No"
+            ],
+            [
+                "BENEFITCO_W49",
+                "None"
+            ],
+            [
+                "PP5c_W49",
+                "Not confident at all"
+            ],
+            [
+                "PRIVACYREG_W49",
+                "Not at all"
+            ],
+            [
+                "CONTROLGRPb_W49",
+                "No control"
+            ],
+            [
+                "LOYALTY_W49",
+                "No, do not belong to this"
+            ],
+            [
+                "SOCMEDIAUSEa_W49",
+                "Yes, use this"
+            ],
+            [
+                "DATAUSEa_W49",
+                "Unacceptable"
+            ],
+            [
+                "PP1_W49",
+                "Never"
+            ],
+            [
+                "PP5d_W49",
+                "Refused"
+            ],
+            [
+                "PWMAN2_W49",
+                "My passwords are secure enough"
+            ],
+            [
+                "PP5b_W49",
+                "Refused"
+            ],
+            [
+                "RTBFd_W49",
+                "Yes, should be able to remove this from online searches"
+            ],
+            [
+                "SOCMEDIAUSEb_W49",
+                "No, do not use this"
+            ],
+            [
+                "CONCERNGRPa_W49",
+                "Not concerned"
+            ],
+            [
+                "SOCMEDIAUSEc_W49",
+                "Yes, use this"
+            ],
+            [
+                "SMARTPHONE_W49",
+                "No"
+            ],
+            [
+                "PWMAN_W49",
+                "No"
+            ],
+            [
+                "PP6c_W49",
+                "Not comfortable at all"
+            ],
+            [
+                "CONCERNGRPc_W49",
+                "Not concerned"
+            ],
+            [
+                "RTBFa_W49",
+                "Yes, should be able to remove this from online searches"
+            ],
+            [
+                "FITTRACK_W49",
+                "No, do not wear this"
+            ]
+        ]
+    },
+    "American_Trends_Panel_W50": {
+        "50967": [
+            [
+                "SPOUSESEX_W50",
+                "Opposite sex"
+            ],
+            [
+                "FAMSURV38a_W50",
+                "Your spouse/partner does more than you"
+            ],
+            [
+                "SATLIFEa_W50",
+                "Somewhat satisfied"
+            ],
+            [
+                "FAMSURV22d_W50",
+                "Not a reason"
+            ],
+            [
+                "FAMSURV2Mb_W50",
+                "Important, but not essential"
+            ],
+            [
+                "LWPSP_W50",
+                "Yes"
+            ],
+            [
+                "FAMSURV5c_W50",
+                "Doesn't make much difference"
+            ],
+            [
+                "FAMSURV2We_W50",
+                "Important, but not essential"
+            ],
+            [
+                "FAMSURV11W_W50",
+                "Working part-time for pay"
+            ],
+            [
+                "FAMSURV44_W50",
+                "A lot"
+            ],
+            [
+                "FAMSURV33c_W50",
+                "A fair amount"
+            ],
+            [
+                "FAMSURV2Wb_W50",
+                "Important, but not essential"
+            ],
+            [
+                "FAMSURV22a_W50",
+                "Major reason"
+            ],
+            [
+                "FAMSURV4_W50",
+                "Society is just as well off if couples who want to stay together long-term decide not to marry"
+            ],
+            [
+                "PAR1_W50",
+                "Too much for your adult child(ren) ages 18 to 29"
+            ],
+            [
+                "FAMSURV32a_W50",
+                "Somewhat satisfied"
+            ],
+            [
+                "SATLIFEd_W50",
+                "Somewhat satisfied"
+            ],
+            [
+                "FAMSURV5d_W50",
+                "Doesn't make much difference"
+            ],
+            [
+                "E5MOD_W50",
+                "Full-time"
+            ],
+            [
+                "FAMSURV2Me_W50",
+                "Important, but not essential"
+            ],
+            [
+                "FAMSURV2Mc_W50",
+                "Important, but not essential"
+            ],
+            [
+                "ADKIDS_W50",
+                "Yes, one child ages 18 to 29"
+            ],
+            [
+                "FAMSURV1_W50",
+                "Not working for pay at all"
+            ],
+            [
+                "FAMSURV22g_W50",
+                "Major reason"
+            ],
+            [
+                "FAMSURV7_W50",
+                "Better chance of having a successful marriage"
+            ],
+            [
+                "FAMSURV33a_W50",
+                "Not much"
+            ],
+            [
+                "FAMSURV22b_W50",
+                "Minor reason"
+            ],
+            [
+                "FAMSURV33b_W50",
+                "A fair amount"
+            ],
+            [
+                "REMARR_W50",
+                "Yes"
+            ],
+            [
+                "SIB_W50",
+                "No, do not have any brothers or sisters"
+            ],
+            [
+                "FAMSURV38b_W50",
+                "Your spouse/partner does more than you"
+            ],
+            [
+                "FAMSURV43_W50",
+                "A lot"
+            ],
+            [
+                "FAMSURV5b_W50",
+                "Doesn't make much difference"
+            ],
+            [
+                "FAMSURV12_W50",
+                "Too much for their adult children"
+            ],
+            [
+                "FAMSURV11M_W50",
+                "Refused"
+            ],
+            [
+                "FAMSURV10e_W50",
+                "Very important"
+            ],
+            [
+                "FAMSURV22f_W50",
+                "Not a reason"
+            ],
+            [
+                "FAMSURV2Wd_W50",
+                "Essential"
+            ],
+            [
+                "FAMSURV17_W50",
+                "An adult child"
+            ],
+            [
+                "FAMSURV33d_W50",
+                "A fair amount"
+            ],
+            [
+                "FAMSURV22e_W50",
+                "Not a reason"
+            ],
+            [
+                "FAMSURV18A_W50",
+                "Yes, thought of it as a step toward marriage"
+            ],
+            [
+                "FATHER_W50",
+                "No"
+            ],
+            [
+                "FAMSURV28_W50",
+                "Yes"
+            ],
+            [
+                "SATLIFEb_W50",
+                "Somewhat satisfied"
+            ],
+            [
+                "FAMSURV10a_W50",
+                "Somewhat important"
+            ],
+            [
+                "SATLIFEc_W50",
+                "Somewhat dissatisfied"
+            ],
+            [
+                "FAMSURV32b_W50",
+                "Somewhat satisfied"
+            ],
+            [
+                "FAMSURV19_W50",
+                "Fairly well"
+            ],
+            [
+                "MARRDUR_W50",
+                "20 years or more"
+            ],
+            [
+                "FAMSURV10c_W50",
+                "Not too important"
+            ]
+        ]
+    }
+}
