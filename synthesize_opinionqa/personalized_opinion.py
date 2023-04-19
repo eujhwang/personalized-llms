@@ -126,7 +126,7 @@ class PersonalizedOpinionSaver():
         """ get answer choice based on implicit/explicit/implicit+explicit persona.
         """
         model_generated = []
-        for user_response_json in tqdm(user_responses_jsons[:1], desc="processing user response #"):
+        for user_response_json in tqdm(user_responses_jsons, desc="processing user response #"):
             user_id = user_response_json["user_id"]
             topic = user_response_json["topic"]
 
@@ -134,7 +134,7 @@ class PersonalizedOpinionSaver():
             explicit_persona = user_response_json["explicit_persona"] if option == 1 or option == 2 else None
 
             generated_output = []
-            for persona_qa in user_response_json["implicit_questions"][:1]:
+            for persona_qa in user_response_json["implicit_questions"]:
                 model_choice = persona(
                     implicit_persona=implicit_persona,
                     explicit_persona=explicit_persona,
