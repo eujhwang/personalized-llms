@@ -18,7 +18,7 @@ class PersonalizedOpinionGPT(Prompt):
         self.engine = engine
 
     def make_query(self, implicit_persona: List[str], explicit_persona: List[str],
-                   question: List[str], choices: List[str]) -> str:
+                   topic: str, question: List[str], choices: List[str]) -> str:
         if not question or not choices:
             return ""
 
@@ -27,7 +27,8 @@ class PersonalizedOpinionGPT(Prompt):
             implicit_persona_list = []
             for persona in implicit_persona:
                 implicit_persona_list.append(persona["declarative_opinion"])
-            implicit_persona_str = " and ".join(implicit_persona_list)
+            implicit_persona_list = [f"{i+1}. {persona}\n" for i, persona in enumerate(implicit_persona_list)]
+            implicit_persona_str = "".join(implicit_persona_list)
 
         # explicit prompt
         if explicit_persona:
@@ -45,52 +46,61 @@ class PersonalizedOpinionGPT(Prompt):
         # implicit + explicit
         if explicit_persona and implicit_persona:
             prompt = \
-f"""This person can be described as follows:
+f"""A person can be described as follows:
 
 {explicit_persona_str}
 
-This person thinks that {implicit_persona_str}
+The person has the following opinions on {topic}.
 
-How would this person answer the following question?
+Opinions:
+{implicit_persona_str}
+Based on the above list of opinions and the demographic information, which answer choice will this person select for the question:
 
 Question: {question}
 
+Answer choices:
 {choice}
 Answer:
 """
         # implicit prompt
         elif implicit_persona:
             prompt = \
-f"""This person thinks that {implicit_persona_str}
+f"""A person has the following opinions on {topic}.
 
-How would this person answer the following question?
+Opinions:
+{implicit_persona_str}
+Based on the above list of opinions, which answer choice will this person select for the question:
 
 Question: {question}
 
+Answer choices:
 {choice}
 Answer:
 """
             # explicit prompt
         elif explicit_persona:
             prompt = \
-f"""This person can be described as follows:
+f"""A person can be described as follows:
 
 {explicit_persona_str}
 
-How would this person answer the following question?
+Based on the demographic information, which answer choice will this person select for the question:
 
 Question: {question}
 
+Answer choices:
 {choice}
 Answer:
 """
 
         return prompt
 
-    def __call__(self, implicit_persona: List[str], explicit_persona: List[str], question: str, choices: List[str]) -> str:
+    def __call__(self, implicit_persona: List[str], explicit_persona: List[str],
+                 topic:str, question: str, choices: List[str]) -> str:
         generation_query = self.make_query(
             implicit_persona=implicit_persona,
             explicit_persona=explicit_persona,
+            topic=topic,
             question=question,
             choices=choices,
         )
@@ -112,106 +122,23 @@ class PersonalizedOpinionSaver():
     def __init__(self, args):
         self.num_implicit = args.num_implicit
 
-    def add_implicit_persona(self, persona: PersonalizedOpinionGPT, user_responses_jsons: Dict):
-        """ get answer choice based on implicit persona.
-        "implicit_persona": [
-        {
-           "qid": "GUNKILLF2_W26",
-           "question": "Thinking about people who commit suicide using a gun, which comes closer to your view, even if neither is exactly right?",
-           "choices": [
-               "They would find a way to do it whether they had access to a gun or not",
-               "They would be less likely to do it if they didn't have access to a gun",
-               "Refused"
-               ],
-           "answer": "They would be less likely to do it if they didn't have access to a gun",
-           "declarative_opinion": "xxxx",
-           "subtopic_cg": [
-               "crime/security"
-               ]
-        },
-        ...
-        ]
+    def add_persona(self, persona: PersonalizedOpinionGPT, user_responses_jsons: Dict, option: int):
+        """ get answer choice based on implicit/explicit/implicit+explicit persona.
         """
         model_generated = []
-        for user_response_json in tqdm(user_responses_jsons[:2], desc="processing user response #"):
+        for user_response_json in tqdm(user_responses_jsons[:1], desc="processing user response #"):
             user_id = user_response_json["user_id"]
-            implicit_persona = user_response_json["implicit_persona"][:self.num_implicit]
+            topic = user_response_json["topic"]
+
+            implicit_persona = user_response_json["implicit_persona"][:self.num_implicit] if option == 0 or option == 2 else None
+            explicit_persona = user_response_json["explicit_persona"] if option == 1 or option == 2 else None
+
             generated_output = []
-            for persona_qa in user_response_json["implicit_questions"][:2]:
-                model_choice = persona(
-                    implicit_persona=implicit_persona,
-                    explicit_persona=None,
-                    question=persona_qa["question"],
-                    choices=persona_qa["choices"],
-                )
-                user_choice = persona_qa["answer"]
-                choice_idx = persona_qa["choices"].index(user_choice)
-                user_choice = OUTPUT_MAP[choice_idx]
-                generated_output.append({
-                    "model_choice": model_choice,
-                    "user_choice": user_choice,
-                    "qid": persona_qa["qid"],
-                })
-
-            model_generated.append({"user_id": user_id, "generated_output": generated_output})
-        return model_generated
-
-
-    def add_explicit_persona(self, persona: PersonalizedOpinionGPT, user_responses_jsons: Dict):
-        """ get answer choice based on explicit persona.
-        "explicit_persona": [
-            {"Age": "50-64"},
-            {"Citizenship": "Yes"},
-            {"Region": "West"},
-            {"Education": "Postgraduate"},
-            {"Income": "Less than $30,000"},
-            {"Marital status": "Living with a partner"},
-            {"Political ideology": "Liberal"},
-            {"Political party": "Democrat"},
-            {"Race": "White"},
-            {"Religion": "Roman Catholic"},
-            {"Frequency of religious attendance": "Seldom"},
-            {"Gender": "Female"}
-        ],
-        """
-        model_generated = []
-        for user_response_json in tqdm(user_responses_jsons[:2], desc="processing user response #"):
-            user_id = user_response_json["user_id"]
-            explicit_persona = user_response_json["explicit_persona"]
-            generated_output = []
-            for persona_qa in user_response_json["implicit_questions"][:2]:
-                model_choice = persona(
-                    implicit_persona=None,
-                    explicit_persona=explicit_persona,
-                    question=persona_qa["question"],
-                    choices=persona_qa["choices"],
-                )
-                user_choice = persona_qa["answer"]
-                choice_idx = persona_qa["choices"].index(user_choice)
-                user_choice = OUTPUT_MAP[choice_idx]
-                generated_output.append({
-                    "model_choice": model_choice,
-                    "user_choice": user_choice,
-                    "qid": persona_qa["qid"],
-                })
-
-            model_generated.append({"user_id": user_id, "generated_output": generated_output})
-        return model_generated
-
-    def add_both_persona(self, persona: PersonalizedOpinionGPT, user_responses_jsons: Dict):
-        """
-        get answer choice based on implicit and explicit persona.
-        """
-        model_generated = []
-        for user_response_json in tqdm(user_responses_jsons[:2], desc="processing user response #"):
-            user_id = user_response_json["user_id"]
-            implicit_persona = user_response_json["implicit_persona"][:self.num_implicit]
-            explicit_persona = user_response_json["explicit_persona"]
-            generated_output = []
-            for persona_qa in user_response_json["implicit_questions"][:2]:
+            for persona_qa in user_response_json["implicit_questions"][:1]:
                 model_choice = persona(
                     implicit_persona=implicit_persona,
                     explicit_persona=explicit_persona,
+                    topic=topic,
                     question=persona_qa["question"],
                     choices=persona_qa["choices"],
                 )
@@ -224,9 +151,8 @@ class PersonalizedOpinionSaver():
                     "qid": persona_qa["qid"],
                 })
 
-            model_generated.append({"user_id": user_id, "generated_output": generated_output})
+            model_generated.append({"user_id": user_id, "topic": topic, "generated_output": generated_output})
         return model_generated
-
 
 def calculate_accuracy(model_generation_path):
     model_generation = read_jsonl_or_json(model_generation_path)
@@ -250,8 +176,7 @@ def calculate_accuracy(model_generation_path):
         user_accuracy_list.append({user_id: accuracy_per_user})
         accuracy_list.append(accuracy_per_user)
     final_accuracy = sum(accuracy_list) / len(accuracy_list)
-    print("accuracy per user: {}".format(user_accuracy_list))
-    print("final average accuracy: {}\n".format(final_accuracy))
+    return {"accuracy": final_accuracy, "user-accuracy": user_accuracy_list}
 
 
 if __name__ == '__main__':
@@ -259,30 +184,27 @@ if __name__ == '__main__':
     parser.add_argument("--in_path", type=str, default="../data/opinionqa/sampled_user_responses_decl.json", help="json path")
     parser.add_argument("--out_dir", type=str, default="../data/opinionqa/model-output/", help="json path")
     parser.add_argument("--cache_path", type=str, default="../data/cache/gpt-davinci_cache.jsonl", help="json path")
-    parser.add_argument("--num_implicit", type=int, default=1, help="number of implicit persona to use")
+    parser.add_argument("--num_implicit", type=int, default=2, help="number of implicit persona to use")
+    parser.add_argument("--option", type=int, default=0, choices=[0, 1, 2], help="0: implicit, 1: exmplicit, 2: both")
     args = parser.parse_args()
 
     persona = PersonalizedOpinionGPT(engine="text-davinci-003", openai_wrapper=OpenAIWrapper(cache_path=args.cache_path))
-    implicit_output = PersonalizedOpinionSaver(args).add_implicit_persona(persona=persona, user_responses_jsons=read_jsonl_or_json(args.in_path))
-    explicit_output = PersonalizedOpinionSaver(args).add_explicit_persona(persona=persona, user_responses_jsons=read_jsonl_or_json(args.in_path))
-    imp_exp_output = PersonalizedOpinionSaver(args).add_both_persona(persona=persona, user_responses_jsons=read_jsonl_or_json(args.in_path))
+    output = PersonalizedOpinionSaver(args).add_persona(
+        persona=persona, user_responses_jsons=read_jsonl_or_json(args.in_path), option=args.option
+    )
 
-    implicit_output_dir = os.path.join(args.out_dir, "implicit")
-    explicit_output_dir = os.path.join(args.out_dir, "explicit")
-    imp_exp_output_dir = os.path.join(args.out_dir, "imp_exp")
+    if args.option == 0:
+        dir_name = "implicit"
+    if args.option == 1:
+        dir_name = "explicit"
+    if args.option == 2:
+        dir_name = "imp_exp"
 
-    Path(implicit_output_dir).mkdir(parents=True, exist_ok=True)
-    Path(explicit_output_dir).mkdir(parents=True, exist_ok=True)
-    Path(imp_exp_output_dir).mkdir(parents=True, exist_ok=True)
+    output_dir = os.path.join(args.out_dir, dir_name)
+    Path(output_dir).mkdir(parents=True, exist_ok=True)
+    output_file = os.path.join(output_dir, "model_generation.json")
+    write_json(outpath=output_file, json_data=output)
 
-    implicit_output_file = os.path.join(implicit_output_dir, "model_generation.json")
-    explicit_output_file = os.path.join(explicit_output_dir, "model_generation.json")
-    imp_exp_output_file = os.path.join(imp_exp_output_dir, "model_generation.json")
-
-    write_json(outpath=implicit_output_file, json_data=implicit_output)
-    write_json(outpath=explicit_output_file, json_data=explicit_output)
-    write_json(outpath=imp_exp_output_file, json_data=imp_exp_output)
-
-    calculate_accuracy(implicit_output_file)
-    calculate_accuracy(explicit_output_file)
-    calculate_accuracy(imp_exp_output_file)
+    metrics = calculate_accuracy(output_file)
+    metrics_file = os.path.join(output_dir, "model_accuracy.json")
+    write_json(outpath=metrics_file, json_data=metrics)
