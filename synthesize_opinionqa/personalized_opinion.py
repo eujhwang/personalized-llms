@@ -181,9 +181,9 @@ def calculate_accuracy(model_generation_path):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("--in_path", type=str, default="../data/opinionqa/sampled_user_responses_decl.json", help="json path")
-    parser.add_argument("--out_dir", type=str, default="../data/opinionqa/model-output/", help="json path")
-    parser.add_argument("--cache_path", type=str, default="../data/cache/gpt-davinci_cache.jsonl", help="json path")
+    parser.add_argument("--in_path", type=str, default="data/opinionqa/sampled_user_responses_decl.json", help="json path")
+    parser.add_argument("--out_dir", type=str, default="data/opinionqa/model-output/", help="json path")
+    parser.add_argument("--cache_path", type=str, default="data/cache/gpt-davinci_cache.jsonl", help="json path")
     parser.add_argument("--num_implicit", type=int, default=2, help="number of implicit persona to use")
     parser.add_argument("--option", type=int, default=0, choices=[0, 1, 2], help="0: implicit, 1: exmplicit, 2: both")
     args = parser.parse_args()
