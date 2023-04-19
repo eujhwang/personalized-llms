@@ -1,6 +1,4 @@
 .idea
-data/
 src/__pycache__/
-*.json
 log/
 charts/
