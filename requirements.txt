@@ -1,0 +1,4 @@
+git+https://git@github.com/nikett/callgpt.git
+numpy
+pandas
+scipy

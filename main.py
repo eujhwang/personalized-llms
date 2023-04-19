@@ -95,9 +95,9 @@ def main(args):
     SURVEY_LIST = SURVEY_LIST #[:1]
     print("SURVEY_LIST:", len(SURVEY_LIST), SURVEY_LIST)
 
-    all_user_responses_file = "all_user_responses.json"
-    all_qinfo_file = "all_qinfo_dict.json"
-    all_demographic_file = "all_demographic_dict.json"
+    all_user_responses_file = "data/opinionqa/all_user_responses.json"
+    all_qinfo_file = "data/opinionqa/all_qinfo_dict.json"
+    all_demographic_file = "data/opinionqa/all_demographic_dict.json"
     if not (os.path.exists(all_user_responses_file) and os.path.exists(all_qinfo_file) and os.path.exists(all_demographic_file)):
         total_responses = 0
         all_qinfo_dict = {}
