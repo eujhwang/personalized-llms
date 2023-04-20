@@ -134,7 +134,12 @@ class PersonalizedQA:
             user_id = user_response_json["user_id"]
             topic = user_response_json["topic"]
 
-            implicit_persona = user_response_json["implicit_persona"][:self.num_implicit] if option == 0 or option == 2 else None
+            if self.num_implicit > len(user_response_json["implicit_persona"]):
+                num_implicit = len(user_response_json["implicit_persona"])
+            else:
+                num_implicit = self.num_implicit
+
+            implicit_persona = user_response_json["implicit_persona"][:num_implicit] if option == 0 or option == 2 else None
             explicit_persona = user_response_json["explicit_persona"] if option == 1 or option == 2 else None
 
             generated_output = []
