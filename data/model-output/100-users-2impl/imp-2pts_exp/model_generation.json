@@ -1,0 +1,173 @@
+[
+    {
+        "user_id": 53,
+        "topic": "Guns",
+        "generated_output": [
+            {
+                "model_choice": "B",
+                "user_choice": "A",
+                "qid": "GUNRESPKIDSB_W26"
+            },
+            {
+                "model_choice": "D",
+                "user_choice": "D",
+                "qid": "GUNACTIVITYD_W26"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "D",
+                "qid": "GROWUPVIOL_W26"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "A",
+                "qid": "GUNRESPKIDSC_W26"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "B",
+                "qid": "GROWUPGUN1_W26"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "B",
+                "qid": "WORRYG_W26"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "B",
+                "qid": "GUNCONTRIBF_W26"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "C",
+                "qid": "WORRYF_W26"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "A",
+                "qid": "GUNRESPKIDSH_W26"
+            },
+            {
+                "model_choice": "D",
+                "user_choice": "D",
+                "qid": "GROWUPGUN6_W26"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "B",
+                "qid": "GUNRESPKIDSD_W26"
+            },
+            {
+                "model_choice": "D",
+                "user_choice": "D",
+                "qid": "GUNACTIVITYC_W26"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "A",
+                "qid": "GUNCONTRIBB_W26"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "B",
+                "qid": "GUN1_W26"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "A",
+                "qid": "GUNCOMMUNITY_W26"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "B",
+                "qid": "GUNTHREAT_W26"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "A",
+                "qid": "GUNCONTRIBA_W26"
+            },
+            {
+                "model_choice": "D",
+                "user_choice": "D",
+                "qid": "SHOOTFREQ_W26"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "C",
+                "qid": "SAFECRIME_W26"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "B",
+                "qid": "CRIMEVICTIM_W26"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "A",
+                "qid": "GUNRESPKIDSF_W26"
+            },
+            {
+                "model_choice": "C",
+                "user_choice": "C",
+                "qid": "GROWUPGUN4_W26"
+            },
+            {
+                "model_choice": "D",
+                "user_choice": "D",
+                "qid": "GUNACTIVITYB_W26"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "B",
+                "qid": "DEFENDGUN_W26"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "B",
+                "qid": "GUNSAFE2_W26"
+            },
+            {
+                "model_choice": "D",
+                "user_choice": "B",
+                "qid": "GUNFRIEND_W26"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "B",
+                "qid": "EVEROWN_W26"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "B",
+                "qid": "GUNSOCIETY_W26"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "B",
+                "qid": "WORRYD_W26"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "A",
+                "qid": "EVERSHOT_W26"
+            },
+            {
+                "model_choice": "C",
+                "user_choice": "B",
+                "qid": "WORLDDANGER_W26"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "A",
+                "qid": "GUNRESPKIDSA_W26"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "B",
+                "qid": "GUN_W26"
+            }
+        ]
+    }
+]

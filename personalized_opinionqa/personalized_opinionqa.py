@@ -203,12 +203,13 @@ if __name__ == '__main__':
         persona=persona, user_responses_jsons=read_jsonl_or_json(args.in_path), option=args.option, max_users=args.max_users_for_eval
     )
 
+    args.out_dir = f"{args.out_dir}/{args.max_users_for_eval}-users"
     if args.option == 0:
-        dir_name = "implicit"
+        dir_name = f"implicit_{args.num_implicit}pts"
     if args.option == 1:
         dir_name = "explicit"
     if args.option == 2:
-        dir_name = "imp_exp"
+        dir_name = f"imp-{args.num_implicit}pts_exp"
 
     output_dir = os.path.join(args.out_dir, dir_name)
     Path(output_dir).mkdir(parents=True, exist_ok=True)
