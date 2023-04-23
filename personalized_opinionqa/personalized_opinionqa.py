@@ -3,6 +3,8 @@ import json
 import os.path
 from pathlib import Path
 from typing import List, Dict
+
+from gptinference import utils
 from tqdm import tqdm
 
 from gptinference.base_prompt import Prompt
@@ -91,7 +93,16 @@ Question: {question}
 Answer choices:
 {choice}
 Answer:
+"""         # zero shot no-persona
+        else:
+            prompt = \
+f"""Question: {question}
+
+Answer choices:
+{choice}
+Answer:
 """
+
 
         return prompt
 
@@ -115,6 +126,21 @@ Answer:
         return generated_sent.strip()  # gpt3 turbo adds newline in the beginning so strip it.
 
 
+def early_stopping(topicwise_ctr, topic, max_topics, max_users):
+    cond_users  = max_users > 0 and topicwise_ctr.get(topic, 0) ==  max_users
+    if cond_users:
+        return True
+
+    reached_last_topic = len(topicwise_ctr) == max_topics
+    if reached_last_topic:
+        return cond_users
+
+    cond_topics = max_topics > 0 and len(topicwise_ctr) >= max_topics
+    if cond_topics:
+        return True
+
+    return False
+
 class PersonalizedQA:
     """
     save personalized opinion to output json.
@@ -122,28 +148,64 @@ class PersonalizedQA:
     def __init__(self, args):
         self.num_implicit = args.num_implicit
 
-    def personalized_qa(self, persona: PersonaCreator, user_responses_jsons: Dict, option: int, max_users:int=None):
+    def personalized_qa(self, persona: PersonaCreator, user_responses_jsons: Dict, option: int,
+                        max_users:int, max_ques: int, max_topics: int):
         """ get answer choice based on implicit/explicit/implicit+explicit persona.
         """
         model_generated = []
-        curr_user_num = 0
+        #############################################################
+        # original: 15 topics x ~3000 users x ~75 ques = 3,375,000 questions
+        # current:  15 topics x   100 users x ~55 ques = 85,000 questions
+        # option1:  15 topics x    50 users x ~25 ques = 18,750 questions  (num implicit points = 8)
+        # option2:  15 topics x    25 users x ~50 ques = 18,750 questions  (num implicit points = 8)
+        # option3:  15 topics x    35 users x ~30 ques = 15,750 questions  (num implicit points = 8)
+
+        #############################################################
+        #  100         "topic": "Views on gender",
+        #  100         "topic": "Trust in science",
+        #  100         "topic": "Race",
+        #  100         "topic": "Privacy & Surveilance",
+        #  100         "topic": "Political views",
+        #  100         "topic": "Misinformation",
+        #  100         "topic": "Guns",
+        #  100         "topic": "Global attitudes",
+        #  100         "topic": "Gender & Leadership",
+        #  100         "topic": "Family & Relationships",
+        #  100         "topic": "Economic inequality",
+        #  100         "topic": "Community types & sexual harassment",
+        #  100         "topic": "Biomedical & food issues",
+        #  100         "topic": "Automation and driverless vehicles",
+        #  100         "topic": "America in 2050",
+        #############################################################
+
+        topicwise_ctr = dict()
         for user_response_json in tqdm(user_responses_jsons, desc="processing user response #"):
-            curr_user_num += 1
-            if max_users and curr_user_num >= max_users:
-                break
+
             user_id = user_response_json["user_id"]
             topic = user_response_json["topic"]
+            if early_stopping(topicwise_ctr=topicwise_ctr, max_topics=max_topics, max_users=max_users, topic=topic):
+                continue
 
-            if self.num_implicit > len(user_response_json["implicit_persona"]):
-                num_implicit = len(user_response_json["implicit_persona"])
+            if topic not in topicwise_ctr:
+                topicwise_ctr[topic] = 0
+            topicwise_ctr[topic] += 1
+
+            if option == -1:
+                implicit_persona = None
+                explicit_persona = None
             else:
-                num_implicit = self.num_implicit
+                if self.num_implicit > len(user_response_json["implicit_persona"]):
+                    num_implicit = len(user_response_json["implicit_persona"])
+                else:
+                    num_implicit = self.num_implicit
+                implicit_persona = user_response_json["implicit_persona"][:num_implicit] if option == 0 or option == 2 else None
+                explicit_persona = user_response_json["explicit_persona"] if option == 1 or option == 2 else None
 
-            implicit_persona = user_response_json["implicit_persona"][:num_implicit] if option == 0 or option == 2 else None
-            explicit_persona = user_response_json["explicit_persona"] if option == 1 or option == 2 else None
 
             generated_output = []
-            for persona_qa in user_response_json["implicit_questions"]:
+            all_user_implicit_ques = user_response_json["implicit_questions"]
+            limited_user_implicit_ques = utils.take(arr=all_user_implicit_ques, num=max_ques)
+            for persona_qa in limited_user_implicit_ques:
                 model_choice = persona(
                     implicit_persona=implicit_persona,
                     explicit_persona=explicit_persona,
@@ -194,23 +256,32 @@ if __name__ == '__main__':
     parser.add_argument("--out_dir", type=str, default="data/model-output/", help="json path")
     parser.add_argument("--cache_path", type=str, default="data/cache/gpt_cache.jsonl", help="json path")
     parser.add_argument("--num_implicit", type=int, default=2, help="number of implicit persona to use")
-    parser.add_argument("--max_users_for_eval", type=int, default=100, help="max num users to do inference on. Each user has about 20 questions.")
-    parser.add_argument("--option", type=int, default=0, choices=[0, 1, 2], help="0: implicit, 1: explicit, 2: both")
+    parser.add_argument("--max_users", type=int, default=35, help="max num users to do inference on.")
+    parser.add_argument("--max_ques", type=int, default=30, help="max ques to test inference on.")
+    parser.add_argument("--max_topics", type=int, default=-1, help="max topics to test inference on (currently, ~15).")
+    parser.add_argument("--option", type=int, default=0, choices=[-1, 0, 1, 2], help="-1: no-persona, 0: implicit, 1: explicit, 2: both")
     args = parser.parse_args()
 
     persona = PersonaCreator(engine="text-davinci-003", openai_wrapper=OpenAIWrapper(cache_path=args.cache_path))
     output = PersonalizedQA(args).personalized_qa(
-        persona=persona, user_responses_jsons=read_jsonl_or_json(args.in_path), option=args.option, max_users=args.max_users_for_eval
+        persona=persona,
+        user_responses_jsons=read_jsonl_or_json(args.in_path),
+        option=args.option,
+        max_users=args.max_users,
+        max_ques=args.max_ques,
+        max_topics=args.max_topics
     )
 
-    args.out_dir = f"{args.out_dir}/{args.max_users_for_eval}-users"
     if args.option == 0:
         dir_name = f"implicit_{args.num_implicit}pts"
     if args.option == 1:
         dir_name = "explicit"
     if args.option == 2:
         dir_name = f"imp-{args.num_implicit}pts_exp"
+    if args.option == -1:
+        dir_name = f"no-persona"
 
+    dir_name += f"-t{args.max_topics}-u{args.max_users}-q{args.max_ques}"
     output_dir = os.path.join(args.out_dir, dir_name)
     Path(output_dir).mkdir(parents=True, exist_ok=True)
     output_file = os.path.join(output_dir, "model_generation.json")
