@@ -39,8 +39,8 @@ def calculate_topicwise_accuracy(in_path, metrics_files: List[str]):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("--in_path", type=str, default="../data/opinionqa/sampled_user_responses_decl.json", help="json path")
-    parser.add_argument("--out_dir", type=str, default="../data/model-output/", help="json path")
+    parser.add_argument("--in_path", type=str, default="data/opinionqa/sampled_user_responses_decl.json", help="json path")
+    parser.add_argument("--out_dir", type=str, default="data/model-output/", help="json path")
     args = parser.parse_args()
 
     # add topic-wise accuracy when there are multiple dirs
