@@ -1,0 +1,10 @@
+[
+    {
+        "topic": "Guns",
+        "accuracy": 0.5
+    },
+    {
+        "topic": "Automation and driverless vehicles",
+        "accuracy": 0.25
+    }
+]

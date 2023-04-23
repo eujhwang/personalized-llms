@@ -1,0 +1,74 @@
+{
+    "implicit_2pts-t2-u2-q2": [
+        {
+            "topic": "Guns",
+            "accuracy": 0.5
+        },
+        {
+            "topic": "Automation and driverless vehicles",
+            "accuracy": 0.25
+        }
+    ],
+    "implicit_1pts-t2-u2-q1": [
+        {
+            "topic": "Guns",
+            "accuracy": 0.30303030303030304
+        },
+        {
+            "topic": "Automation and driverless vehicles",
+            "accuracy": 0.3333333333333333
+        },
+        {
+            "topic": "Views on gender",
+            "accuracy": 0.24242424242424243
+        },
+        {
+            "topic": "Community types & sexual harassment",
+            "accuracy": 0.37373737373737376
+        },
+        {
+            "topic": "Biomedical & food issues",
+            "accuracy": 0.5959595959595959
+        },
+        {
+            "topic": "Gender & Leadership",
+            "accuracy": 0.3939393939393939
+        },
+        {
+            "topic": "America in 2050",
+            "accuracy": 0.1919191919191919
+        },
+        {
+            "topic": "Trust in science",
+            "accuracy": 0.1717171717171717
+        },
+        {
+            "topic": "Race",
+            "accuracy": 0.10101010101010101
+        },
+        {
+            "topic": "Misinformation",
+            "accuracy": 0.1414141414141414
+        },
+        {
+            "topic": "Privacy & Surveilance",
+            "accuracy": 0.15151515151515152
+        },
+        {
+            "topic": "Family & Relationships",
+            "accuracy": 0.23232323232323232
+        },
+        {
+            "topic": "Economic inequality",
+            "accuracy": 0.42424242424242425
+        },
+        {
+            "topic": "Global attitudes",
+            "accuracy": 0.7070707070707071
+        },
+        {
+            "topic": "Political views",
+            "accuracy": 0.40404040404040403
+        }
+    ]
+}
