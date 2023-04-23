@@ -1,0 +1,114 @@
+[
+    {
+        "user_id": 53,
+        "topic": "Guns",
+        "generated_output": [
+            {
+                "model_choice": "B",
+                "user_choice": "A",
+                "qid": "GUNRESPKIDSB_W26"
+            },
+            {
+                "model_choice": "D",
+                "user_choice": "D",
+                "qid": "GUNACTIVITYD_W26"
+            }
+        ]
+    },
+    {
+        "user_id": 204,
+        "topic": "Guns",
+        "generated_output": [
+            {
+                "model_choice": "B",
+                "user_choice": "B",
+                "qid": "SAFECRIME_W26"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "C",
+                "qid": "GUNLOCKED1_W26"
+            }
+        ]
+    },
+    {
+        "user_id": 217,
+        "topic": "Guns",
+        "generated_output": [
+            {
+                "model_choice": "B",
+                "user_choice": "B",
+                "qid": "SAFECRIME_W26"
+            },
+            {
+                "model_choice": "D",
+                "user_choice": "D",
+                "qid": "GUNFRIEND_W26"
+            }
+        ]
+    },
+    {
+        "user_id": 4172,
+        "topic": "Automation and driverless vehicles",
+        "generated_output": [
+            {
+                "model_choice": "B",
+                "user_choice": "B",
+                "qid": "CAREGIV4_W27"
+            },
+            {
+                "model_choice": "C",
+                "user_choice": "A",
+                "qid": "WORK3C_W27"
+            }
+        ]
+    },
+    {
+        "user_id": 4194,
+        "topic": "Automation and driverless vehicles",
+        "generated_output": [
+            {
+                "model_choice": "B",
+                "user_choice": "A",
+                "qid": "ROBJOB7_W27"
+            },
+            {
+                "model_choice": "C",
+                "user_choice": "B",
+                "qid": "WORK2_W27"
+            }
+        ]
+    },
+    {
+        "user_id": 4226,
+        "topic": "Automation and driverless vehicles",
+        "generated_output": [
+            {
+                "model_choice": "B",
+                "user_choice": "A",
+                "qid": "ROBJOB7_W27"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "C",
+                "qid": "WORK2_W27"
+            }
+        ]
+    },
+    {
+        "user_id": 8320,
+        "topic": "Views on gender",
+        "generated_output": [
+            {
+                "model_choice": "B",
+                "user_choice": "F",
+                "qid": "TALK_CPS_W29"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "B",
+                "qid": "TRAITSF_W29"
+            }
+        ]
+    }
+]

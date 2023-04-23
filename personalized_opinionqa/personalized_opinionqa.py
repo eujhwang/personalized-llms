@@ -175,7 +175,7 @@ class PersonalizedQA:
         #############################################################
 
         topicwise_ctr = dict()
-        for user_response_json in tqdm(user_responses_jsons, desc="processing user response #"):
+        for user_response_json in tqdm(user_responses_jsons, desc="users..."):
 
             user_id = user_response_json["user_id"]
             topic = user_response_json["topic"]
@@ -202,21 +202,30 @@ class PersonalizedQA:
             all_user_implicit_ques = user_response_json["implicit_questions"]
             limited_user_implicit_ques = utils.take(arr=all_user_implicit_ques, num=max_ques)
             for persona_qa in limited_user_implicit_ques:
-                model_choice = persona(
-                    implicit_persona=implicit_persona,
-                    explicit_persona=explicit_persona,
-                    topic=topic,
-                    question=persona_qa["question"],
-                    choices=persona_qa["choices"],
-                )
-                user_choice = persona_qa["answer"]
-                choice_idx = persona_qa["choices"].index(user_choice)
-                user_choice = OUTPUT_MAP[choice_idx]
-                generated_output.append({
-                    "model_choice": model_choice,
-                    "user_choice": user_choice,
-                    "qid": persona_qa["qid"],
-                })
+                    user_choice= "UNKNOWN"
+                    try:
+                        user_choice = persona_qa["answer"]
+                        choice_idx = persona_qa["choices"].index(user_choice)
+                        user_choice = OUTPUT_MAP[choice_idx]
+                        model_choice = persona(
+                            implicit_persona=implicit_persona,
+                            explicit_persona=explicit_persona,
+                            topic=topic,
+                            question=persona_qa["question"],
+                            choices=persona_qa["choices"],
+                        )
+                        generated_output.append({
+                            "model_choice": model_choice,
+                            "user_choice": user_choice,
+                            "qid": persona_qa["qid"],
+                        })
+                    except Exception as exc:
+                        generated_output.append({
+                            "model_choice": "UNKNOWN",
+                            "user_choice": user_choice,
+                            "qid": persona_qa["qid"],
+                        })
+                        print(f"{exc}")
 
             model_generated.append({"user_id": user_id, "topic": topic, "generated_output": generated_output})
         return model_generated
@@ -255,18 +264,10 @@ if __name__ == '__main__':
     parser.add_argument("--max_users", type=int, default=35, help="max num users to do inference on.")
     parser.add_argument("--max_ques", type=int, default=30, help="max ques to test inference on.")
     parser.add_argument("--max_topics", type=int, default=-1, help="max topics to test inference on (currently, ~15).")
+    parser.add_argument("--max_retries", type=int, default=2, help="max number of openai retries when a call fails.")
     parser.add_argument("--option", type=int, default=0, choices=[-1, 0, 1, 2], help="-1: no-persona, 0: implicit, 1: explicit, 2: both")
     args = parser.parse_args()
-
-    persona = PersonaCreator(engine="text-davinci-003", openai_wrapper=OpenAIWrapper(cache_path=args.cache_path))
-    output = PersonalizedQA(args).personalized_qa(
-        persona=persona,
-        user_responses_jsons=read_jsonl_or_json(args.in_path),
-        option=args.option,
-        max_users=args.max_users,
-        max_ques=args.max_ques,
-        max_topics=args.max_topics
-    )
+    os.environ["OPENAI_MAX_TRIES_INT"] = str(args.max_retries)
 
     if args.option == 0:
         dir_name = f"implicit_{args.num_implicit}pts"
@@ -278,6 +279,18 @@ if __name__ == '__main__':
         dir_name = f"no-persona"
 
     dir_name += f"-t{args.max_topics}-u{args.max_users}-q{args.max_ques}"
+    print(f"\nStart experiment: {dir_name} ...")
+
+    persona = PersonaCreator(engine="text-davinci-003", openai_wrapper=OpenAIWrapper(cache_path=args.cache_path))
+    output = PersonalizedQA(args).personalized_qa(
+        persona=persona,
+        user_responses_jsons=read_jsonl_or_json(args.in_path),
+        option=args.option,
+        max_users=args.max_users,
+        max_ques=args.max_ques,
+        max_topics=args.max_topics
+    )
+
     output_dir = os.path.join(args.out_dir, dir_name)
     Path(output_dir).mkdir(parents=True, exist_ok=True)
     output_file = os.path.join(output_dir, "model_generation.json")
