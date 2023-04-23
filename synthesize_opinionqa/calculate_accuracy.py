@@ -3,6 +3,7 @@ import os
 from pathlib import Path
 from typing import List
 
+import pandas as pd
 from gptinference.utils import read_jsonl_or_json, write_json
 
 
@@ -39,14 +40,51 @@ def calculate_topicwise_accuracy(in_path, metrics_files: List[str]):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument("--in_path", type=str, default="data/opinionqa/sampled_user_responses_decl.json", help="json path")
-    parser.add_argument("--out_dir", type=str, default="data/model-output/", help="json path")
+    parser.add_argument("--in_path", type=str, default="data/opinionqa/sampled_user_responses_decl.json", help="synthesized opinionqa json path")
+    parser.add_argument("--out_path", type=str, default="data/model-output/topicwise_accuracy.json", help="output metrics json path")
+    parser.add_argument("--model_outputs_path", type=str, default="data/model-output", help="model output directory json path")
     args = parser.parse_args()
 
     # add topic-wise accuracy when there are multiple dirs
-    metrics_files = [os.path.join(args.out_dir, "implicit_2pts-t2-u2-q2/model_accuracy.json"),
-                     os.path.join(args.out_dir, "implicit_1pts-t2-u2-q1/model_accuracy.json")]
+    model_output_files = {
+                          "no-persona-t-1-u35-q30": "no-persona",
+                          "explicit-t-1-u35-q30": "explicit",
+                          # "imp-8pts_exp-t-1-u35-q30": "explicit+imp8",
+                          "imp-16pts_exp-t-1-u35-q30": "explicit+imp16",
+                          # "implicit_8pts-t-1-u35-q30": "implicit8",
+                          # "implicit_16pts-t-1-u35-q30": "implicit16",
+                         }
+    metrics_files = [os.path.join(args.model_outputs_path, f"{x}/model_accuracy.json") for x in model_output_files.keys()]
 
     topic_metrics = calculate_topicwise_accuracy(args.in_path, metrics_files)
-    topic_metrics_file = os.path.join(args.out_dir, "model_topic_accuracy.json")
-    write_json(outpath=topic_metrics_file, json_data=topic_metrics)
+
+    # print(pd.DataFrame(topic_metrics))
+
+    topics = []
+    tbl = []
+    topic_header = []
+    model_header = []
+    for model_name, arr_of_topic_accuracy_dict in topic_metrics.items():
+        if not topics:
+            topics = [x["topic"] for x in arr_of_topic_accuracy_dict]
+            topic_header = [x.replace("&", ",") for x in topics]  # header
+
+        ta_arr = []
+        for topic in topics:
+            for ta in arr_of_topic_accuracy_dict:
+                if ta["topic"] == topic:
+                    ta_arr.append(float(ta["accuracy"]))
+        model_header.append(model_output_files[model_name])
+        tbl.append(ta_arr)
+
+    write_json(outpath=args.out_path, json_data=topic_metrics)
+    print(f"Topicwise accuracy output in {args.out_path}")
+    df = pd.DataFrame(tbl)
+    df.columns = topic_header
+
+    df = df.transpose().round(2)
+    df.columns = model_header
+    print(df)
+    print(f"\n\nLatex table for paper:\n")
+    print(df.to_latex(float_format="{:.2f}".format))
+
