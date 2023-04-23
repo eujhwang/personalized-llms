@@ -127,15 +127,11 @@ Answer:
 
 
 def early_stopping(topicwise_ctr, topic, max_topics, max_users):
-    cond_users  = max_users > 0 and topicwise_ctr.get(topic, 0) ==  max_users
+    cond_users  = max_users > 0 and topicwise_ctr.get(topic, 0) >  max_users
     if cond_users:
         return True
 
-    reached_last_topic = len(topicwise_ctr) == max_topics
-    if reached_last_topic:
-        return cond_users
-
-    cond_topics = max_topics > 0 and len(topicwise_ctr) >= max_topics
+    cond_topics = max_topics > 0 and len(topicwise_ctr) > max_topics
     if cond_topics:
         return True
 
@@ -183,12 +179,12 @@ class PersonalizedQA:
 
             user_id = user_response_json["user_id"]
             topic = user_response_json["topic"]
-            if early_stopping(topicwise_ctr=topicwise_ctr, max_topics=max_topics, max_users=max_users, topic=topic):
-                continue
-
             if topic not in topicwise_ctr:
                 topicwise_ctr[topic] = 0
             topicwise_ctr[topic] += 1
+
+            if early_stopping(topicwise_ctr=topicwise_ctr, max_topics=max_topics, max_users=max_users, topic=topic):
+                continue
 
             if option == -1:
                 implicit_persona = None
