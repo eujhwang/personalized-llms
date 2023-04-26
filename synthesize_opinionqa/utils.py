@@ -35,6 +35,21 @@ MODEL_NAMES = {'human max': 'human (worst)',
                'openai_text-davinci-003': 'text-davinci-003',
                }
 
+DEMO_MAP = {
+    "CREGION": "Region",
+    "AGE": "Age",
+    "SEX": "Gender",
+    "EDUCATION": "Education",
+    "CITIZEN": "Citizenship",
+    "MARITAL": "Marital status",
+    "RELIG": "Religion",
+    "RELIGATTEND": "Frequency of religious attendance",
+    "POLPARTY": "Political party",
+    "INCOME": "Income",
+    "POLIDEOLOGY": "Political ideology",
+    "RACE": "Race",
+}
+
 MODEL_ORDER = {k: ki for ki, k in enumerate(MODEL_NAMES.keys())}
 
 

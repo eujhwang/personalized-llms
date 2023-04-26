@@ -2,10 +2,18 @@ import argparse
 import ast
 import json
 import os.path
+import random
 from pathlib import Path
 
+import pandas as pd
 from gptinference import utils
 from gptinference.utils import read_jsonl_or_json, write_json
+
+from synthesize_opinionqa.utils import set_seed
+
+pd.options.display.max_columns = 10
+# pd.options.display.max_columns = 10
+
 
 SURVEY_TO_TOPIC = {
     'American_Trends_Panel_W26': "Guns",
@@ -54,7 +62,7 @@ def collapsed_class_accuracy(gen_out, qinfo_dict):
         user_id = gen['user_id']
         topic = gen['topic']
         gen_out_list = gen['generated_output']
-        print("================================= user_id: {}, topic: {} =================================".format(user_id, topic))
+        # print("================================= user_id: {}, topic: {} =================================".format(user_id, topic))
         correct, incorrect = 0, 0
         for gen_out in gen_out_list:
             qid = gen_out['qid']
@@ -147,7 +155,92 @@ def count_predictions(imp_gen, exp_gen, imexp_gen, qinfo_dict):
                 ctr_dict["case8"] += 1
             total += 1
     print("ctr_dict:", ctr_dict)
+    assert sum(list(ctr_dict.values())) == total
     print(sum(list(ctr_dict.values())), total)
+
+
+def get_user_demographic(user_responses):
+    user_to_demo = {}
+    for user_resp in user_responses:
+        user_id = user_resp["user_id"]
+        explicit_persona = user_resp["explicit_persona"]
+        user_to_demo[user_id] = explicit_persona
+    return user_to_demo
+
+def get_user_topic(user_responses):
+    user_to_topic = {}
+    for user_resp in user_responses:
+        user_id = user_resp["user_id"]
+        topic = user_resp["topic"]
+        user_to_topic[user_id] = topic
+    return user_to_topic
+
+def get_user_declarative(user_responses, num_implicit=16):
+    user_to_decl = {}
+    for user_resp in user_responses:
+        user_id = user_resp["user_id"]
+        implicit_persona = user_resp["implicit_persona"]
+        implicit_persona = utils.take(arr=implicit_persona, num=num_implicit)
+        user_to_decl[user_id] = [item["declarative_opinion"] for item in implicit_persona]
+    return user_to_decl
+
+def extract_error_samples(imp_gen, exp_gen, imexp_gen, qinfo_dict, user_responses):
+    assert len(imp_gen) == len(exp_gen)
+
+    user_to_demo = get_user_demographic(user_responses)
+    user_to_topic = get_user_topic(user_responses)
+    user_to_decl = get_user_declarative(user_responses, num_implicit=16)
+
+    # case1: imp:x, exp: o
+    error_list = []
+    for i, (imp, exp, imexp) in enumerate(zip(imp_gen, exp_gen, imexp_gen)):
+        assert imp["user_id"] == exp["user_id"] == imexp["user_id"]
+
+        user_id = imp["user_id"]
+        imp_out_list = imp['generated_output']
+        exp_out_list = exp['generated_output']
+        imexp_out_list = imexp['generated_output']
+
+        for imp_out, exp_out, imexp_out in zip(imp_out_list, exp_out_list, imexp_out_list):
+            assert imp_out['qid'] == exp_out['qid'] == imexp_out['qid']
+            qid = imp_out['qid']
+            user_choice = imp_out['user_choice']
+            imp_model_choice = imp_out['model_choice']
+            exp_model_choice = exp_out['model_choice']
+            imexp_model_choice = imexp_out['model_choice']
+
+            if len(user_choice) > 1 or len(imp_model_choice) > 1 or len(exp_model_choice) > 1 or len(imexp_model_choice) > 1:
+                continue
+
+            choices = [choice for choice in ast.literal_eval(qinfo_dict[qid]["choice"])]
+            user_answer = choices[OUTPUT_MAP.index(user_choice)]
+            if user_answer.lower() == "refused":
+                continue
+
+            imp_model_answer = choices[OUTPUT_MAP.index(imp_model_choice)]
+            exp_model_answer = choices[OUTPUT_MAP.index(exp_model_choice)]
+            imexp_model_answer = choices[OUTPUT_MAP.index(imexp_model_choice)]
+
+            if imp_model_choice != user_choice and exp_model_choice == user_choice:
+                error_list.append({
+                    "user_id": user_id,
+                    "qid": qid,
+                    "topic": user_to_topic[user_id],
+                    "question": qinfo_dict[qid]['question'],
+                    "choice": choices,
+                    "opinions": user_to_decl[user_id],
+                    "demographic": user_to_demo[user_id],
+                    "user_answer": user_answer,
+                    "imp_model_answer": imp_model_answer,
+                    "exp_model_answer": exp_model_answer,
+                    "imexp_model_answer": imexp_model_answer,
+                })
+    # print("error_list:", len(error_list), error_list[0])
+    sampled_errors = random.sample(error_list, 50)
+    df = pd.DataFrame.from_dict(sampled_errors)
+    print("sampled_errors:", len(sampled_errors), sampled_errors[0])
+    print("df:", len(df), df)
+    df.to_csv("sampled_error.csv")
 
 def save_metrics(file_path, metrics):
     # Path(file_path).mkdir(parents=True, exist_ok=True)
@@ -174,6 +267,12 @@ def load_resources(dirs, type: str = "gen"):
     return None, None, None, None
 
 
+def same_demo_diff_op(all_user_responses):
+    print("same_demo_diff_op:\n", all_user_responses[0].keys())
+
+def same_op_diff_demo(all_user_responses, num_implicit=4):
+    print("same_op_diff_demo:\n", all_user_responses[0].keys())
+
 def main(args):
     root_dir = "data"
     dirs = {
@@ -199,11 +298,17 @@ def main(args):
     save_metrics(os.path.join(dirs["imp_dir"], "clpse_accuracy.json"), imp_collapsed_accu)
     save_metrics(os.path.join(dirs["exp_dir"], "clpse_accuracy.json"), exp_collapsed_accu)
     save_metrics(os.path.join(dirs["imexp_dir"], "clpse_accuracy.json"), imexp_collapsed_accu)
-    
 
+    # correct answer with explicit info, but incorrect answer with implicit info
+    extract_error_samples(imp_gen, exp_gen, imexp_gen, qinfo_dict, user_responses)
+
+    # all_user_responses = read_jsonl_or_json("data/all_user_responses.json")
+    # same_demo_diff_op(all_user_responses)
+    # same_op_diff_demo(all_user_responses, num_implicit=4)
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     args = parser.parse_args()
+    set_seed(42)
     main(args)
