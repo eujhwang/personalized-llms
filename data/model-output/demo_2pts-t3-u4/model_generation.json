@@ -1,0 +1,518 @@
+[
+    {
+        "user_id": 53,
+        "topic": "Guns",
+        "model_choice": "Region: D. West\nAge: B. 30-49\nGender: B. Female\nEducation: E. College graduate/some postgrad\nCitizenship: A. Yes\nMarital status: E. Never been married\nReligion: I. Atheist\nFrequency of religious attendance: F. Never\nPolitical party: C. Independent\nIncome: C. $50,000-$75,000\nPolitical ideology: C. Moderate\nRace: A. White",
+        "user_choice": [
+            {
+                "Age": "50-64"
+            },
+            {
+                "Citizenship": "Yes"
+            },
+            {
+                "Region": "West"
+            },
+            {
+                "Education": "Postgraduate"
+            },
+            {
+                "Income": "Less than $30,000"
+            },
+            {
+                "Marital status": "Living with a partner"
+            },
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            },
+            {
+                "Race": "White"
+            },
+            {
+                "Religion": "Roman Catholic"
+            },
+            {
+                "Frequency of religious attendance": "Seldom"
+            },
+            {
+                "Gender": "Female"
+            }
+        ]
+    },
+    {
+        "user_id": 204,
+        "topic": "Guns",
+        "model_choice": "Region: D. West\nAge: B. 30-49\nGender: B. Female\nEducation: E. College graduate/some postgrad\nCitizenship: A. Yes\nMarital status: A. Married\nReligion: L. Nothing in particular\nFrequency of religious attendance: F. Never\nPolitical party: C. Independent\nIncome: C. $50,000-$75,000\nPolitical ideology: C. Moderate\nRace: A. White",
+        "user_choice": [
+            {
+                "Age": "50-64"
+            },
+            {
+                "Citizenship": "Yes"
+            },
+            {
+                "Region": "South"
+            },
+            {
+                "Education": "College graduate/some postgrad"
+            },
+            {
+                "Income": "$30,000-$50,000"
+            },
+            {
+                "Marital status": "Married"
+            },
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            },
+            {
+                "Race": "Asian"
+            },
+            {
+                "Religion": "Mormon"
+            },
+            {
+                "Frequency of religious attendance": "More than once a week"
+            },
+            {
+                "Gender": "Female"
+            }
+        ]
+    },
+    {
+        "user_id": 217,
+        "topic": "Guns",
+        "model_choice": "Region: D. West\nAge: B. 30-49\nGender: B. Female\nEducation: E. College graduate/some postgrad\nCitizenship: A. Yes\nMarital status: A. Married\nReligion: L. Nothing in particular\nFrequency of religious attendance: F. Never\nPolitical party: C. Independent\nIncome: C. $50,000-$75,000\nPolitical ideology: C. Moderate\nRace: A. White",
+        "user_choice": [
+            {
+                "Age": "65+"
+            },
+            {
+                "Citizenship": "Yes"
+            },
+            {
+                "Region": "West"
+            },
+            {
+                "Education": "College graduate/some postgrad"
+            },
+            {
+                "Income": "Less than $30,000"
+            },
+            {
+                "Marital status": "Widowed"
+            },
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            },
+            {
+                "Race": "Asian"
+            },
+            {
+                "Religion": "Roman Catholic"
+            },
+            {
+                "Frequency of religious attendance": "Once a week"
+            },
+            {
+                "Gender": "Male"
+            }
+        ]
+    },
+    {
+        "user_id": 244,
+        "topic": "Guns",
+        "model_choice": "Region: D. West\nAge: B. 30-49\nGender: B. Female\nEducation: E. College graduate/some postgrad\nCitizenship: A. Yes\nMarital status: A. Married\nReligion: L. Nothing in particular\nFrequency of religious attendance: F. Never\nPolitical party: C. Independent\nIncome: C. $50,000-$75,000\nPolitical ideology: C. Moderate\nRace: A. White",
+        "user_choice": [
+            {
+                "Age": "65+"
+            },
+            {
+                "Citizenship": "Yes"
+            },
+            {
+                "Region": "Northeast"
+            },
+            {
+                "Education": "Postgraduate"
+            },
+            {
+                "Income": "$100,000 or more"
+            },
+            {
+                "Marital status": "Married"
+            },
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            },
+            {
+                "Race": "White"
+            },
+            {
+                "Religion": "Atheist"
+            },
+            {
+                "Frequency of religious attendance": "Never"
+            },
+            {
+                "Gender": "Male"
+            }
+        ]
+    },
+    {
+        "user_id": 4172,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Region: D. West\nAge: B. 30-49\nGender: B. Female\nEducation: E. College graduate/some postgrad\nCitizenship: A. Yes\nMarital status: E. Never been married\nReligion: I. Atheist\nFrequency of religious attendance: F. Never\nPolitical party: C. Independent\nIncome: C. $50,000-$75,000\nPolitical ideology: D. Liberal\nRace: A. White",
+        "user_choice": [
+            {
+                "Age": "50-64"
+            },
+            {
+                "Citizenship": "Yes"
+            },
+            {
+                "Region": "Northeast"
+            },
+            {
+                "Education": "Postgraduate"
+            },
+            {
+                "Income": "$75,000-$100,000"
+            },
+            {
+                "Marital status": "Never been married"
+            },
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            },
+            {
+                "Race": "Asian"
+            },
+            {
+                "Religion": "Other"
+            },
+            {
+                "Frequency of religious attendance": "Never"
+            },
+            {
+                "Gender": "Female"
+            }
+        ]
+    },
+    {
+        "user_id": 4194,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Region: D. West\nAge: B. 30-49\nGender: A. Male\nEducation: F. Postgraduate\nCitizenship: A. Yes\nMarital status: A. Married\nReligion: L. Nothing in particular\nFrequency of religious attendance: F. Never\nPolitical party: C. Independent\nIncome: E. $100,000 or more\nPolitical ideology: C. Moderate\nRace: A. White",
+        "user_choice": [
+            {
+                "Age": "65+"
+            },
+            {
+                "Citizenship": "Yes"
+            },
+            {
+                "Region": "South"
+            },
+            {
+                "Education": "Associate's degree"
+            },
+            {
+                "Income": "$100,000 or more"
+            },
+            {
+                "Marital status": "Married"
+            },
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            },
+            {
+                "Race": "White"
+            },
+            {
+                "Religion": "Roman Catholic"
+            },
+            {
+                "Frequency of religious attendance": "Once a week"
+            },
+            {
+                "Gender": "Female"
+            }
+        ]
+    },
+    {
+        "user_id": 4226,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Region: D. West\nAge: B. 30-49\nGender: A. Male\nEducation: F. Postgraduate\nCitizenship: A. Yes\nMarital status: A. Married\nReligion: L. Nothing in particular\nFrequency of religious attendance: F. Never\nPolitical party: C. Independent\nIncome: E. $100,000 or more\nPolitical ideology: C. Moderate\nRace: A. White",
+        "user_choice": [
+            {
+                "Age": "65+"
+            },
+            {
+                "Citizenship": "Yes"
+            },
+            {
+                "Region": "Northeast"
+            },
+            {
+                "Education": "College graduate/some postgrad"
+            },
+            {
+                "Income": "$100,000 or more"
+            },
+            {
+                "Marital status": "Married"
+            },
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            },
+            {
+                "Race": "White"
+            },
+            {
+                "Religion": "Roman Catholic"
+            },
+            {
+                "Frequency of religious attendance": "Once a week"
+            },
+            {
+                "Gender": "Female"
+            }
+        ]
+    },
+    {
+        "user_id": 4262,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Region: D. West\nAge: B. 30-49\nGender: B. Female\nEducation: E. College graduate/some postgrad\nCitizenship: A. Yes\nMarital status: A. Married\nReligion: L. Nothing in particular\nFrequency of religious attendance: F. Never\nPolitical party: C. Independent\nIncome: C. $50,000-$75,000\nPolitical ideology: C. Moderate\nRace: A. White",
+        "user_choice": [
+            {
+                "Age": "50-64"
+            },
+            {
+                "Citizenship": "Yes"
+            },
+            {
+                "Region": "Northeast"
+            },
+            {
+                "Education": "Postgraduate"
+            },
+            {
+                "Income": "$100,000 or more"
+            },
+            {
+                "Marital status": "Married"
+            },
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            },
+            {
+                "Race": "White"
+            },
+            {
+                "Religion": "Roman Catholic"
+            },
+            {
+                "Frequency of religious attendance": "Seldom"
+            },
+            {
+                "Gender": "Male"
+            }
+        ]
+    },
+    {
+        "user_id": 8320,
+        "topic": "Views on gender",
+        "model_choice": "Region: D. West\nAge: A. 18-29\nGender: B. Female\nEducation: E. College graduate/some postgrad\nCitizenship: A. Yes\nMarital status: E. Never been married\nReligion: I. Atheist\nFrequency of religious attendance: F. Never\nPolitical party: C. Independent\nIncome: B. $30,000-$50,000\nPolitical ideology: D. Liberal\nRace: A. White",
+        "user_choice": [
+            {
+                "Age": "30-49"
+            },
+            {
+                "Citizenship": "Yes"
+            },
+            {
+                "Region": "West"
+            },
+            {
+                "Education": "Postgraduate"
+            },
+            {
+                "Income": "$100,000 or more"
+            },
+            {
+                "Marital status": "Married"
+            },
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            },
+            {
+                "Race": "White"
+            },
+            {
+                "Religion": "Roman Catholic"
+            },
+            {
+                "Frequency of religious attendance": "A few times a year"
+            },
+            {
+                "Gender": "Male"
+            }
+        ]
+    },
+    {
+        "user_id": 8367,
+        "topic": "Views on gender",
+        "model_choice": "Region: D. West\nAge: A. 18-29\nGender: B. Female\nEducation: E. College graduate/some postgrad\nCitizenship: A. Yes\nMarital status: E. Never been married\nReligion: L. Nothing in particular\nFrequency of religious attendance: F. Never\nPolitical party: C. Independent\nIncome: C. $50,000-$75,000\nPolitical ideology: D. Liberal\nRace: A. White",
+        "user_choice": [
+            {
+                "Age": "50-64"
+            },
+            {
+                "Citizenship": "Yes"
+            },
+            {
+                "Region": "Midwest"
+            },
+            {
+                "Education": "Some college, no degree"
+            },
+            {
+                "Income": "$50,000-$75,000"
+            },
+            {
+                "Marital status": "Married"
+            },
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            },
+            {
+                "Race": "White"
+            },
+            {
+                "Religion": "Protestant"
+            },
+            {
+                "Frequency of religious attendance": "Once a week"
+            },
+            {
+                "Gender": "Female"
+            }
+        ]
+    },
+    {
+        "user_id": 8379,
+        "topic": "Views on gender",
+        "model_choice": "Region: D. West\nAge: A. 18-29\nGender: B. Female\nEducation: E. College graduate/some postgrad\nCitizenship: A. Yes\nMarital status: E. Never been married\nReligion: I. Atheist\nFrequency of religious attendance: F. Never\nPolitical party: C. Independent\nIncome: B. $30,000-$50,000\nPolitical ideology: D. Liberal\nRace: A. White",
+        "user_choice": [
+            {
+                "Age": "50-64"
+            },
+            {
+                "Citizenship": "Yes"
+            },
+            {
+                "Region": "Midwest"
+            },
+            {
+                "Education": "Postgraduate"
+            },
+            {
+                "Income": "$100,000 or more"
+            },
+            {
+                "Marital status": "Married"
+            },
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            },
+            {
+                "Race": "White"
+            },
+            {
+                "Religion": "Roman Catholic"
+            },
+            {
+                "Frequency of religious attendance": "A few times a year"
+            },
+            {
+                "Gender": "Male"
+            }
+        ]
+    },
+    {
+        "user_id": 8423,
+        "topic": "Views on gender",
+        "model_choice": "Region: D. West\nAge: A. 18-29\nGender: B. Female\nEducation: E. College graduate/some postgrad\nCitizenship: A. Yes\nMarital status: E. Never been married\nReligion: L. Nothing in particular\nFrequency of religious attendance: F. Never\nPolitical party: C. Independent\nIncome: B. $30,000-$50,000\nPolitical ideology: D. Liberal\nRace: A. White",
+        "user_choice": [
+            {
+                "Age": "65+"
+            },
+            {
+                "Citizenship": "Yes"
+            },
+            {
+                "Region": "Northeast"
+            },
+            {
+                "Education": "Associate's degree"
+            },
+            {
+                "Income": "Less than $30,000"
+            },
+            {
+                "Marital status": "Married"
+            },
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            },
+            {
+                "Race": "White"
+            },
+            {
+                "Religion": "Roman Catholic"
+            },
+            {
+                "Frequency of religious attendance": "Once a week"
+            },
+            {
+                "Gender": "Male"
+            }
+        ]
+    }
+]

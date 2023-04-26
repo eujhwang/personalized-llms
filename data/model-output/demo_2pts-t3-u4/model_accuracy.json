@@ -1,0 +1,283 @@
+{
+    "accuracy": 0.34722222222222227,
+    "user-accuracy": [
+        {
+            "53": 0.3333333333333333
+        },
+        {
+            "204": 0.3333333333333333
+        },
+        {
+            "217": 0.4166666666666667
+        },
+        {
+            "244": 0.3333333333333333
+        },
+        {
+            "4172": 0.4166666666666667
+        },
+        {
+            "4194": 0.4166666666666667
+        },
+        {
+            "4226": 0.3333333333333333
+        },
+        {
+            "4262": 0.3333333333333333
+        },
+        {
+            "8320": 0.3333333333333333
+        },
+        {
+            "8367": 0.4166666666666667
+        },
+        {
+            "8379": 0.25
+        },
+        {
+            "8423": 0.25
+        }
+    ],
+    "answer-choices": [
+        {
+            "53": {
+                "correct": [
+                    "Citizenship",
+                    "Region",
+                    "Race",
+                    "Gender"
+                ],
+                "incorrect": [
+                    "Age",
+                    "Education",
+                    "Income",
+                    "Marital status",
+                    "Political ideology",
+                    "Political party",
+                    "Religion",
+                    "Frequency of religious attendance"
+                ]
+            }
+        },
+        {
+            "204": {
+                "correct": [
+                    "Citizenship",
+                    "Education",
+                    "Marital status",
+                    "Gender"
+                ],
+                "incorrect": [
+                    "Age",
+                    "Region",
+                    "Income",
+                    "Political ideology",
+                    "Political party",
+                    "Race",
+                    "Religion",
+                    "Frequency of religious attendance"
+                ]
+            }
+        },
+        {
+            "217": {
+                "correct": [
+                    "Citizenship",
+                    "Region",
+                    "Education",
+                    "Political ideology",
+                    "Political party"
+                ],
+                "incorrect": [
+                    "Age",
+                    "Income",
+                    "Marital status",
+                    "Race",
+                    "Religion",
+                    "Frequency of religious attendance",
+                    "Gender"
+                ]
+            }
+        },
+        {
+            "244": {
+                "correct": [
+                    "Citizenship",
+                    "Marital status",
+                    "Race",
+                    "Frequency of religious attendance"
+                ],
+                "incorrect": [
+                    "Age",
+                    "Region",
+                    "Education",
+                    "Income",
+                    "Political ideology",
+                    "Political party",
+                    "Religion",
+                    "Gender"
+                ]
+            }
+        },
+        {
+            "4172": {
+                "correct": [
+                    "Citizenship",
+                    "Marital status",
+                    "Political ideology",
+                    "Frequency of religious attendance",
+                    "Gender"
+                ],
+                "incorrect": [
+                    "Age",
+                    "Region",
+                    "Education",
+                    "Income",
+                    "Political party",
+                    "Race",
+                    "Religion"
+                ]
+            }
+        },
+        {
+            "4194": {
+                "correct": [
+                    "Citizenship",
+                    "Income",
+                    "Marital status",
+                    "Political ideology",
+                    "Race"
+                ],
+                "incorrect": [
+                    "Age",
+                    "Region",
+                    "Education",
+                    "Political party",
+                    "Religion",
+                    "Frequency of religious attendance",
+                    "Gender"
+                ]
+            }
+        },
+        {
+            "4226": {
+                "correct": [
+                    "Citizenship",
+                    "Income",
+                    "Marital status",
+                    "Race"
+                ],
+                "incorrect": [
+                    "Age",
+                    "Region",
+                    "Education",
+                    "Political ideology",
+                    "Political party",
+                    "Religion",
+                    "Frequency of religious attendance",
+                    "Gender"
+                ]
+            }
+        },
+        {
+            "4262": {
+                "correct": [
+                    "Citizenship",
+                    "Marital status",
+                    "Political ideology",
+                    "Race"
+                ],
+                "incorrect": [
+                    "Age",
+                    "Region",
+                    "Education",
+                    "Income",
+                    "Political party",
+                    "Religion",
+                    "Frequency of religious attendance",
+                    "Gender"
+                ]
+            }
+        },
+        {
+            "8320": {
+                "correct": [
+                    "Citizenship",
+                    "Region",
+                    "Political party",
+                    "Race"
+                ],
+                "incorrect": [
+                    "Age",
+                    "Education",
+                    "Income",
+                    "Marital status",
+                    "Political ideology",
+                    "Religion",
+                    "Frequency of religious attendance",
+                    "Gender"
+                ]
+            }
+        },
+        {
+            "8367": {
+                "correct": [
+                    "Citizenship",
+                    "Income",
+                    "Political party",
+                    "Race",
+                    "Gender"
+                ],
+                "incorrect": [
+                    "Age",
+                    "Region",
+                    "Education",
+                    "Marital status",
+                    "Political ideology",
+                    "Religion",
+                    "Frequency of religious attendance"
+                ]
+            }
+        },
+        {
+            "8379": {
+                "correct": [
+                    "Citizenship",
+                    "Political party",
+                    "Race"
+                ],
+                "incorrect": [
+                    "Age",
+                    "Region",
+                    "Education",
+                    "Income",
+                    "Marital status",
+                    "Political ideology",
+                    "Religion",
+                    "Frequency of religious attendance",
+                    "Gender"
+                ]
+            }
+        },
+        {
+            "8423": {
+                "correct": [
+                    "Citizenship",
+                    "Political party",
+                    "Race"
+                ],
+                "incorrect": [
+                    "Age",
+                    "Region",
+                    "Education",
+                    "Income",
+                    "Marital status",
+                    "Political ideology",
+                    "Religion",
+                    "Frequency of religious attendance",
+                    "Gender"
+                ]
+            }
+        }
+    ]
+}
