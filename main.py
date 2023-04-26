@@ -190,203 +190,27 @@ def main(args):
             all_demographic_dict = json.load(fd)
             print("all_demographic_dict", len(all_demographic_dict))
 
-    # demographic_pair_dict_path = "demographic_pair_dict.json"
-    # if not os.path.exists(demographic_pair_dict_path):
-    #     demographic_pair_dict = find_pair_by_demographic(all_user_responses)
-    # else:
-    #     with open(demographic_pair_dict_path, "r") as fd:
-    #         print("loading demographic_pair_dict...")
-    #         demographic_pair_dict = json.load(fd)
-    #         print(len(demographic_pair_dict))
-    #
-    # calculate_cohen_kappa_score(demographic_pair_dict)
-    #
-    # topic_pair_dict_path = "topic_pair_dict.json"
-    # if not os.path.exists(topic_pair_dict_path):
-    #     topic_pair_dict = find_pair_by_topic(all_user_responses)
-    # else:
-    #     with open(topic_pair_dict_path) as fd:
-    #         print("loading topic_pair_dict...")
-    #         topic_pair_dict = json.load(fd)
-    #         print(len(topic_pair_dict))
-    #
-    # calculate_cohen_kappa_score_per_subtopic(topic_pair_dict)
-
-    # aggregate_responses_by_topic(all_user_responses)
-    survey_to_resp = {}
-    for user_resp in all_user_responses:
-        user_id = user_resp["user_id"]
-        survey_name = user_resp["survey_name"]
-        implicit_info = user_resp["implicit_info"]
-        explicit_info = user_resp["explicit_info"]
-
-        if survey_name not in survey_to_resp.keys():
-            survey_to_resp[survey_name] = []
-
-        survey_to_resp[survey_name].append({
-            "user_id": user_id,
-            "implicit_info": implicit_info,
-            "explicit_info": explicit_info,
-        })
-
-
-    if not (os.path.exists("train_survey_to_resp.json") and os.path.exists("test_survey_to_resp.json")):
-        train_survey_to_resp = {}
-        test_survey_to_resp = {}
-        for survey in survey_to_resp.keys():
-            user_responses = survey_to_resp[survey]
-            x_train, x_test = train_test_split(user_responses, random_state=42, test_size=0.2)
-
-            train_survey_to_resp[survey] = x_train
-            test_survey_to_resp[survey] = x_test
-
-        with open("train_survey_to_resp.json", "w") as f:
-            json.dump(train_survey_to_resp, f, indent=4)
-
-        with open("test_survey_to_resp.json", "w") as f:
-            json.dump(test_survey_to_resp, f, indent=4)
+    demographic_pair_dict_path = "demographic_pair_dict.json"
+    if not os.path.exists(demographic_pair_dict_path):
+        demographic_pair_dict = find_pair_by_demographic(all_user_responses)
     else:
-        with open("train_survey_to_resp.json") as fd:
-            print("train_survey_to_resp.json...")
-            train_survey_to_resp = json.load(fd)
+        with open(demographic_pair_dict_path, "r") as fd:
+            print("loading demographic_pair_dict...")
+            demographic_pair_dict = json.load(fd)
+            print(len(demographic_pair_dict))
 
-        with open("test_survey_to_resp.json") as fd:
-            print("test_survey_to_resp.json...")
-            test_survey_to_resp = json.load(fd)
+    calculate_cohen_kappa_score(demographic_pair_dict)
 
-    train_checklist_dict_file = "sample_train_checklist_dict.json"
-    train_eval_dict_file = "sample_train_eval_dict.json"
-    test_checklist_dict_file = "test_checklist_dict.json"
-    test_eval_dict_file = "test_eval_dict.json"
-    # if not (os.path.exists(train_checklist_dict_file) and os.path.exists(train_eval_dict_file)
-    # and os.path.exists(test_checklist_dict_file) and os.path.exists(test_eval_dict_file)):
-    train_checklist_dict, train_eval_dict, test_checklist_dict, test_eval_dict \
-        = split_data("all_resp_by_topic.json", train_survey_to_resp, test_survey_to_resp)
-    with open(train_checklist_dict_file, "w") as f:
-        json.dump(train_checklist_dict, f, indent=4)
+    topic_pair_dict_path = "topic_pair_dict.json"
+    if not os.path.exists(topic_pair_dict_path):
+        topic_pair_dict = find_pair_by_topic(all_user_responses)
+    else:
+        with open(topic_pair_dict_path) as fd:
+            print("loading topic_pair_dict...")
+            topic_pair_dict = json.load(fd)
+            print(len(topic_pair_dict))
 
-    with open(train_eval_dict_file, "w") as f:
-        json.dump(train_eval_dict, f, indent=4)
-
-    with open(test_checklist_dict_file, "w") as f:
-        json.dump(test_checklist_dict, f, indent=4)
-
-    with open(test_eval_dict_file, "w") as f:
-        json.dump(test_eval_dict, f, indent=4)
-    # else:
-    #     with open(train_checklist_dict_file, "r") as fd:
-    #         train_checklist_dict = json.load(fd)
-    #         print("train_checklist_dict", len(train_checklist_dict))
-    #     with open(train_eval_dict_file, "r") as fd:
-    #         train_eval_dict_file = json.load(fd)
-    #         print("train_eval_dict_file", len(train_eval_dict_file))
-    #     with open(test_checklist_dict_file, "r") as fd:
-    #         test_checklist_dict = json.load(fd)
-    #         print("test_checklist_dict", len(test_checklist_dict))
-    #     with open(test_eval_dict_file, "r") as fd:
-    #         test_eval_dict = json.load(fd)
-    #         print("test_eval_dict", len(test_eval_dict))
-
-    # user_resp_list
-        # if args.create_demo_dict:
-        #     """
-        #     {
-        #     "demographic information": {
-        #         "user_id": {
-        #             "question": question,
-        #             "choice": choices,
-        #             "answer": user response,
-        #             "question_id": question id
-        #         }
-        #     }
-        #
-        #     """
-        #     for i in range(total_len):
-        #         explicit_info_dict = {}
-        #         for meta_key in meta_keys:
-        #             explicit_info_dict[meta_key] = resp_explicit_dict[meta_key][i]  # list of responses
-        #
-        #         demo_key = tuple(sorted(explicit_info_dict.items()))
-        #
-        #         implicit_info_dict = {}
-        #         for info_key in qinfo_keys:
-        #             response = resp_implicit_dict[info_key][i]  # list of responses
-        #             if isinstance(response, float) and math.isnan(response):
-        #                 continue
-        #             implicit_info = {
-        #                 "question": qinfo_dict[info_key]['question'],
-        #                 "choice": qinfo_dict[info_key]['choice'],
-        #                 "answer": response,
-        #                 "question_id": info_key
-        #             }
-        #             implicit_info_dict[info_key] = implicit_info
-        #
-        #         if key not in resp_indi_dict.keys():
-        #             resp_indi_dict[key] = {
-        #                 "implicit_info": [implicit_info_dict]
-        #             }
-        #         else:
-        #             resp_indi_dict[key]["implicit_info"].append(implicit_info_dict)
-
-        # # Make a split of the users into two group: dev and test. Each user datapoint should contain all the info
-        # if args.create_split:
-        #
-        #     print("resp_implicit_dict:", resp_implicit_dict.keys())
-        #     print("resp_explicit_dict:", resp_explicit_dict.keys())
-        #     user_resp_list = []
-        #     for i in range(total_len):
-        #         user_resp_dict = {}
-        #         implicit_dict = {}
-        #         for key in resp_implicit_dict.keys():
-        #             response = resp_implicit_dict[key][i]
-        #             if isinstance(response, float) and math.isnan(response):
-        #                 continue
-        #
-        #             question = qinfo_dict[key]['question']
-        #             choices = qinfo_dict[key]['choice']
-        #             choices = ast.literal_eval(choices)
-        #             choices = "/".join(choices)
-        #             implicit_dict.update({
-        #                 f"{question} [{choices}]": response
-        #             })
-        #
-        #         explicit_dict = {}
-        #         for key in resp_explicit_dict.keys():
-        #             explicit_dict.update({
-        #                 key: resp_explicit_dict[key][i]
-        #             })
-        #         user_resp_dict['implicit_info'] = implicit_dict
-        #         user_resp_dict['explicit_info'] = explicit_dict
-        #         user_resp_list.append(user_resp_dict)
-        #
-        #     extract_sub_topic(user_resp_list)
-        #     # x_train, x_test = train_test_split(user_resp_list, random_state=42, test_size=0.2)
-        #     # x_val, x_test = train_test_split(x_test, random_state=42, test_size=0.5)
-        #     #
-        #     # train_data_dict[SURVEY_NAME] = x_train
-        #     # val_data_dict[SURVEY_NAME] = x_val
-        #     # test_data_dict[SURVEY_NAME] = x_test
-
-
-    # if args.create_demo_dict:
-        #  statistics where we show two users having exactly same demographics have different opinion answers for a same question
-        # demo_to_question_dict = create_demo_to_qa_dict(resp_indi_dict, all_qinfo_dict)
-        # with open("demo_to_question_dict.json", "w") as f:
-        #     json.dump(demo_to_question_dict, f, indent=4)
-
-    # if args.create_split:
-    #     with open("train_data.json", "w") as f:
-    #         json.dump(train_data_dict, f, indent=4)
-    #
-    #     with open("val_data.json", "w") as f:
-    #         json.dump(val_data_dict, f, indent=4)
-    #
-    #     with open("test_data.json", "w") as f:
-    #         json.dump(test_data_dict, f, indent=4)
-
-
-
-
+    calculate_cohen_kappa_score_per_subtopic(topic_pair_dict)
 
 
 if __name__ == '__main__':
