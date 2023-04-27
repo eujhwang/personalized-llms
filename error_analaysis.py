@@ -1,13 +1,16 @@
 import argparse
 import ast
 import json
+import math
 import os.path
 import random
 from pathlib import Path
 
 import pandas as pd
+import tqdm
 from gptinference import utils
 from gptinference.utils import read_jsonl_or_json, write_json
+from sklearn.metrics import cohen_kappa_score
 
 from synthesize_opinionqa.utils import set_seed
 
@@ -267,11 +270,154 @@ def load_resources(dirs, type: str = "gen"):
     return None, None, None, None
 
 
+def check_same_demographic(user1_demo, user2_demo):
+    for key in user1_demo.keys():
+        user1_value = user1_demo[key]
+        if key not in user2_demo:
+            continue
+
+        user2_value = user2_demo[key]
+        if user1_value != user2_value:
+            return False
+    return True
+
+def check_similar_opinion(user1_op, user2_op):
+    user1_qid_set = user1_op.keys()
+    user2_qid_set = user2_op.keys()
+    common_qid_set = user1_qid_set & user2_qid_set
+
+    same_op = 0
+    for qid in list(common_qid_set):
+        user1_answer = user1_op[qid]['answer']
+        user2_answer = user2_op[qid]['answer']
+        if user1_answer == user2_answer:
+            same_op += 1
+
+    return same_op
+
+def get_user_op(user1_op, user2_op):
+    user1_qid_set = user1_op.keys()
+    user2_qid_set = user2_op.keys()
+    common_qid_set = user1_qid_set & user2_qid_set
+
+    user1_answer_list, user2_answer_list = [], []
+    for qid in list(common_qid_set):
+        user1_answer = user1_op[qid]['answer']
+        user2_answer = user2_op[qid]['answer']
+        user1_answer_list.append(user1_answer)
+        user2_answer_list.append(user2_answer)
+    return user1_answer_list, user2_answer_list
+
+
+def calculate_demo_match_percent(user1_demo, user2_demo):
+    user1_demo_set = user1_demo.keys()
+    user2_demo_set = user2_demo.keys()
+    common_demo_set = list(user1_demo_set & user2_demo_set)
+
+    same_demo = 0
+    invalid = 0
+    for demo_name in common_demo_set:
+        user1_demo_val = user1_demo[demo_name]
+        user2_demo_val = user2_demo[demo_name]
+
+        if (isinstance(user1_demo_val, float) and math.isnan(user1_demo_val)) or (isinstance(user2_demo_val, float) and math.isnan(user2_demo_val)):
+            invalid += 1
+            continue
+        if user1_demo[demo_name].lower() == "refused" or user2_demo[demo_name].lower() == "refused":
+            invalid += 1
+            continue
+
+        if user1_demo[demo_name] == user2_demo[demo_name]:
+            same_demo += 1
+    demo_similarity = same_demo / (len(common_demo_set)-invalid)
+    return demo_similarity
+
+
 def same_demo_diff_op(all_user_responses):
     print("same_demo_diff_op:\n", all_user_responses[0].keys())
+    total_num = len(all_user_responses)
+
+    survey_to_agree_ratio = {}
+    all_agree_ratio = []
+    for i in tqdm.tqdm(range(total_num)):
+        user1_id = all_user_responses[i]["user_id"]
+        user1_survey = all_user_responses[i]["survey_name"]
+        user1_demo = all_user_responses[i]["explicit_info"]
+        user1_op = all_user_responses[i]["implicit_info"]
+        for j in range(i, total_num):
+            user2_id = all_user_responses[j]["user_id"]
+            user2_survey = all_user_responses[j]["survey_name"]
+            user2_demo = all_user_responses[j]["explicit_info"]
+            user2_op = all_user_responses[j]["implicit_info"]
+            if i == j or user1_id == user2_id or user1_survey != user2_survey :
+                continue
+
+            is_same_demo = check_same_demographic(user1_demo, user2_demo)
+            if is_same_demo:
+                user1_resp_list, user2_resp_list = get_user_op(user1_op, user2_op)
+                agreement_score = cohen_kappa_score(user1_resp_list, user2_resp_list)
+
+                if user1_survey not in survey_to_agree_ratio:
+                    survey_to_agree_ratio[user1_survey] = []
+
+                survey_to_agree_ratio[user1_survey].append(agreement_score)
+                all_agree_ratio.append(agreement_score)
+
+    _survey_to_agree_ratio = {}
+    for survey, score_list in survey_to_agree_ratio.items():
+        _survey_to_agree_ratio[survey] = sum(survey_to_agree_ratio[survey]) / len(survey_to_agree_ratio[survey])
+
+    with open("same_demo_diff_op_score.json", "w") as f:
+        json.dump({
+            "final_score": sum(all_agree_ratio)/len(all_agree_ratio),
+            "score_per_survey": _survey_to_agree_ratio
+        }, f, indent=4)
+    print("survey_to_agree_ratio:", _survey_to_agree_ratio)
+    print("final_agree_ratio:", sum(all_agree_ratio)/len(all_agree_ratio))
+
 
 def same_op_diff_demo(all_user_responses, num_implicit=4):
     print("same_op_diff_demo:\n", all_user_responses[0].keys())
+    total_num = len(all_user_responses)
+
+    op_to_demo_score = {}
+    for i in tqdm.tqdm(range(total_num)):
+        user1_id = all_user_responses[i]["user_id"]
+        user1_survey = all_user_responses[i]["survey_name"]
+        user1_demo = all_user_responses[i]["explicit_info"]
+        user1_op = all_user_responses[i]["implicit_info"]
+        for j in range(i, total_num):
+            user2_id = all_user_responses[j]["user_id"]
+            user2_survey = all_user_responses[j]["survey_name"]
+            user2_demo = all_user_responses[j]["explicit_info"]
+            user2_op = all_user_responses[j]["implicit_info"]
+            if i == j or user1_id == user2_id or user1_survey != user2_survey:
+                continue
+
+            num_same_op = check_similar_opinion(user1_op, user2_op)
+            demo_similarity = calculate_demo_match_percent(user1_demo, user2_demo)
+
+            if num_same_op not in op_to_demo_score:
+                op_to_demo_score[num_same_op] = []
+            op_to_demo_score[num_same_op].append(demo_similarity)
+
+    all_op_to_demo_score = {}
+    for num_op, demo_score_list in op_to_demo_score.items():
+        all_op_to_demo_score[num_op] = sum(op_to_demo_score[num_op]) / len(op_to_demo_score[num_op])
+    # print("all_op_to_demo_score:", all_op_to_demo_score)
+
+    # aggregate scores based on num_implicit
+    score_list = []
+    for num_op, demo_score in all_op_to_demo_score.items():
+        if num_op >= num_implicit:
+            score_list.append(demo_score)
+    print(f"final score base on the samples with more than {num_implicit} opinions: {sum(score_list)/len(score_list)}")
+    with open("same_op_diff_demo_score.json", "w") as f:
+        json.dump({
+            "final_score": sum(score_list)/len(score_list),
+            "score_per_op": all_op_to_demo_score
+        }, f, indent=4)
+
 
 def main(args):
     root_dir = "data"
@@ -300,11 +446,17 @@ def main(args):
     save_metrics(os.path.join(dirs["imexp_dir"], "clpse_accuracy.json"), imexp_collapsed_accu)
 
     # correct answer with explicit info, but incorrect answer with implicit info
-    extract_error_samples(imp_gen, exp_gen, imexp_gen, qinfo_dict, user_responses)
+    # extract_error_samples(imp_gen, exp_gen, imexp_gen, qinfo_dict, user_responses)
 
-    # all_user_responses = read_jsonl_or_json("data/all_user_responses.json")
-    # same_demo_diff_op(all_user_responses)
-    # same_op_diff_demo(all_user_responses, num_implicit=4)
+    all_user_responses = read_jsonl_or_json("data/all_user_responses.json")
+    # sample_path = "sampled1000_user_responses.json"
+    # sampled_responses = random.sample(sampled_user_responses, 1000)
+    # with open(sample_path, "w") as f:
+    #     json.dump(sampled_responses, f)
+
+    # sampled_user_responses = read_jsonl_or_json("sampled1000_user_responses.json")
+    same_demo_diff_op(all_user_responses)
+    same_op_diff_demo(all_user_responses, num_implicit=8)
 
 
 if __name__ == '__main__':
