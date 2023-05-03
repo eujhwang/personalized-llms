@@ -4,8 +4,7 @@
         "question": "Thinking about your spouse or partner is your spouse or partner of the opposite sex as you or the same sex as you?",
         "choice": [
             "Opposite sex",
-            "Same sex",
-            "Refused"
+            "Same sex"
         ],
         "most_freq_ans": "Opposite sex"
     },
@@ -14,8 +13,7 @@
         "question": "Is your spouse or partner of the opposite sex as you or the same sex as you?",
         "choice": [
             "Opposite sex",
-            "Same sex",
-            "Refused"
+            "Same sex"
         ],
         "most_freq_ans": "Opposite sex"
     },
@@ -24,8 +22,7 @@
         "question": "Have you or anyone in your household received unemployment benefits government services and benefits in the past 12 months?",
         "choice": [
             "Yes, have received in the past 12 months",
-            "No, have not received in the past 12 months",
-            "Refused"
+            "No, have not received in the past 12 months"
         ],
         "most_freq_ans": "No, have not received in the past 12 months"
     },
@@ -35,8 +32,7 @@
         "choice": [
             "Yes",
             "No",
-            "I'm not sure",
-            "Refused"
+            "I'm not sure"
         ],
         "most_freq_ans": "No"
     },
@@ -46,8 +42,7 @@
         "choice": [
             "Essential",
             "Important, but not essential",
-            "Not important",
-            "Refused"
+            "Not important"
         ],
         "most_freq_ans": "Essential"
     },
@@ -57,8 +52,7 @@
         "choice": [
             "Yes",
             "No",
-            "I'm not sure",
-            "Refused"
+            "I'm not sure"
         ],
         "most_freq_ans": "No"
     },
@@ -67,8 +61,7 @@
         "question": "Are you currently engaged to be married?",
         "choice": [
             "Yes, engaged",
-            "No, not engaged",
-            "Refused"
+            "No, not engaged"
         ],
         "most_freq_ans": "No, not engaged"
     },
@@ -77,8 +70,7 @@
         "question": "Not including in military combat or as part of your job, have you ever used a gun to defend yourself, your family or possessions, either by firing it or threatening to fire it?",
         "choice": [
             "Yes",
-            "No",
-            "Refused"
+            "No"
         ],
         "most_freq_ans": "No"
     },
@@ -87,8 +79,7 @@
         "question": "Would you say most people in your family consider your spouse partner to be part of their family?",
         "choice": [
             "Yes",
-            "No",
-            "Refused"
+            "No"
         ],
         "most_freq_ans": "Yes"
     },
@@ -97,8 +88,7 @@
         "question": "Were you and your partner engaged to be married before you moved in together?",
         "choice": [
             "Yes, were engaged first",
-            "No, were not engaged first",
-            "Refused"
+            "No, were not engaged first"
         ],
         "most_freq_ans": "No, were not engaged first"
     },
@@ -107,8 +97,7 @@
         "question": "In the last 12 months, have you had someone attempt to open a line of credit or apply for a loan using your name",
         "choice": [
             "Yes",
-            "No",
-            "Refused"
+            "No"
         ],
         "most_freq_ans": "No"
     },
@@ -118,8 +107,7 @@
         "choice": [
             "Major reason",
             "Minor reason",
-            "Not a reason",
-            "Refused"
+            "Not a reason"
         ],
         "most_freq_ans": "Not a reason"
     },
@@ -128,8 +116,7 @@
         "question": "Do you think it's a good thing or a bad thing that most people in our society look down on women who are womanly or feminine?",
         "choice": [
             "Good thing",
-            "Bad thing",
-            "Refused"
+            "Bad thing"
         ],
         "most_freq_ans": "Bad thing"
     },
@@ -138,8 +125,7 @@
         "question": "Do you think the government of China respects the personal freedoms of its people?",
         "choice": [
             "Yes, respects personal freedoms",
-            "No, does not respect personal freedoms",
-            "Refused"
+            "No, does not respect personal freedoms"
         ],
         "most_freq_ans": "No, does not respect personal freedoms"
     },
@@ -148,8 +134,7 @@
         "question": "Do you think it's a good thing or a bad thing that most people in our society look down on men who are manly or masculine?",
         "choice": [
             "Good thing",
-            "Bad thing",
-            "Refused"
+            "Bad thing"
         ],
         "most_freq_ans": "Bad thing"
     },
@@ -159,8 +144,7 @@
         "choice": [
             "Major reason",
             "Minor reason",
-            "Not a reason",
-            "Refused"
+            "Not a reason"
         ],
         "most_freq_ans": "Not a reason"
     },
@@ -171,8 +155,7 @@
             "Very important",
             "Somewhat important",
             "Not too important",
-            "Not at all important",
-            "Refused"
+            "Not at all important"
         ],
         "most_freq_ans": "Very important"
     },
@@ -182,8 +165,7 @@
         "choice": [
             "Essential",
             "Important but not essential",
-            "Not important",
-            "Refused"
+            "Not important"
         ],
         "most_freq_ans": "Essential"
     },
@@ -192,8 +174,7 @@
         "question": "Thinking again about colleges and universities which of the following do you think should be more important on college campuses these days?",
         "choice": [
             "Allowing people to speak their minds freely, even if some students find their views upsetting or offensive",
-            "Ensuring that students aren't exposed to views they find upsetting or offensive, even if that limits what people are a",
-            "Refused"
+            "Ensuring that students aren't exposed to views they find upsetting or offensive, even if that limits what people are a"
         ],
         "most_freq_ans": "Allowing people to speak their minds freely, even if some students find their views upsetting or offensive"
     },
@@ -202,8 +183,7 @@
         "question": "Was to learn more about where your family came from a reason you used a mail-in DNA testing service?",
         "choice": [
             "Yes, a reason",
-            "No, not a reason",
-            "Refused"
+            "No, not a reason"
         ],
         "most_freq_ans": "Yes, a reason"
     },
@@ -214,8 +194,7 @@
             "Essential",
             "Important but not essential",
             "Not important",
-            "Should not be done",
-            "Refused"
+            "Should not be done"
         ],
         "most_freq_ans": "Essential"
     },
@@ -225,8 +204,7 @@
         "choice": [
             "Essential",
             "Important, but not essential",
-            "Not important",
-            "Refused"
+            "Not important"
         ],
         "most_freq_ans": "Essential"
     },
@@ -235,8 +213,7 @@
         "question": "In general, would you say the following statements describes most research scientists well? Intelligent",
         "choice": [
             "Describes research scientists well",
-            "Does not describe research scientists well",
-            "Refused"
+            "Does not describe research scientists well"
         ],
         "most_freq_ans": "Describes research scientists well"
     },
@@ -246,8 +223,7 @@
         "choice": [
             "Major reason",
             "Minor reason",
-            "Not a reason",
-            "Refused"
+            "Not a reason"
         ],
         "most_freq_ans": "Major reason"
     },
@@ -256,8 +232,7 @@
         "question": "Do you think science has had a mostly positive or mostly negative effect on the quality of Health care in the U.S.?",
         "choice": [
             "Mostly positive",
-            "Mostly negative",
-            "Refused"
+            "Mostly negative"
         ],
         "most_freq_ans": "Mostly positive"
     },
@@ -266,8 +241,7 @@
         "question": "Have you ever shared news and information that you knew at the time was made-up?",
         "choice": [
             "Yes",
-            "No",
-            "Refused"
+            "No"
         ],
         "most_freq_ans": "No"
     },
@@ -277,8 +251,7 @@
         "choice": [
             "Essential",
             "Important, but not essential",
-            "Not important",
-            "Refused"
+            "Not important"
         ],
         "most_freq_ans": "Essential"
     },
@@ -287,8 +260,7 @@
         "question": "Do you think men and women are basically similar or basically different when it comes to how they express their feelings?",
         "choice": [
             "Men and women are basically similar",
-            "Men and women are basically different",
-            "Refused"
+            "Men and women are basically different"
         ],
         "most_freq_ans": "Men and women are basically different"
     },
@@ -297,8 +269,7 @@
         "question": "Do you personally own a flying drone?",
         "choice": [
             "Yes",
-            "No",
-            "Refused"
+            "No"
         ],
         "most_freq_ans": "No"
     },
@@ -310,8 +281,7 @@
             "Straight, that is, not gay or lesbian",
             "Bisexual",
             "Something else",
-            "I don't know the answer",
-            "Refused"
+            "I don't know the answer"
         ],
         "most_freq_ans": "Straight, that is, not gay or lesbian"
     },
@@ -320,8 +290,7 @@
         "question": "Overall, do you think science has made life easier or more difficult for most people?",
         "choice": [
             "Easier",
-            "More difficult",
-            "Refused"
+            "More difficult"
         ],
         "most_freq_ans": "Easier"
     },
@@ -331,8 +300,7 @@
         "choice": [
             "Major reason",
             "Minor reason",
-            "Not a reason",
-            "Refused"
+            "Not a reason"
         ],
         "most_freq_ans": "Major reason"
     },
@@ -341,8 +309,7 @@
         "question": "Do you think that all Americans should have the right to have the following data about themselves be permanently deleted by the people or organizations who have that information? Potentially embarrassing photos or videos",
         "choice": [
             "Yes, should have the right to have this deleted",
-            "No, should not have  the right to have this deleted",
-            "Refused"
+            "No, should not have  the right to have this deleted"
         ],
         "most_freq_ans": "Yes, should have the right to have this deleted"
     },
@@ -353,8 +320,7 @@
             "Very important",
             "Somewhat important",
             "Not too important",
-            "Not at all important",
-            "Refused"
+            "Not at all important"
         ],
         "most_freq_ans": "Very important"
     },
@@ -363,8 +329,7 @@
         "question": "In order to address economic inequality in this country, do you think the government",
         "choice": [
             "Should raise taxes on people like you",
-            "Should not raise taxes on people like you",
-            "Refused"
+            "Should not raise taxes on people like you"
         ],
         "most_freq_ans": "Should not raise taxes on people like you"
     },
@@ -374,8 +339,7 @@
         "choice": [
             "Essential",
             "Important but not essential",
-            "Not important",
-            "Refused"
+            "Not important"
         ],
         "most_freq_ans": "Essential"
     },
@@ -384,8 +348,7 @@
         "question": "Have you or anyone in your household received food assistance, such as SNAP benefits government services and benefits in the past 12 months?",
         "choice": [
             "Yes, have received in the past 12 months",
-            "No, have not received in the past 12 months",
-            "Refused"
+            "No, have not received in the past 12 months"
         ],
         "most_freq_ans": "No, have not received in the past 12 months"
     },
@@ -394,8 +357,7 @@
         "question": "Thinking about the US as a whole, do you think this country is now",
         "choice": [
             "More united than before the coronavirus outbreak",
-            "More divided than before the coronavirus outbreak",
-            "Refused"
+            "More divided than before the coronavirus outbreak"
         ],
         "most_freq_ans": "More divided than before the coronavirus outbreak"
     },
@@ -404,8 +366,7 @@
         "question": "How well, if at all, do the following words or phrases describe you? Compassion and helping others are my core values",
         "choice": [
             "Describes me well",
-            "Does not describe me well",
-            "Refused"
+            "Does not describe me well"
         ],
         "most_freq_ans": "Describes me well"
     },
@@ -414,8 +375,7 @@
         "question": "Overall, do you think having people of many different backgrounds, such as different ethnic groups, religions and races, makes the US",
         "choice": [
             "A better place to live",
-            "A worse place to live",
-            "Refused"
+            "A worse place to live"
         ],
         "most_freq_ans": "A better place to live"
     },
@@ -423,8 +383,7 @@
         "qid": "EAT3J_W34",
         "question": "Which of the following, if any, do you restrict or limit eating on a regular basis? Gluten",
         "choice": [
-            "Not selected",
-            "Gluten"
+            "Not selected"
         ],
         "most_freq_ans": "Not selected"
     },
@@ -433,8 +392,7 @@
         "question": "On social media, do you think of yourself more as a",
         "choice": [
             "Sharer of news",
-            "Receiver of news",
-            "Refused"
+            "Receiver of news"
         ],
         "most_freq_ans": "Receiver of news"
     },
@@ -443,8 +401,7 @@
         "question": "Is what you know about environmental research scientists because you have heard or read about this in the news",
         "choice": [
             "Yes, have heard or read about this in the news",
-            "No, have not heard or read about this in the news",
-            "Refused"
+            "No, have not heard or read about this in the news"
         ],
         "most_freq_ans": "Yes, have heard or read about this in the news"
     },
@@ -453,8 +410,7 @@
         "question": "Now thinking about your spouse or partner. Does your spouse or partner own any guns?",
         "choice": [
             "Yes",
-            "No",
-            "Refused"
+            "No"
         ],
         "most_freq_ans": "Yes"
     },
@@ -463,8 +419,7 @@
         "question": "Did your DNA test results change the way you think about your racial or ethnic identity?",
         "choice": [
             "Yes, changed",
-            "No, did not change",
-            "Refused"
+            "No, did not change"
         ],
         "most_freq_ans": "No, did not change"
     },
@@ -473,8 +428,7 @@
         "question": "Do you have a smartphone?",
         "choice": [
             "Yes",
-            "No",
-            "Refused"
+            "No"
         ],
         "most_freq_ans": "Yes"
     },
@@ -484,8 +438,7 @@
         "choice": [
             "Yes",
             "No",
-            "Offline: does not have internet",
-            "Refused"
+            "Offline: does not have internet"
         ],
         "most_freq_ans": "No"
     },
@@ -494,8 +447,7 @@
         "question": "Do you think that all Americans should have the right to have potentially embarrassing photos or videos removed from public online search results?",
         "choice": [
             "Yes, should be able to remove this from online searches",
-            "No, should not be able to remove this from online searches",
-            "Refused"
+            "No, should not be able to remove this from online searches"
         ],
         "most_freq_ans": "Yes, should be able to remove this from online searches"
     },
@@ -504,8 +456,7 @@
         "question": "Is what you know about medical research scientists because you have heard or read about this in the news",
         "choice": [
             "Yes, have heard or read about this in the news",
-            "No, have not heard or read about this in the news",
-            "Refused"
+            "No, have not heard or read about this in the news"
         ],
         "most_freq_ans": "Yes, have heard or read about this in the news"
     },
@@ -514,8 +465,7 @@
         "question": "Are you currently a member of a gun or shooting club or gun range",
         "choice": [
             "Yes",
-            "No",
-            "Refused"
+            "No"
         ],
         "most_freq_ans": "No"
     },
@@ -524,8 +474,7 @@
         "question": "Have you personally experienced the following at work because you have children? Being passed over for a promotion",
         "choice": [
             "Yes, have experienced this",
-            "No, have not experienced this",
-            "Refused"
+            "No, have not experienced this"
         ],
         "most_freq_ans": "No, have not experienced this"
     },
@@ -534,8 +483,7 @@
         "question": "In order to address economic inequality in this country, do you think it would be better for the government to",
         "choice": [
             "Give direct assistance to people who are poor in the form of cash payments or tax credits",
-            "Invest in education and job training programs for people who are poor",
-            "Refused"
+            "Invest in education and job training programs for people who are poor"
         ],
         "most_freq_ans": "Invest in education and job training programs for people who are poor"
     },
@@ -545,8 +493,7 @@
         "choice": [
             "Major reason",
             "Minor reason",
-            "Not a reason",
-            "Refused"
+            "Not a reason"
         ],
         "most_freq_ans": "Major reason"
     },
@@ -557,8 +504,7 @@
             "A great deal",
             "A fair amount",
             "Not much",
-            "Not at all",
-            "Refused"
+            "Not at all"
         ],
         "most_freq_ans": "A great deal"
     },
@@ -567,8 +513,7 @@
         "question": "Have you ever owned a gun at any point in your life, or have you never owned a gun?",
         "choice": [
             "Yes, have owned a gun",
-            "No, have never owned a gun",
-            "Refused"
+            "No, have never owned a gun"
         ],
         "most_freq_ans": "No, have never owned a gun"
     },
@@ -578,8 +523,7 @@
         "choice": [
             "A big problem",
             "A small problem",
-            "Not a problem",
-            "Refused"
+            "Not a problem"
         ],
         "most_freq_ans": "A big problem"
     },
@@ -588,8 +532,7 @@
         "question": "Do you think it's a good thing or a bad thing that most people in our society look up to women who are womanly or feminine?",
         "choice": [
             "Good thing",
-            "Bad thing",
-            "Refused"
+            "Bad thing"
         ],
         "most_freq_ans": "Good thing"
     },
@@ -598,8 +541,7 @@
         "question": "Have you participated in any of these groups during the last 12 months, that is since September 2016? A service or civic organization such as American Legion or Lions Club",
         "choice": [
             "Yes",
-            "No",
-            "Refused"
+            "No"
         ],
         "most_freq_ans": "No"
     },
@@ -608,8 +550,7 @@
         "question": "In your opinion, do you think government investments in engineering and technology usually pay off in the long run, or are they not worth it?",
         "choice": [
             "Government investments usually pay off in the long run",
-            "Government investments aren't worth it",
-            "Refused"
+            "Government investments aren't worth it"
         ],
         "most_freq_ans": "Government investments usually pay off in the long run"
     },
@@ -619,8 +560,7 @@
         "choice": [
             "Essential",
             "Important, but not essential",
-            "Not important",
-            "Refused"
+            "Not important"
         ],
         "most_freq_ans": "Essential"
     },
@@ -629,8 +569,7 @@
         "question": "Are you currently in a committed romantic relationship?",
         "choice": [
             "Yes",
-            "No",
-            "Refused"
+            "No"
         ],
         "most_freq_ans": "No"
     },
@@ -639,8 +578,7 @@
         "question": "Have you ever used a mail-in DNA testing service from a company such as AncestryDNA or 23andMe?",
         "choice": [
             "Yes, have used this",
-            "No, have not used this",
-            "Refused"
+            "No, have not used this"
         ],
         "most_freq_ans": "No, have not used this"
     },
@@ -650,8 +588,7 @@
         "choice": [
             "Essential",
             "Important, but not essential",
-            "Not important",
-            "Refused"
+            "Not important"
         ],
         "most_freq_ans": "Essential"
     },
@@ -660,8 +597,7 @@
         "question": "Is what you know about nutrition research scientists because you have heard or read about this in the news",
         "choice": [
             "Yes, have heard or read about this in the news",
-            "No, have not heard or read about this in the news",
-            "Refused"
+            "No, have not heard or read about this in the news"
         ],
         "most_freq_ans": "Yes, have heard or read about this in the news"
     },
@@ -671,8 +607,7 @@
         "choice": [
             "Essential",
             "Important, but not essential",
-            "Not important",
-            "Refused"
+            "Not important"
         ],
         "most_freq_ans": "Essential"
     },
@@ -681,8 +616,7 @@
         "question": "Have you personally experienced the following at work because you have children? Being passed over for an important assignment",
         "choice": [
             "Yes, have experienced this",
-            "No, have not experienced this",
-            "Refused"
+            "No, have not experienced this"
         ],
         "most_freq_ans": "No, have not experienced this"
     },
@@ -690,8 +624,7 @@
         "qid": "EAT3K_W34",
         "question": "Which of the following, if any, do you restrict or limit eating on a regular basis? None of these",
         "choice": [
-            "Not selected",
-            "None of these"
+            "Not selected"
         ],
         "most_freq_ans": "Not selected"
     },
@@ -700,8 +633,7 @@
         "question": "Should the government",
         "choice": [
             "Not be involved in providing health insurance at all",
-            "Continue programs like Medicare and Medicaid for seniors and the very poor",
-            "Refused"
+            "Continue programs like Medicare and Medicaid for seniors and the very poor"
         ],
         "most_freq_ans": "Continue programs like Medicare and Medicaid for seniors and the very poor"
     },
@@ -711,8 +643,7 @@
         "choice": [
             "Better",
             "Worse",
-            "About the same",
-            "Refused"
+            "About the same"
         ],
         "most_freq_ans": "Better"
     },
@@ -721,8 +652,7 @@
         "question": "How do you feel about your own ability to recognize the following type of news and information? Satire about an issue or event",
         "choice": [
             "I find it easy to recognize it",
-            "It find it hard to recognize it",
-            "Refused"
+            "It find it hard to recognize it"
         ],
         "most_freq_ans": "I find it easy to recognize it"
     },
@@ -732,8 +662,7 @@
         "choice": [
             "Mostly helps a man's chances",
             "Mostly hurts a man's chances",
-            "Doesn't make much of a difference",
-            "Refused"
+            "Doesn't make much of a difference"
         ],
         "most_freq_ans": "Mostly helps a man's chances"
     },
@@ -744,8 +673,7 @@
             "Often",
             "Sometimes",
             "Hardly ever",
-            "Never",
-            "Refused"
+            "Never"
         ],
         "most_freq_ans": "Never"
     },
@@ -756,8 +684,7 @@
             "Often",
             "Sometimes",
             "Hardly ever",
-            "Never",
-            "Refused"
+            "Never"
         ],
         "most_freq_ans": "Never"
     },
@@ -766,8 +693,7 @@
         "question": "Is what you know about environmental health specialists because you have heard or read about this in the news",
         "choice": [
             "Yes, have heard or read about this in the news",
-            "No, have not heard or read about this in the news",
-            "Refused"
+            "No, have not heard or read about this in the news"
         ],
         "most_freq_ans": "Yes, have heard or read about this in the news"
     },
@@ -776,8 +702,7 @@
         "question": "Do you think it's good or bad for US colleges and universities to accept international students?",
         "choice": [
             "Good",
-            "Bad",
-            "Refused"
+            "Bad"
         ],
         "most_freq_ans": "Good"
     },
@@ -787,8 +712,7 @@
         "choice": [
             "Too much power and influence",
             "Not enough power and influence",
-            "About the right amount",
-            "Refused"
+            "About the right amount"
         ],
         "most_freq_ans": "Too much power and influence"
     },
@@ -798,8 +722,7 @@
         "choice": [
             "Too much power and influence",
             "Not enough power and influence",
-            "About the right amount",
-            "Refused"
+            "About the right amount"
         ],
         "most_freq_ans": "Too much power and influence"
     },
@@ -808,8 +731,7 @@
         "question": "Do you personally know anyone who has lost a job, or had their pay or hours reduced, because their employer replaced their work with a machine, robot or computer program?",
         "choice": [
             "Yes",
-            "No",
-            "Refused"
+            "No"
         ],
         "most_freq_ans": "No"
     },
@@ -818,8 +740,7 @@
         "question": "Do you think changing a baby's genetic characteristics to make the baby more intelligent is an appropriate use of medical technology ?",
         "choice": [
             "An appropriate use of medical technology",
-            "Taking medical technology too far",
-            "Refused"
+            "Taking medical technology too far"
         ],
         "most_freq_ans": "Taking medical technology too far"
     },
@@ -828,8 +749,7 @@
         "question": "If driverless vehicles become widespread, which of the following do you think are likely to happen as a result? Many people who drive for a living would lose their jobs",
         "choice": [
             "Yes, likely",
-            "No, not likely",
-            "Refused"
+            "No, not likely"
         ],
         "most_freq_ans": "Yes, likely"
     },
@@ -838,8 +758,7 @@
         "question": "In your opinion, do you think government investments in basic scientific research usually pay off in the long run, or are they not worth it?",
         "choice": [
             "Government investments usually pay off in the long run",
-            "Government investments aren't worth it",
-            "Refused"
+            "Government investments aren't worth it"
         ],
         "most_freq_ans": "Government investments usually pay off in the long run"
     },
@@ -849,8 +768,7 @@
         "choice": [
             "Major factor",
             "Minor factor",
-            "Not a factor",
-            "Refused"
+            "Not a factor"
         ],
         "most_freq_ans": "Not a factor"
     },
@@ -860,8 +778,7 @@
         "choice": [
             "Mostly helps a man's chances",
             "Mostly hurts a man's chances",
-            "Doesn't make much of a difference",
-            "Refused"
+            "Doesn't make much of a difference"
         ],
         "most_freq_ans": "Mostly helps a man's chances"
     },
@@ -870,8 +787,7 @@
         "question": "Have you or anyone in your household received medicaid benefits government services and benefits in the past 12 months?",
         "choice": [
             "Yes, have received in the past 12 months",
-            "No, have not received in the past 12 months",
-            "Refused"
+            "No, have not received in the past 12 months"
         ],
         "most_freq_ans": "No, have not received in the past 12 months"
     },
@@ -881,8 +797,7 @@
         "choice": [
             "Having more women than there are now but still not as many women as men",
             "Having about an equal number of women and men",
-            "Having more women than men",
-            "Refused"
+            "Having more women than men"
         ],
         "most_freq_ans": "Having about an equal number of women and men"
     },
@@ -893,8 +808,7 @@
             "Very important",
             "Somewhat important",
             "Not too important",
-            "Not at all important",
-            "Refused"
+            "Not at all important"
         ],
         "most_freq_ans": "Very important"
     },
@@ -903,8 +817,7 @@
         "question": "Has the issue of made-up news and information led you to check the facts of news stories yourself?",
         "choice": [
             "Yes, have done this",
-            "No, have not done this",
-            "Refused"
+            "No, have not done this"
         ],
         "most_freq_ans": "Yes, have done this"
     },
@@ -914,8 +827,7 @@
         "choice": [
             "Major reason",
             "Minor reason",
-            "Not a reason",
-            "Refused"
+            "Not a reason"
         ],
         "most_freq_ans": "Not a reason"
     },
@@ -924,8 +836,7 @@
         "question": "Still thinking ahead 30 years, which do you think is more likely to happen in the U.S.? The gap between the rich and the poor will grow/get smaller",
         "choice": [
             "The gap between the rich and the poor will grow",
-            "The gap between the rich and the poor will get smaller",
-            "Refused"
+            "The gap between the rich and the poor will get smaller"
         ],
         "most_freq_ans": "The gap between the rich and the poor will grow"
     },
@@ -934,8 +845,7 @@
         "question": "Are you currently living with a partner or boyfriend or girlfriend? By living together we mean that you are in a relationship and neither of you have a separate residence.",
         "choice": [
             "Yes",
-            "No",
-            "Refused"
+            "No"
         ],
         "most_freq_ans": "No"
     },
@@ -944,8 +854,7 @@
         "question": "Do you have other connected items in your home that you can control from your phone, such as smart lighting or a connected thermostat or alarm system?",
         "choice": [
             "Yes",
-            "No",
-            "Refused"
+            "No"
         ],
         "most_freq_ans": "No"
     },
@@ -954,8 +863,7 @@
         "question": "Which comes closer to your view about the following type of news and information? Made-up information that is intended to mislead the public",
         "choice": [
             "The freedom to publish and access it should be protected",
-            "Steps should be taken to restrict it",
-            "Refused"
+            "Steps should be taken to restrict it"
         ],
         "most_freq_ans": "Steps should be taken to restrict it"
     },
@@ -964,8 +872,7 @@
         "question": "Is what you know about environmental research scientists because you learned about this in your job",
         "choice": [
             "Yes, learned about this in my job",
-            "No, did not learn about this in my job",
-            "Refused"
+            "No, did not learn about this in my job"
         ],
         "most_freq_ans": "No, did not learn about this in my job"
     },
@@ -974,8 +881,7 @@
         "question": "Do you think that all Americans should have the right to have the following data about themselves be permanently deleted by the people or organizations who have that information? Financial data collected by their tax preparer",
         "choice": [
             "Yes, should have the right to have this deleted",
-            "No, should not have  the right to have this deleted",
-            "Refused"
+            "No, should not have  the right to have this deleted"
         ],
         "most_freq_ans": "Yes, should have the right to have this deleted"
     },
@@ -985,8 +891,7 @@
         "choice": [
             "Major reason",
             "Minor reason",
-            "Not a reason",
-            "Refused"
+            "Not a reason"
         ],
         "most_freq_ans": "Major reason"
     },
@@ -995,8 +900,7 @@
         "question": "Do you think science has had a mostly positive or mostly negative effect on the quality of the environment in the U.S.?",
         "choice": [
             "Mostly positive",
-            "Mostly negative",
-            "Refused"
+            "Mostly negative"
         ],
         "most_freq_ans": "Mostly positive"
     },
@@ -1005,8 +909,7 @@
         "question": "Do you think high quality K-12 education is something the federal government has a responsibility to provide for all Americans?",
         "choice": [
             "Yes, a responsibility of the federal government to provide for all Americans",
-            "No, not the responsibility of the federal government to provide",
-            "Refused"
+            "No, not the responsibility of the federal government to provide"
         ],
         "most_freq_ans": "Yes, a responsibility of the federal government to provide for all Americans"
     },
@@ -1015,8 +918,7 @@
         "question": "Is what you know about nutrition research scientists because you learned about this in your job",
         "choice": [
             "Yes, learned about this in my job",
-            "No, did not learn about this in my job",
-            "Refused"
+            "No, did not learn about this in my job"
         ],
         "most_freq_ans": "No, did not learn about this in my job"
     },
@@ -1025,8 +927,7 @@
         "question": "How do you feel about your own ability to recognize the following type of news and information? Factual information presented to favor one side of an issue",
         "choice": [
             "I find it easy to recognize it",
-            "It find it hard to recognize it",
-            "Refused"
+            "It find it hard to recognize it"
         ],
         "most_freq_ans": "I find it easy to recognize it"
     },
@@ -1035,8 +936,7 @@
         "question": "Have you participated in any of these groups during the last 12 months, that is since September 2016? A sports or recreation organization such as a soccer club or tennis club",
         "choice": [
             "Yes",
-            "No",
-            "Refused"
+            "No"
         ],
         "most_freq_ans": "No"
     },
@@ -1045,8 +945,7 @@
         "question": "On balance, which would you say most accurately describes how you feel?",
         "choice": [
             "The benefits I get from companies collecting data about me outweigh the potential risks",
-            "The potential risks of companies collecting data about me outweigh the benefits I get",
-            "Refused"
+            "The potential risks of companies collecting data about me outweigh the benefits I get"
         ],
         "most_freq_ans": "The potential risks of companies collecting data about me outweigh the benefits I get"
     }
