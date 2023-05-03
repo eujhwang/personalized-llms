@@ -1,0 +1,2824 @@
+[
+    {
+        "qid": "ECON5_i_W54",
+        "question": "Do you think the country's current economic conditions are helping or hurting people who are Hispanic?",
+        "choice": [
+            "Helping a lot",
+            "Helping a little",
+            "Hurting a little",
+            "Hurting a lot",
+            "Neither helping nor hurting"
+        ],
+        "most_freq_ans": "Hurting a little",
+        "polparty_info": {
+            "Democrat": [
+                0.3869047619047619,
+                "Hurting a lot"
+            ],
+            "Republican": [
+                0.31983805668016196,
+                "Neither helping nor hurting"
+            ],
+            "Independent": [
+                0.252212389380531,
+                "Neither helping nor hurting"
+            ],
+            "Other": [
+                0.2777777777777778,
+                "Hurting a lot"
+            ]
+        }
+    },
+    {
+        "qid": "MAN1A_W29",
+        "question": "In general, how much pressure, if any, do you think men face in our country these days to be interested in sports?",
+        "choice": [
+            "A lot",
+            "Some",
+            "Not too much",
+            "None at all"
+        ],
+        "most_freq_ans": "Some",
+        "polparty_info": {
+            "Independent": [
+                0.4392523364485981,
+                "Some"
+            ],
+            "Republican": [
+                0.5163934426229508,
+                "Some"
+            ],
+            "Democrat": [
+                0.43783783783783786,
+                "Some"
+            ],
+            "Other": [
+                0.42105263157894735,
+                "Some"
+            ]
+        }
+    },
+    {
+        "qid": "GUNKILLF1_W26",
+        "question": "Which comes closer to your view, even if neither is exactly right?",
+        "choice": [
+            "People who want to kill or harm others will find a way to do it whether they have a gun or not",
+            "People who want to kill or harm others are less likely to do it if they don't have a gun"
+        ],
+        "most_freq_ans": "People who want to kill or harm others will find a way to do it whether they have a gun or not",
+        "polparty_info": {
+            "Republican": [
+                0.9084507042253521,
+                "People who want to kill or harm others will find a way to do it whether they have a gun or not"
+            ],
+            "Independent": [
+                0.6944444444444444,
+                "People who want to kill or harm others will find a way to do it whether they have a gun or not"
+            ],
+            "Democrat": [
+                0.518918918918919,
+                "People who want to kill or harm others are less likely to do it if they don't have a gun"
+            ],
+            "Other": [
+                0.6756756756756757,
+                "People who want to kill or harm others will find a way to do it whether they have a gun or not"
+            ]
+        }
+    },
+    {
+        "qid": "GOVPRIOc_W41",
+        "question": "If you were deciding what the federal government should do to improve the quality of life for future generations, what priority would you give to providing high-quality, affordable health care to all Americans?",
+        "choice": [
+            "A top priority",
+            "An important, but not a top priority",
+            "A lower priority",
+            "Should not be done"
+        ],
+        "most_freq_ans": "A top priority",
+        "polparty_info": {
+            "Democrat": [
+                0.8807339449541285,
+                "A top priority"
+            ],
+            "Republican": [
+                0.5172413793103449,
+                "A top priority"
+            ],
+            "Independent": [
+                0.6774193548387096,
+                "A top priority"
+            ],
+            "Other": [
+                0.5694444444444444,
+                "A top priority"
+            ]
+        }
+    },
+    {
+        "qid": "WHYNOTPOLF1L_W36",
+        "question": "Please indicate whether you think the following is is a reason why there are fewer women than men in high political offices. Sexual harassment creates an environment that makes it harder for women to succeed in politics",
+        "choice": [
+            "Major reason",
+            "Minor reason",
+            "Not a reason"
+        ],
+        "most_freq_ans": "Minor reason",
+        "polparty_info": {
+            "Independent": [
+                0.36046511627906974,
+                "Minor reason"
+            ],
+            "Democrat": [
+                0.5315315315315315,
+                "Major reason"
+            ],
+            "Republican": [
+                0.40298507462686567,
+                "Minor reason"
+            ],
+            "Other": [
+                0.4117647058823529,
+                "Minor reason"
+            ]
+        }
+    },
+    {
+        "qid": "HAPPYLIFE_W36",
+        "question": "Generally, how would you say things are these days in your life? Would you say that you are",
+        "choice": [
+            "Very happy",
+            "Pretty happy",
+            "Not too happy"
+        ],
+        "most_freq_ans": "Pretty happy",
+        "polparty_info": {
+            "Democrat": [
+                0.6420047732696897,
+                "Pretty happy"
+            ],
+            "Independent": [
+                0.6441281138790036,
+                "Pretty happy"
+            ],
+            "Republican": [
+                0.590625,
+                "Pretty happy"
+            ],
+            "Other": [
+                0.5546218487394958,
+                "Pretty happy"
+            ]
+        }
+    },
+    {
+        "qid": "GOVT_ROLE_W32",
+        "question": "Which statement comes closer to your own views?",
+        "choice": [
+            "Government should do more to solve problems",
+            "Government is doing too many things better left to businesses and individuals"
+        ],
+        "most_freq_ans": "Government should do more to solve problems",
+        "polparty_info": {
+            "Democrat": [
+                0.7941747572815534,
+                "Government should do more to solve problems"
+            ],
+            "Republican": [
+                0.8057851239669421,
+                "Government is doing too many things better left to businesses and individuals"
+            ],
+            "Independent": [
+                0.5114678899082569,
+                "Government should do more to solve problems"
+            ],
+            "Other": [
+                0.5607476635514018,
+                "Government should do more to solve problems"
+            ]
+        }
+    },
+    {
+        "qid": "S7_W29",
+        "question": "In the last 12 months, that is since September 2016, have you served on a committee or as an officer of any group or organization?",
+        "choice": [
+            "Yes",
+            "No"
+        ],
+        "most_freq_ans": "No",
+        "polparty_info": {
+            "Independent": [
+                0.7275204359673024,
+                "No"
+            ],
+            "Democrat": [
+                0.6955555555555556,
+                "No"
+            ],
+            "Republican": [
+                0.6964285714285714,
+                "No"
+            ],
+            "Other": [
+                0.7678571428571429,
+                "No"
+            ]
+        }
+    },
+    {
+        "qid": "GAP21Q38_a_W82",
+        "question": "How much, if at all, do you think the US benefits from being a member of north Atlantic Treaty Organization, or NATO organizations?",
+        "choice": [
+            "A great deal",
+            "A fair amount",
+            "Not too much",
+            "Not at all"
+        ],
+        "most_freq_ans": "A fair amount",
+        "polparty_info": {
+            "Republican": [
+                0.34782608695652173,
+                "A fair amount"
+            ],
+            "Independent": [
+                0.4382716049382716,
+                "A fair amount"
+            ],
+            "Democrat": [
+                0.5203252032520326,
+                "A great deal"
+            ],
+            "Other": [
+                0.4423076923076923,
+                "A fair amount"
+            ]
+        }
+    },
+    {
+        "qid": "FAMSURV12_W50",
+        "question": "Thinking about parents of young adults ages 18 to 29",
+        "choice": [
+            "Too much for their adult children",
+            "Too little for their adult children",
+            "About the right amount"
+        ],
+        "most_freq_ans": "Too much for their adult children",
+        "polparty_info": {
+            "Republican": [
+                0.7094281298299846,
+                "Too much for their adult children"
+            ],
+            "Independent": [
+                0.643491124260355,
+                "Too much for their adult children"
+            ],
+            "Democrat": [
+                0.4807903402854007,
+                "Too much for their adult children"
+            ],
+            "Other": [
+                0.5829145728643216,
+                "Too much for their adult children"
+            ]
+        }
+    },
+    {
+        "qid": "MASC1F1_W29",
+        "question": "Thinking about how society sees men these days, in general, would you say",
+        "choice": [
+            "Most people look up to men who are manly or masculine",
+            "Most people look down on men who are manly or masculine",
+            "Neither"
+        ],
+        "most_freq_ans": "Most people look up to men who are manly or masculine",
+        "polparty_info": {
+            "Independent": [
+                0.4479166666666667,
+                "Neither"
+            ],
+            "Republican": [
+                0.47297297297297297,
+                "Most people look up to men who are manly or masculine"
+            ],
+            "Other": [
+                0.46,
+                "Most people look up to men who are manly or masculine"
+            ],
+            "Democrat": [
+                0.6238532110091743,
+                "Most people look up to men who are manly or masculine"
+            ]
+        }
+    },
+    {
+        "qid": "INEQ1_W54",
+        "question": "Thinking about the level of economic inequality in the country these days, would you say there is",
+        "choice": [
+            "Too much economic inequality",
+            "Too little economic inequality",
+            "About the right amount of economic inequality"
+        ],
+        "most_freq_ans": "Too much economic inequality",
+        "polparty_info": {
+            "Republican": [
+                0.4906976744186046,
+                "About the right amount of economic inequality"
+            ],
+            "Democrat": [
+                0.8105590062111802,
+                "Too much economic inequality"
+            ],
+            "Other": [
+                0.63125,
+                "Too much economic inequality"
+            ],
+            "Independent": [
+                0.6802575107296137,
+                "Too much economic inequality"
+            ]
+        }
+    },
+    {
+        "qid": "RACESURV49_W43",
+        "question": "When it comes to decisions about hiring and promotions, do you think companies and organizations",
+        "choice": [
+            "Should take a person's race and ethnicity into account, in addition to their qualifications, in order to increase divers",
+            "Should only take a person's qualifications into account, even if it results in less diversity in the workplace"
+        ],
+        "most_freq_ans": "Should only take a person's qualifications into account, even if it results in less diversity in the workplace",
+        "polparty_info": {
+            "Other": [
+                0.6736842105263158,
+                "Should only take a person's qualifications into account, even if it results in less diversity in the workplace"
+            ],
+            "Republican": [
+                0.8776595744680851,
+                "Should only take a person's qualifications into account, even if it results in less diversity in the workplace"
+            ],
+            "Democrat": [
+                0.5353846153846153,
+                "Should only take a person's qualifications into account, even if it results in less diversity in the workplace"
+            ],
+            "Independent": [
+                0.7323943661971831,
+                "Should only take a person's qualifications into account, even if it results in less diversity in the workplace"
+            ]
+        }
+    },
+    {
+        "qid": "IMPREASONGUN_W26",
+        "question": "Which of the following is the most important reason why you own a gun?",
+        "choice": [
+            "For protection",
+            "For hunting",
+            "For sport shooting, including target shooting and trap and skeet",
+            "As part of a gun collection",
+            "For my job"
+        ],
+        "most_freq_ans": "For protection",
+        "polparty_info": {
+            "Independent": [
+                0.45454545454545453,
+                "For protection"
+            ],
+            "Republican": [
+                0.4642857142857143,
+                "For protection"
+            ],
+            "Other": [
+                0.6428571428571429,
+                "For protection"
+            ],
+            "Democrat": [
+                0.5652173913043478,
+                "For protection"
+            ]
+        }
+    },
+    {
+        "qid": "GROWUPGUN2B_W26",
+        "question": "Would you say the following was a reason or was not a reason why there were guns in your household when you were growing up? For hunting",
+        "choice": [
+            "Yes, was a reason",
+            "No, was not a reason"
+        ],
+        "most_freq_ans": "Yes, was a reason",
+        "polparty_info": {
+            "Independent": [
+                0.6054421768707483,
+                "Yes, was a reason"
+            ],
+            "Republican": [
+                0.7647058823529411,
+                "Yes, was a reason"
+            ],
+            "Democrat": [
+                0.6513157894736842,
+                "Yes, was a reason"
+            ],
+            "Other": [
+                0.6744186046511628,
+                "Yes, was a reason"
+            ]
+        }
+    },
+    {
+        "qid": "MESUM1_FC_W29",
+        "question": "How well, if at all, do the following words or phrases describe you? Willing to work with people I disagree with",
+        "choice": [
+            "Describes me well",
+            "Does not describe me well"
+        ],
+        "most_freq_ans": "Describes me well",
+        "polparty_info": {
+            "Independent": [
+                0.8108108108108109,
+                "Describes me well"
+            ],
+            "Democrat": [
+                0.74,
+                "Describes me well"
+            ],
+            "Republican": [
+                0.8136645962732919,
+                "Describes me well"
+            ],
+            "Other": [
+                0.7586206896551724,
+                "Describes me well"
+            ]
+        }
+    },
+    {
+        "qid": "ESSENBIZF2I_W36",
+        "question": "In general, how important, if at all, is it to you for someone in a top executive business position to consider the impact of business decisions on society?",
+        "choice": [
+            "Essential",
+            "Important, but not essential",
+            "Not important"
+        ],
+        "most_freq_ans": "Essential",
+        "polparty_info": {
+            "Democrat": [
+                0.8282828282828283,
+                "Essential"
+            ],
+            "Republican": [
+                0.5581395348837209,
+                "Essential"
+            ],
+            "Other": [
+                0.6129032258064516,
+                "Essential"
+            ],
+            "Independent": [
+                0.6333333333333333,
+                "Essential"
+            ]
+        }
+    },
+    {
+        "qid": "AMNTWMNPF1_W36",
+        "question": "Thinking about the country today, would you say there are",
+        "choice": [
+            "Too many women in high political offices",
+            "Too few women in high political offices",
+            "About the right number of women in high political offices"
+        ],
+        "most_freq_ans": "Too few women in high political offices",
+        "polparty_info": {
+            "Independent": [
+                0.7066666666666667,
+                "Too few women in high political offices"
+            ],
+            "Democrat": [
+                0.9004524886877828,
+                "Too few women in high political offices"
+            ],
+            "Republican": [
+                0.5106382978723404,
+                "About the right number of women in high political offices"
+            ],
+            "Other": [
+                0.543859649122807,
+                "Too few women in high political offices"
+            ]
+        }
+    },
+    {
+        "qid": "TRACKGOV1a_W49",
+        "question": "As far as you know, how much of what you do online or on your cellphone is being tracked by the government?",
+        "choice": [
+            "All or almost all of it",
+            "Most of it",
+            "Some of it",
+            "Very little of it",
+            "None of it"
+        ],
+        "most_freq_ans": "Some of it",
+        "polparty_info": {
+            "Democrat": [
+                0.28837209302325584,
+                "Some of it"
+            ],
+            "Republican": [
+                0.3088235294117647,
+                "Some of it"
+            ],
+            "Independent": [
+                0.31496062992125984,
+                "Some of it"
+            ],
+            "Other": [
+                0.31746031746031744,
+                "Some of it"
+            ]
+        }
+    },
+    {
+        "qid": "ECON4_i_W54",
+        "question": "Thinking about your own household's financial situation, how much, if at all, does the country's tax system affect your household's financial situation?",
+        "choice": [
+            "A great deal",
+            "A fair amount",
+            "Not too much",
+            "Not at all"
+        ],
+        "most_freq_ans": "A fair amount",
+        "polparty_info": {
+            "Republican": [
+                0.4372093023255814,
+                "A fair amount"
+            ],
+            "Democrat": [
+                0.3804347826086957,
+                "A fair amount"
+            ],
+            "Other": [
+                0.4,
+                "A fair amount"
+            ],
+            "Independent": [
+                0.4206008583690987,
+                "A fair amount"
+            ]
+        }
+    },
+    {
+        "qid": "GUNLOADED1_W26",
+        "question": "In general, as far as you know, how many of the guns in your home would you say are kept loaded?",
+        "choice": [
+            "All are kept loaded",
+            "Some are kept loaded and some are not",
+            "None are kept loaded"
+        ],
+        "most_freq_ans": "None are kept loaded",
+        "polparty_info": {
+            "Republican": [
+                0.4591194968553459,
+                "None are kept loaded"
+            ],
+            "Independent": [
+                0.49074074074074076,
+                "None are kept loaded"
+            ],
+            "Democrat": [
+                0.6052631578947368,
+                "None are kept loaded"
+            ],
+            "Other": [
+                0.41935483870967744,
+                "None are kept loaded"
+            ]
+        }
+    },
+    {
+        "qid": "FAMSURV43_W50",
+        "question": "In general, how much, if at all, would you say that your adult child(ren) ages 18 to 29 rely on you for emotional support?",
+        "choice": [
+            "A lot",
+            "Some",
+            "Only a little",
+            "Not at all"
+        ],
+        "most_freq_ans": "Some",
+        "polparty_info": {
+            "Republican": [
+                0.4368932038834951,
+                "Some"
+            ],
+            "Democrat": [
+                0.4052631578947368,
+                "A lot"
+            ],
+            "Other": [
+                0.42857142857142855,
+                "Some"
+            ],
+            "Independent": [
+                0.4827586206896552,
+                "Some"
+            ]
+        }
+    },
+    {
+        "qid": "G1_W34",
+        "question": "Do you, or does anyone in your immediate family, have a gene that predisposes you to a serious disease such as Alzheimer's, cancer, heart disease or sickle cell anemia?",
+        "choice": [
+            "Yes",
+            "No",
+            "Not sure"
+        ],
+        "most_freq_ans": "No",
+        "polparty_info": {
+            "Independent": [
+                0.3825136612021858,
+                "No"
+            ],
+            "Democrat": [
+                0.4334763948497854,
+                "No"
+            ],
+            "Republican": [
+                0.4583333333333333,
+                "No"
+            ],
+            "Other": [
+                0.39436619718309857,
+                "Not sure"
+            ]
+        }
+    },
+    {
+        "qid": "BUSPROFIT_W92",
+        "question": "Please choose the statement that comes closer to your own views.",
+        "choice": [
+            "Business corporations make too much profit",
+            "Most corporations make a fair and reasonable amount of profit"
+        ],
+        "most_freq_ans": "Business corporations make too much profit",
+        "polparty_info": {
+            "Democrat": [
+                0.7878411910669976,
+                "Business corporations make too much profit"
+            ],
+            "Independent": [
+                0.5836791147994468,
+                "Business corporations make too much profit"
+            ],
+            "Other": [
+                0.6360424028268551,
+                "Business corporations make too much profit"
+            ],
+            "Republican": [
+                0.5947441217150761,
+                "Most corporations make a fair and reasonable amount of profit"
+            ]
+        }
+    },
+    {
+        "qid": "GAP21Q6_W82",
+        "question": "Which statement comes closest to your own views, even if neither is exactly right? Democracy in the US",
+        "choice": [
+            "Is a good example for other countries to follow",
+            "Used to be a good example, but has not been in recent years",
+            "Has never been a good example for other countries to follow"
+        ],
+        "most_freq_ans": "Used to be a good example, but has not been in recent years",
+        "polparty_info": {
+            "Republican": [
+                0.6684782608695652,
+                "Used to be a good example, but has not been in recent years"
+            ],
+            "Independent": [
+                0.6975308641975309,
+                "Used to be a good example, but has not been in recent years"
+            ],
+            "Democrat": [
+                0.7276422764227642,
+                "Used to be a good example, but has not been in recent years"
+            ],
+            "Other": [
+                0.75,
+                "Used to be a good example, but has not been in recent years"
+            ]
+        }
+    },
+    {
+        "qid": "CANMTCHPOL_W92",
+        "question": "I usually feel like",
+        "choice": [
+            "There is at least one candidate who shares most of my views",
+            "None of the candidates represent my views well"
+        ],
+        "most_freq_ans": "There is at least one candidate who shares most of my views",
+        "polparty_info": {
+            "Democrat": [
+                0.7642679900744417,
+                "There is at least one candidate who shares most of my views"
+            ],
+            "Independent": [
+                0.5311203319502075,
+                "There is at least one candidate who shares most of my views"
+            ],
+            "Other": [
+                0.5724381625441696,
+                "None of the candidates represent my views well"
+            ],
+            "Republican": [
+                0.7372060857538036,
+                "There is at least one candidate who shares most of my views"
+            ]
+        }
+    },
+    {
+        "qid": "RACESURV5d_W43",
+        "question": "Overall, how does being Asian affect people's ability to get ahead in our country these days?",
+        "choice": [
+            "Helps a lot",
+            "Helps a little",
+            "Hurts a little",
+            "Hurts a lot",
+            "Neither helps nor hurts"
+        ],
+        "most_freq_ans": "Neither helps nor hurts",
+        "polparty_info": {
+            "Other": [
+                0.4722222222222222,
+                "Neither helps nor hurts"
+            ],
+            "Republican": [
+                0.47554347826086957,
+                "Neither helps nor hurts"
+            ],
+            "Independent": [
+                0.43434343434343436,
+                "Neither helps nor hurts"
+            ],
+            "Democrat": [
+                0.3073529411764706,
+                "Helps a little"
+            ]
+        }
+    },
+    {
+        "qid": "BETTERBIZ2F2A_W36",
+        "question": "In general, do you think men or women would do a better job running a major technology company types of companies?",
+        "choice": [
+            "Men would do a better job",
+            "Women would do a better job",
+            "No difference"
+        ],
+        "most_freq_ans": "No difference",
+        "polparty_info": {
+            "Democrat": [
+                0.7575757575757576,
+                "No difference"
+            ],
+            "Republican": [
+                0.7209302325581395,
+                "No difference"
+            ],
+            "Other": [
+                0.8064516129032258,
+                "No difference"
+            ],
+            "Independent": [
+                0.8166666666666667,
+                "No difference"
+            ]
+        }
+    },
+    {
+        "qid": "INFOWHYb_W45",
+        "question": "How much do you think to push an agenda or viewpoint is a reason why made-up news and information is created?",
+        "choice": [
+            "Major reason",
+            "Minor reason",
+            "Not a reason"
+        ],
+        "most_freq_ans": "Major reason",
+        "polparty_info": {
+            "Democrat": [
+                0.8787878787878788,
+                "Major reason"
+            ],
+            "Independent": [
+                0.9073170731707317,
+                "Major reason"
+            ],
+            "Other": [
+                0.9041916167664671,
+                "Major reason"
+            ],
+            "Republican": [
+                0.917989417989418,
+                "Major reason"
+            ]
+        }
+    },
+    {
+        "qid": "FINANCEc_W54",
+        "question": "Do you have personal investments in stocks, bonds or mutual funds other than those held in an IRA or 401K?",
+        "choice": [
+            "Yes, have this",
+            "No, do not have this"
+        ],
+        "most_freq_ans": "No, do not have this",
+        "polparty_info": {
+            "Republican": [
+                0.5046511627906977,
+                "No, do not have this"
+            ],
+            "Democrat": [
+                0.5760869565217391,
+                "No, do not have this"
+            ],
+            "Other": [
+                0.70625,
+                "No, do not have this"
+            ],
+            "Independent": [
+                0.5236051502145923,
+                "No, do not have this"
+            ]
+        }
+    },
+    {
+        "qid": "HAPPEN2d_W41",
+        "question": "How likely do you think it is that the following will happen in the next 30 years? China will overtake the U.S. as the world's main superpower",
+        "choice": [
+            "Will definitely happen",
+            "Will probably happen",
+            "Will probably not happen",
+            "Will definitely not happen"
+        ],
+        "most_freq_ans": "Will probably happen",
+        "polparty_info": {
+            "Democrat": [
+                0.44036697247706424,
+                "Will probably happen"
+            ],
+            "Republican": [
+                0.47126436781609193,
+                "Will probably not happen"
+            ],
+            "Independent": [
+                0.4064516129032258,
+                "Will probably happen"
+            ],
+            "Other": [
+                0.4305555555555556,
+                "Will probably happen"
+            ]
+        }
+    },
+    {
+        "qid": "GUNCONTRIBA_W26",
+        "question": "How much, if at all, do you think the ease with which people can legally obtain guns contributes to gun violence in the country today?",
+        "choice": [
+            "A great deal",
+            "A fair amount",
+            "Not too much",
+            "Not at all"
+        ],
+        "most_freq_ans": "A great deal",
+        "polparty_info": {
+            "Independent": [
+                0.3037542662116041,
+                "Not too much"
+            ],
+            "Republican": [
+                0.4014084507042254,
+                "Not too much"
+            ],
+            "Democrat": [
+                0.5471698113207547,
+                "A great deal"
+            ],
+            "Other": [
+                0.37349397590361444,
+                "Not too much"
+            ]
+        }
+    },
+    {
+        "qid": "COMMIMPD_W32",
+        "question": "How important is it to you, personally, to live in a community where most people share your political views",
+        "choice": [
+            "Very important",
+            "Somewhat important",
+            "Not too important",
+            "Not at all important"
+        ],
+        "most_freq_ans": "Somewhat important",
+        "polparty_info": {
+            "Democrat": [
+                0.42524271844660194,
+                "Somewhat important"
+            ],
+            "Republican": [
+                0.42355371900826444,
+                "Somewhat important"
+            ],
+            "Independent": [
+                0.43119266055045874,
+                "Not too important"
+            ],
+            "Other": [
+                0.411214953271028,
+                "Not too important"
+            ]
+        }
+    },
+    {
+        "qid": "ELITEUNDMOD_W92",
+        "question": "In general, do you think people in influential and powerful positions throughout our society understand the challenges people like you face in their daily lives",
+        "choice": [
+            "Very well",
+            "Somewhat well",
+            "Not too well",
+            "Not at all well"
+        ],
+        "most_freq_ans": "Not too well",
+        "polparty_info": {
+            "Democrat": [
+                0.47022332506203474,
+                "Not too well"
+            ],
+            "Independent": [
+                0.49377593360995853,
+                "Not too well"
+            ],
+            "Other": [
+                0.4204946996466431,
+                "Not at all well"
+            ],
+            "Republican": [
+                0.49377593360995853,
+                "Not too well"
+            ]
+        }
+    },
+    {
+        "qid": "RACESURV19f_W43",
+        "question": "Do you think each is a major reason, minor reason, or not a reason why black people in our country may have a harder time getting ahead than white people? Family instability",
+        "choice": [
+            "Major reason",
+            "Minor reason",
+            "Not a reason"
+        ],
+        "most_freq_ans": "Major reason",
+        "polparty_info": {
+            "Other": [
+                0.42105263157894735,
+                "Major reason"
+            ],
+            "Republican": [
+                0.5957446808510638,
+                "Major reason"
+            ],
+            "Democrat": [
+                0.4676923076923077,
+                "Major reason"
+            ],
+            "Independent": [
+                0.5352112676056338,
+                "Major reason"
+            ]
+        }
+    },
+    {
+        "qid": "PQ3_F2Cb_W42",
+        "question": "Is what you know about dietitians because you learned about this in school",
+        "choice": [
+            "Yes, learned about this in school",
+            "No, did not learn about this in school"
+        ],
+        "most_freq_ans": "No, did not learn about this in school",
+        "polparty_info": {
+            "Other": [
+                0.49206349206349204,
+                "No, did not learn about this in school"
+            ],
+            "Democrat": [
+                0.5026178010471204,
+                "No, did not learn about this in school"
+            ],
+            "Independent": [
+                0.552,
+                "Yes, learned about this in school"
+            ],
+            "Republican": [
+                0.5149253731343284,
+                "No, did not learn about this in school"
+            ]
+        }
+    },
+    {
+        "qid": "LOCALPROBC_W32",
+        "question": "How much, if at all, is access to grocery stores a problem in your local community?",
+        "choice": [
+            "Major problem in my local community",
+            "Minor problem in my local community",
+            "Not a problem in my local community"
+        ],
+        "most_freq_ans": "Not a problem in my local community",
+        "polparty_info": {
+            "Democrat": [
+                0.6601941747572816,
+                "Not a problem in my local community"
+            ],
+            "Republican": [
+                0.7603305785123967,
+                "Not a problem in my local community"
+            ],
+            "Independent": [
+                0.676605504587156,
+                "Not a problem in my local community"
+            ],
+            "Other": [
+                0.6355140186915887,
+                "Not a problem in my local community"
+            ]
+        }
+    },
+    {
+        "qid": "BETTERBIZ2F2D_W36",
+        "question": "In general, do you think men or women would do a better job running a large oil or gas company types of companies?",
+        "choice": [
+            "Men would do a better job",
+            "Women would do a better job",
+            "No difference"
+        ],
+        "most_freq_ans": "No difference",
+        "polparty_info": {
+            "Democrat": [
+                0.6666666666666666,
+                "No difference"
+            ],
+            "Republican": [
+                0.5813953488372093,
+                "No difference"
+            ],
+            "Other": [
+                0.5161290322580645,
+                "No difference"
+            ],
+            "Independent": [
+                0.65,
+                "No difference"
+            ]
+        }
+    },
+    {
+        "qid": "PQ7_F2A_W42",
+        "question": "When you hear about problems with professional misconduct among medical doctors, which comes closer to your view, even if neither is exactly right?",
+        "choice": [
+            "Most medical doctors have good intentions, it's the system that's broken",
+            "The system can work fine, it's the medical doctors that are the problem"
+        ],
+        "most_freq_ans": "Most medical doctors have good intentions, it's the system that's broken",
+        "polparty_info": {
+            "Other": [
+                0.6753246753246753,
+                "Most medical doctors have good intentions, it's the system that's broken"
+            ],
+            "Democrat": [
+                0.8190954773869347,
+                "Most medical doctors have good intentions, it's the system that's broken"
+            ],
+            "Independent": [
+                0.7132352941176471,
+                "Most medical doctors have good intentions, it's the system that's broken"
+            ],
+            "Republican": [
+                0.7092198581560284,
+                "Most medical doctors have good intentions, it's the system that's broken"
+            ]
+        }
+    },
+    {
+        "qid": "BOYSF1D_W29",
+        "question": "When it comes to raising boys, would you say there is too much emphasis or too little emphasis on encouraging boys to do well in school these days, or is it about right?",
+        "choice": [
+            "Too much emphasis",
+            "Too little emphasis",
+            "About right"
+        ],
+        "most_freq_ans": "Too little emphasis",
+        "polparty_info": {
+            "Independent": [
+                0.53125,
+                "Too little emphasis"
+            ],
+            "Republican": [
+                0.581081081081081,
+                "Too little emphasis"
+            ],
+            "Other": [
+                0.54,
+                "Too little emphasis"
+            ],
+            "Democrat": [
+                0.5,
+                "Too little emphasis"
+            ]
+        }
+    },
+    {
+        "qid": "RACESURV45_W43",
+        "question": "How many black people in our country do you think would confront a black friend or family member if they made a racist or racially insensitive comment or joke about people who are white?",
+        "choice": [
+            "All or most",
+            "Some",
+            "Only a few",
+            "None",
+            "Not sure"
+        ],
+        "most_freq_ans": "Only a few",
+        "polparty_info": {
+            "Other": [
+                0.32222222222222224,
+                "Only a few"
+            ],
+            "Republican": [
+                0.3641304347826087,
+                "Only a few"
+            ],
+            "Independent": [
+                0.3888888888888889,
+                "Only a few"
+            ],
+            "Democrat": [
+                0.34411764705882353,
+                "Some"
+            ]
+        }
+    },
+    {
+        "qid": "MAN1B_W29",
+        "question": "In general, how much pressure, if any, do you think men face in our country these days to have many sexual partners?",
+        "choice": [
+            "A lot",
+            "Some",
+            "Not too much",
+            "None at all"
+        ],
+        "most_freq_ans": "Not too much",
+        "polparty_info": {
+            "Independent": [
+                0.4158878504672897,
+                "Not too much"
+            ],
+            "Republican": [
+                0.4180327868852459,
+                "Not too much"
+            ],
+            "Democrat": [
+                0.3675675675675676,
+                "Some"
+            ],
+            "Other": [
+                0.3684210526315789,
+                "Not too much"
+            ]
+        }
+    },
+    {
+        "qid": "RQ4_F1Cc_W42",
+        "question": "Thinking about nutrition research scientists, how often would you say they admit mistakes and take responsibility for them",
+        "choice": [
+            "All or most of time",
+            "Some of the time",
+            "Only a little of the time",
+            "None of the time"
+        ],
+        "most_freq_ans": "Some of the time",
+        "polparty_info": {
+            "Democrat": [
+                0.5372340425531915,
+                "Some of the time"
+            ],
+            "Independent": [
+                0.524822695035461,
+                "Some of the time"
+            ],
+            "Republican": [
+                0.42105263157894735,
+                "Some of the time"
+            ],
+            "Other": [
+                0.4375,
+                "Some of the time"
+            ]
+        }
+    },
+    {
+        "qid": "PQ4_F2Ac_W42",
+        "question": "Thinking about medical doctors, how often would you say they admit mistakes and take responsibility for them",
+        "choice": [
+            "All or most of the time",
+            "Some of the time",
+            "Only a little of the time",
+            "None of the time"
+        ],
+        "most_freq_ans": "Some of the time",
+        "polparty_info": {
+            "Other": [
+                0.36363636363636365,
+                "Some of the time"
+            ],
+            "Democrat": [
+                0.4723618090452261,
+                "Some of the time"
+            ],
+            "Independent": [
+                0.5367647058823529,
+                "Some of the time"
+            ],
+            "Republican": [
+                0.40425531914893614,
+                "Some of the time"
+            ]
+        }
+    },
+    {
+        "qid": "GOVPRIORITYc_W54",
+        "question": "How much of a priority should the following be for the federal government to address: Reducing economic inequality",
+        "choice": [
+            "A top priority",
+            "Important, but lower priority",
+            "Not too important",
+            "Should not be done"
+        ],
+        "most_freq_ans": "A top priority",
+        "polparty_info": {
+            "Republican": [
+                0.4232558139534884,
+                "Important, but lower priority"
+            ],
+            "Democrat": [
+                0.6583850931677019,
+                "A top priority"
+            ],
+            "Other": [
+                0.46875,
+                "A top priority"
+            ],
+            "Independent": [
+                0.4248927038626609,
+                "A top priority"
+            ]
+        }
+    },
+    {
+        "qid": "BETTERBIZ2F2F_W36",
+        "question": "In general, do you think men or women would do a better job running a professional sports team types of companies?",
+        "choice": [
+            "Men would do a better job",
+            "Women would do a better job",
+            "No difference"
+        ],
+        "most_freq_ans": "No difference",
+        "polparty_info": {
+            "Other": [
+                0.6129032258064516,
+                "No difference"
+            ],
+            "Democrat": [
+                0.5555555555555556,
+                "No difference"
+            ],
+            "Republican": [
+                0.4946236559139785,
+                "No difference"
+            ],
+            "Independent": [
+                0.6056338028169014,
+                "No difference"
+            ]
+        }
+    },
+    {
+        "qid": "CARS9A_W27",
+        "question": "Would you strongly favor, favor, oppose, or strongly oppose the following rules and regulations for driverless vehicles? Requiring them to travel in dedicated lanes",
+        "choice": [
+            "Strongly favor",
+            "Favor",
+            "Oppose",
+            "Strongly oppose"
+        ],
+        "most_freq_ans": "Strongly favor",
+        "polparty_info": {
+            "Democrat": [
+                0.4076086956521739,
+                "Favor"
+            ],
+            "Republican": [
+                0.47719298245614034,
+                "Strongly favor"
+            ],
+            "Independent": [
+                0.44947735191637633,
+                "Favor"
+            ],
+            "Other": [
+                0.43529411764705883,
+                "Strongly favor"
+            ]
+        }
+    },
+    {
+        "qid": "INFOKNOWd_W45",
+        "question": "How do you feel about the average American's ability to recognize the following type of news and information? Factual information presented to favor one side of an issue",
+        "choice": [
+            "The average American should be able to recognize it",
+            "It is too much to ask of the average American to be able to recognize it"
+        ],
+        "most_freq_ans": "The average American should be able to recognize it",
+        "polparty_info": {
+            "Democrat": [
+                0.5828877005347594,
+                "The average American should be able to recognize it"
+            ],
+            "Independent": [
+                0.5439024390243903,
+                "The average American should be able to recognize it"
+            ],
+            "Other": [
+                0.6047904191616766,
+                "The average American should be able to recognize it"
+            ],
+            "Republican": [
+                0.5476190476190477,
+                "The average American should be able to recognize it"
+            ]
+        }
+    },
+    {
+        "qid": "FAMSURV22f_W50",
+        "question": "Thinking back to when you got married, how much, if at all, was it was convenient a reason you decided to get married?",
+        "choice": [
+            "Major reason",
+            "Minor reason",
+            "Not a reason"
+        ],
+        "most_freq_ans": "Not a reason",
+        "polparty_info": {
+            "Republican": [
+                0.8018867924528302,
+                "Not a reason"
+            ],
+            "Independent": [
+                0.7467362924281984,
+                "Not a reason"
+            ],
+            "Other": [
+                0.7052631578947368,
+                "Not a reason"
+            ],
+            "Democrat": [
+                0.67170626349892,
+                "Not a reason"
+            ]
+        }
+    },
+    {
+        "qid": "FEELC_W32",
+        "question": "How often, if ever, do you feel optimistic about your life",
+        "choice": [
+            "All or most of the time",
+            "Sometimes",
+            "Hardly ever",
+            "Never"
+        ],
+        "most_freq_ans": "All or most of the time",
+        "polparty_info": {
+            "Democrat": [
+                0.5087378640776699,
+                "All or most of the time"
+            ],
+            "Republican": [
+                0.5661157024793388,
+                "All or most of the time"
+            ],
+            "Independent": [
+                0.4908256880733945,
+                "All or most of the time"
+            ],
+            "Other": [
+                0.45794392523364486,
+                "Sometimes"
+            ]
+        }
+    },
+    {
+        "qid": "IDIMPORT_W43",
+        "question": "How important is your racial background to how you think about yourself?",
+        "choice": [
+            "Extremely important",
+            "Very important",
+            "Moderately important",
+            "Only a little important",
+            "Not at all important"
+        ],
+        "most_freq_ans": "Not at all important",
+        "polparty_info": {
+            "Other": [
+                0.3,
+                "Not at all important"
+            ],
+            "Republican": [
+                0.3858695652173913,
+                "Not at all important"
+            ],
+            "Independent": [
+                0.3005050505050505,
+                "Not at all important"
+            ],
+            "Democrat": [
+                0.3637702503681885,
+                "Extremely important"
+            ]
+        }
+    },
+    {
+        "qid": "DRONE2_W27",
+        "question": "Have you ever seen someone operating a drone?",
+        "choice": [
+            "Yes",
+            "No"
+        ],
+        "most_freq_ans": "Yes",
+        "polparty_info": {
+            "Republican": [
+                0.5845070422535211,
+                "Yes"
+            ],
+            "Democrat": [
+                0.6529411764705882,
+                "Yes"
+            ],
+            "Independent": [
+                0.6862745098039216,
+                "Yes"
+            ],
+            "Other": [
+                0.6511627906976745,
+                "Yes"
+            ]
+        }
+    },
+    {
+        "qid": "FAMSURV32e_W50",
+        "question": "How do you feel about your spouse's/partner's approach to parenting?",
+        "choice": [
+            "Very satisfied",
+            "Somewhat satisfied",
+            "Somewhat dissatisfied",
+            "Very dissatisfied"
+        ],
+        "most_freq_ans": "Very satisfied",
+        "polparty_info": {
+            "Republican": [
+                0.5147058823529411,
+                "Very satisfied"
+            ],
+            "Independent": [
+                0.5037593984962406,
+                "Very satisfied"
+            ],
+            "Other": [
+                0.46,
+                "Very satisfied"
+            ],
+            "Democrat": [
+                0.46551724137931033,
+                "Very satisfied"
+            ]
+        }
+    },
+    {
+        "qid": "SOLVPROBi_W41",
+        "question": "In the future, what kind of an impact do you think public K-12 schools will have in solving the biggest problems facing the country?",
+        "choice": [
+            "A very positive impact",
+            "A somewhat positive impact",
+            "A somewhat negative impact",
+            "A very negative impact"
+        ],
+        "most_freq_ans": "A somewhat positive impact",
+        "polparty_info": {
+            "Democrat": [
+                0.5412844036697247,
+                "A somewhat positive impact"
+            ],
+            "Republican": [
+                0.5517241379310345,
+                "A somewhat positive impact"
+            ],
+            "Independent": [
+                0.567741935483871,
+                "A somewhat positive impact"
+            ],
+            "Other": [
+                0.4722222222222222,
+                "A somewhat positive impact"
+            ]
+        }
+    },
+    {
+        "qid": "INEQ8_g_W54",
+        "question": "How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Eliminating college debt",
+        "choice": [
+            "A great deal",
+            "A fair amount",
+            "Not too much",
+            "Nothing at all"
+        ],
+        "most_freq_ans": "A great deal",
+        "polparty_info": {
+            "Democrat": [
+                0.5357142857142857,
+                "A great deal"
+            ],
+            "Republican": [
+                0.3157894736842105,
+                "Nothing at all"
+            ],
+            "Independent": [
+                0.34513274336283184,
+                "A great deal"
+            ],
+            "Other": [
+                0.3472222222222222,
+                "A great deal"
+            ]
+        }
+    },
+    {
+        "qid": "ECON5_c_W54",
+        "question": "Do you think the country's current economic conditions are helping or hurting the middle class?",
+        "choice": [
+            "Helping a lot",
+            "Helping a little",
+            "Hurting a little",
+            "Hurting a lot",
+            "Neither helping nor hurting"
+        ],
+        "most_freq_ans": "Hurting a little",
+        "polparty_info": {
+            "Republican": [
+                0.36065573770491804,
+                "Helping a little"
+            ],
+            "Democrat": [
+                0.40584415584415584,
+                "Hurting a lot"
+            ],
+            "Other": [
+                0.29545454545454547,
+                "Hurting a lot"
+            ],
+            "Independent": [
+                0.325,
+                "Hurting a lot"
+            ]
+        }
+    },
+    {
+        "qid": "RQ7_F1B_W42",
+        "question": "When you hear about problems with research misconduct among environmental research scientists, which comes closer to your view, even if neither is exactly right?",
+        "choice": [
+            "Most environmental research scientists have good intentions, it's the research system that's broken",
+            "The research system can work fine, it's the environmental research scientists that are the problem"
+        ],
+        "most_freq_ans": "Most environmental research scientists have good intentions, it's the research system that's broken",
+        "polparty_info": {
+            "Democrat": [
+                0.7340425531914894,
+                "Most environmental research scientists have good intentions, it's the research system that's broken"
+            ],
+            "Independent": [
+                0.7163120567375887,
+                "Most environmental research scientists have good intentions, it's the research system that's broken"
+            ],
+            "Republican": [
+                0.5789473684210527,
+                "Most environmental research scientists have good intentions, it's the research system that's broken"
+            ],
+            "Other": [
+                0.703125,
+                "Most environmental research scientists have good intentions, it's the research system that's broken"
+            ]
+        }
+    },
+    {
+        "qid": "FAMSURV20_W50",
+        "question": "When you started living with your partner did you think about it as a step toward marriage?",
+        "choice": [
+            "Yes, thought of it as a step toward marriage",
+            "No, did not think of it as a step toward marriage"
+        ],
+        "most_freq_ans": "No, did not think of it as a step toward marriage",
+        "polparty_info": {
+            "Other": [
+                0.6,
+                "No, did not think of it as a step toward marriage"
+            ],
+            "Independent": [
+                0.5172413793103449,
+                "No, did not think of it as a step toward marriage"
+            ],
+            "Democrat": [
+                0.5054945054945055,
+                "No, did not think of it as a step toward marriage"
+            ],
+            "Republican": [
+                0.5172413793103449,
+                "Yes, thought of it as a step toward marriage"
+            ]
+        }
+    },
+    {
+        "qid": "EVOPERS3_W34",
+        "question": "Thinking about the development of human life on Earth which statement comes closest to your view?",
+        "choice": [
+            "Humans have evolved over time due to processes such as natural selection; God or a higher power had no role in this proc",
+            "Humans have evolved over time due to processes that were guided or allowed by God or a higher power",
+            "Humans have existed in their present form since the beginning of time"
+        ],
+        "most_freq_ans": "Humans have evolved over time due to processes that were guided or allowed by God or a higher power",
+        "polparty_info": {
+            "Independent": [
+                0.4673913043478261,
+                "Humans have evolved over time due to processes that were guided or allowed by God or a higher power"
+            ],
+            "Democrat": [
+                0.4700854700854701,
+                "Humans have evolved over time due to processes such as natural selection; God or a higher power had no role in this proc"
+            ],
+            "Republican": [
+                0.631578947368421,
+                "Humans have evolved over time due to processes that were guided or allowed by God or a higher power"
+            ],
+            "Other": [
+                0.42857142857142855,
+                "Humans have evolved over time due to processes that were guided or allowed by God or a higher power"
+            ]
+        }
+    },
+    {
+        "qid": "GOVAID_W92",
+        "question": "Please choose the statement that comes closer to your own views.",
+        "choice": [
+            "Government aid to the poor does more harm than good, by making people too dependent on government assistance",
+            "Government aid to the poor does more good than harm, because people can't get out of poverty until their basic needs are"
+        ],
+        "most_freq_ans": "Government aid to the poor does more good than harm, because people can't get out of poverty until their basic needs are",
+        "polparty_info": {
+            "Democrat": [
+                0.8312655086848635,
+                "Government aid to the poor does more good than harm, because people can't get out of poverty until their basic needs are"
+            ],
+            "Independent": [
+                0.5242047026279392,
+                "Government aid to the poor does more good than harm, because people can't get out of poverty until their basic needs are"
+            ],
+            "Other": [
+                0.5477031802120141,
+                "Government aid to the poor does more good than harm, because people can't get out of poverty until their basic needs are"
+            ],
+            "Republican": [
+                0.7316735822959889,
+                "Government aid to the poor does more harm than good, by making people too dependent on government assistance"
+            ]
+        }
+    },
+    {
+        "qid": "CAREGIV2_W27",
+        "question": "Based on what you know does the concept of a robot caregiver for the elderly seem",
+        "choice": [
+            "Extremely realistic",
+            "Somewhat realistic",
+            "Not very realistic",
+            "Not at all realistic"
+        ],
+        "most_freq_ans": "Somewhat realistic",
+        "polparty_info": {
+            "Democrat": [
+                0.5505050505050505,
+                "Somewhat realistic"
+            ],
+            "Independent": [
+                0.5,
+                "Somewhat realistic"
+            ],
+            "Other": [
+                0.5238095238095238,
+                "Somewhat realistic"
+            ],
+            "Republican": [
+                0.4405594405594406,
+                "Somewhat realistic"
+            ]
+        }
+    },
+    {
+        "qid": "CARS5_W27",
+        "question": "Would you, personally, want to ride in a driverless vehicle if you had the opportunity?",
+        "choice": [
+            "Yes",
+            "No"
+        ],
+        "most_freq_ans": "No",
+        "polparty_info": {
+            "Democrat": [
+                0.5679347826086957,
+                "Yes"
+            ],
+            "Republican": [
+                0.6421052631578947,
+                "No"
+            ],
+            "Independent": [
+                0.5574912891986062,
+                "No"
+            ],
+            "Other": [
+                0.5058823529411764,
+                "Yes"
+            ]
+        }
+    },
+    {
+        "qid": "GAP21Q21_d_W82",
+        "question": "In the US, how strong, if at all, are conflicts between people with different ethnic or racial backgrounds?",
+        "choice": [
+            "Very strong conflicts",
+            "Strong conflicts",
+            "Not very strong conflicts",
+            "There are not conflicts"
+        ],
+        "most_freq_ans": "Strong conflicts",
+        "polparty_info": {
+            "Republican": [
+                0.4076086956521739,
+                "Strong conflicts"
+            ],
+            "Independent": [
+                0.47530864197530864,
+                "Strong conflicts"
+            ],
+            "Democrat": [
+                0.516260162601626,
+                "Strong conflicts"
+            ],
+            "Other": [
+                0.36538461538461536,
+                "Strong conflicts"
+            ]
+        }
+    },
+    {
+        "qid": "EQUALBIZF2_W36",
+        "question": "Which of these two statements comes closer to your own view, even if neither is exactly right?",
+        "choice": [
+            "As more women move into management roles, it is only a matter of time before there are as many women as men in top execu",
+            "Even as more women move into management roles, men will continue to hold more top executive positions in business in the"
+        ],
+        "most_freq_ans": "As more women move into management roles, it is only a matter of time before there are as many women as men in top execu",
+        "polparty_info": {
+            "Democrat": [
+                0.51010101010101,
+                "As more women move into management roles, it is only a matter of time before there are as many women as men in top execu"
+            ],
+            "Other": [
+                0.5967741935483871,
+                "As more women move into management roles, it is only a matter of time before there are as many women as men in top execu"
+            ],
+            "Republican": [
+                0.553072625698324,
+                "As more women move into management roles, it is only a matter of time before there are as many women as men in top execu"
+            ],
+            "Independent": [
+                0.5648854961832062,
+                "As more women move into management roles, it is only a matter of time before there are as many women as men in top execu"
+            ]
+        }
+    },
+    {
+        "qid": "ETHNCMAJMOD_W41",
+        "question": "According to the U.S. Census Bureau, by the year 2050, a majority of the population will be made up of blacks, Asians, Hispanics, and other racial minorities. In terms of its impact on the country, do you think this will be",
+        "choice": [
+            "A very good thing",
+            "A somewhat good thing",
+            "A somewhat bad thing",
+            "A very bad thing",
+            "Neither a good nor bad thing"
+        ],
+        "most_freq_ans": "Neither a good nor bad thing",
+        "polparty_info": {
+            "Democrat": [
+                0.37155963302752293,
+                "Neither a good nor bad thing"
+            ],
+            "Republican": [
+                0.46551724137931033,
+                "Neither a good nor bad thing"
+            ],
+            "Independent": [
+                0.3741935483870968,
+                "Neither a good nor bad thing"
+            ],
+            "Other": [
+                0.4305555555555556,
+                "Neither a good nor bad thing"
+            ]
+        }
+    },
+    {
+        "qid": "DRONE4E_W27",
+        "question": "Do you think that private citizens should or should not be allowed to pilot drones in the following areas? At events, like concerts or rallies",
+        "choice": [
+            "Should be allowed",
+            "Should not be allowed",
+            "It depends"
+        ],
+        "most_freq_ans": "Should not be allowed",
+        "polparty_info": {
+            "Republican": [
+                0.5915492957746479,
+                "Should not be allowed"
+            ],
+            "Democrat": [
+                0.5941176470588235,
+                "Should not be allowed"
+            ],
+            "Independent": [
+                0.5424836601307189,
+                "Should not be allowed"
+            ],
+            "Other": [
+                0.4883720930232558,
+                "Should not be allowed"
+            ]
+        }
+    },
+    {
+        "qid": "PARTICIPATEB_W29",
+        "question": "Have you participated in any of these groups during the last 12 months, that is since September 2016? A service or civic organization such as American Legion or Lions Club",
+        "choice": [
+            "Yes",
+            "No"
+        ],
+        "most_freq_ans": "No",
+        "polparty_info": {
+            "Independent": [
+                0.8501362397820164,
+                "No"
+            ],
+            "Democrat": [
+                0.8511111111111112,
+                "No"
+            ],
+            "Republican": [
+                0.8071428571428572,
+                "No"
+            ],
+            "Other": [
+                0.8482142857142857,
+                "No"
+            ]
+        }
+    },
+    {
+        "qid": "ONLINESOURCE_W45",
+        "question": "In general, does most of the news you see online come from",
+        "choice": [
+            "Sources you are familiar with",
+            "Sources you are not familiar with",
+            "Not sure"
+        ],
+        "most_freq_ans": "Sources you are familiar with",
+        "polparty_info": {
+            "Democrat": [
+                0.7394495412844037,
+                "Sources you are familiar with"
+            ],
+            "Independent": [
+                0.6691919191919192,
+                "Sources you are familiar with"
+            ],
+            "Other": [
+                0.6540880503144654,
+                "Sources you are familiar with"
+            ],
+            "Republican": [
+                0.7394957983193278,
+                "Sources you are familiar with"
+            ]
+        }
+    },
+    {
+        "qid": "INEQ8_h_W54",
+        "question": "How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Reducing illegal immigration",
+        "choice": [
+            "A great deal",
+            "A fair amount",
+            "Not too much",
+            "Nothing at all"
+        ],
+        "most_freq_ans": "Not too much",
+        "polparty_info": {
+            "Democrat": [
+                0.49107142857142855,
+                "Not too much"
+            ],
+            "Republican": [
+                0.562753036437247,
+                "A great deal"
+            ],
+            "Independent": [
+                0.3938053097345133,
+                "Not too much"
+            ],
+            "Other": [
+                0.4027777777777778,
+                "Not too much"
+            ]
+        }
+    },
+    {
+        "qid": "RQ4_F1Cb_W42",
+        "question": "Thinking about nutrition research scientists, how often would you say they provide fair and accurate information when making statements about their research",
+        "choice": [
+            "All or most of time",
+            "Some of the time",
+            "Only a little of the time",
+            "None of the time"
+        ],
+        "most_freq_ans": "Some of the time",
+        "polparty_info": {
+            "Democrat": [
+                0.526595744680851,
+                "Some of the time"
+            ],
+            "Independent": [
+                0.6453900709219859,
+                "Some of the time"
+            ],
+            "Republican": [
+                0.6118421052631579,
+                "Some of the time"
+            ],
+            "Other": [
+                0.59375,
+                "Some of the time"
+            ]
+        }
+    },
+    {
+        "qid": "SOCTRUST_W32",
+        "question": "Generally speaking, would you say that",
+        "choice": [
+            "Most people can be trusted",
+            "You can't be too careful in dealing with people"
+        ],
+        "most_freq_ans": "You can't be too careful in dealing with people",
+        "polparty_info": {
+            "Democrat": [
+                0.5420560747663551,
+                "Most people can be trusted"
+            ],
+            "Republican": [
+                0.504950495049505,
+                "You can't be too careful in dealing with people"
+            ],
+            "Independent": [
+                0.6060606060606061,
+                "You can't be too careful in dealing with people"
+            ],
+            "Other": [
+                0.625,
+                "You can't be too careful in dealing with people"
+            ]
+        }
+    },
+    {
+        "qid": "Q6F1_W42",
+        "question": "When you hear that scientific research findings have been reviewed by an independent committee, does this make you",
+        "choice": [
+            "Trust the research findings more",
+            "Trust the research findings less",
+            "Makes no difference either way"
+        ],
+        "most_freq_ans": "Trust the research findings more",
+        "polparty_info": {
+            "Democrat": [
+                0.5691489361702128,
+                "Trust the research findings more"
+            ],
+            "Independent": [
+                0.524822695035461,
+                "Trust the research findings more"
+            ],
+            "Republican": [
+                0.4934210526315789,
+                "Trust the research findings more"
+            ],
+            "Other": [
+                0.4375,
+                "Trust the research findings more"
+            ]
+        }
+    },
+    {
+        "qid": "RQ4_F1Ce_W42",
+        "question": "Thinking about nutrition research scientists, how often would you say they care about the best interests of the public",
+        "choice": [
+            "All or most of time",
+            "Some of the time",
+            "Only a little of the time",
+            "None of the time"
+        ],
+        "most_freq_ans": "Some of the time",
+        "polparty_info": {
+            "Democrat": [
+                0.46808510638297873,
+                "All or most of time"
+            ],
+            "Independent": [
+                0.524822695035461,
+                "Some of the time"
+            ],
+            "Republican": [
+                0.625,
+                "Some of the time"
+            ],
+            "Other": [
+                0.453125,
+                "Some of the time"
+            ]
+        }
+    },
+    {
+        "qid": "ESSENBIZF2D_W36",
+        "question": "In general, how important, if at all, is it to you for someone in a top executive business position to work well under pressure?",
+        "choice": [
+            "Essential",
+            "Important, but not essential",
+            "Not important"
+        ],
+        "most_freq_ans": "Essential",
+        "polparty_info": {
+            "Democrat": [
+                0.7171717171717171,
+                "Essential"
+            ],
+            "Republican": [
+                0.7790697674418605,
+                "Essential"
+            ],
+            "Other": [
+                0.7096774193548387,
+                "Essential"
+            ],
+            "Independent": [
+                0.75,
+                "Essential"
+            ]
+        }
+    },
+    {
+        "qid": "GAP21Q33_c_W82",
+        "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think strengthening the United Nations should be given?",
+        "choice": [
+            "Top priority",
+            "Some priority",
+            "No priority"
+        ],
+        "most_freq_ans": "Some priority",
+        "polparty_info": {
+            "Republican": [
+                0.5208333333333334,
+                "Some priority"
+            ],
+            "Independent": [
+                0.38961038961038963,
+                "Some priority"
+            ],
+            "Democrat": [
+                0.4954954954954955,
+                "Some priority"
+            ],
+            "Other": [
+                0.5384615384615384,
+                "Some priority"
+            ]
+        }
+    },
+    {
+        "qid": "BETTERBIZ2F2C_W36",
+        "question": "In general, do you think men or women would do a better job running a large bank or financial institution types of companies?",
+        "choice": [
+            "Men would do a better job",
+            "Women would do a better job",
+            "No difference"
+        ],
+        "most_freq_ans": "No difference",
+        "polparty_info": {
+            "Other": [
+                0.7419354838709677,
+                "No difference"
+            ],
+            "Democrat": [
+                0.7171717171717171,
+                "No difference"
+            ],
+            "Republican": [
+                0.7741935483870968,
+                "No difference"
+            ],
+            "Independent": [
+                0.704225352112676,
+                "No difference"
+            ]
+        }
+    },
+    {
+        "qid": "FREECOLL_W92",
+        "question": "Would you favor or oppose making tuition at public colleges and universities free for all American students?",
+        "choice": [
+            "Strongly favor",
+            "Somewhat favor",
+            "Somewhat oppose",
+            "Strongly oppose"
+        ],
+        "most_freq_ans": "Strongly favor",
+        "polparty_info": {
+            "Democrat": [
+                0.4851116625310174,
+                "Strongly favor"
+            ],
+            "Independent": [
+                0.30013831258644535,
+                "Somewhat favor"
+            ],
+            "Other": [
+                0.392226148409894,
+                "Strongly favor"
+            ],
+            "Republican": [
+                0.5159059474412172,
+                "Strongly oppose"
+            ]
+        }
+    },
+    {
+        "qid": "GAP21Q21_e_W82",
+        "question": "In the US, how strong, if at all, are conflicts between people who practice different religions?",
+        "choice": [
+            "Very strong conflicts",
+            "Strong conflicts",
+            "Not very strong conflicts",
+            "There are not conflicts"
+        ],
+        "most_freq_ans": "Not very strong conflicts",
+        "polparty_info": {
+            "Republican": [
+                0.5815217391304348,
+                "Not very strong conflicts"
+            ],
+            "Independent": [
+                0.4876543209876543,
+                "Not very strong conflicts"
+            ],
+            "Democrat": [
+                0.4146341463414634,
+                "Strong conflicts"
+            ],
+            "Other": [
+                0.5384615384615384,
+                "Strong conflicts"
+            ]
+        }
+    },
+    {
+        "qid": "GAP21Q34_f_W82",
+        "question": "Thinking about Joe Biden's ability to handle a number of things, how confident are you that Joe Biden can do deal effectively with China?",
+        "choice": [
+            "Very confident",
+            "Somewhat confident",
+            "Not too confident",
+            "Not at all confident"
+        ],
+        "most_freq_ans": "Somewhat confident",
+        "polparty_info": {
+            "Republican": [
+                0.6304347826086957,
+                "Not at all confident"
+            ],
+            "Independent": [
+                0.4074074074074074,
+                "Somewhat confident"
+            ],
+            "Democrat": [
+                0.4959349593495935,
+                "Somewhat confident"
+            ],
+            "Other": [
+                0.28846153846153844,
+                "Not too confident"
+            ]
+        }
+    },
+    {
+        "qid": "CAREGIV6A_W27",
+        "question": "If robot caregivers such as these were developed, do you think the following are likely or not likely to happen as a result? Young people would feel less worried about caring for their aging relatives",
+        "choice": [
+            "Yes, likely",
+            "No, not likely"
+        ],
+        "most_freq_ans": "Yes, likely",
+        "polparty_info": {
+            "Democrat": [
+                0.7626262626262627,
+                "Yes, likely"
+            ],
+            "Independent": [
+                0.7014925373134329,
+                "Yes, likely"
+            ],
+            "Other": [
+                0.8333333333333334,
+                "Yes, likely"
+            ],
+            "Republican": [
+                0.7552447552447552,
+                "Yes, likely"
+            ]
+        }
+    },
+    {
+        "qid": "GOVRESP_c_W54",
+        "question": "Do you think high quality K-12 education is something the federal government has a responsibility to provide for all Americans?",
+        "choice": [
+            "Yes, a responsibility of the federal government to provide for all Americans",
+            "No, not the responsibility of the federal government to provide"
+        ],
+        "most_freq_ans": "Yes, a responsibility of the federal government to provide for all Americans",
+        "polparty_info": {
+            "Republican": [
+                0.6581395348837209,
+                "Yes, a responsibility of the federal government to provide for all Americans"
+            ],
+            "Democrat": [
+                0.9099378881987578,
+                "Yes, a responsibility of the federal government to provide for all Americans"
+            ],
+            "Other": [
+                0.775,
+                "Yes, a responsibility of the federal government to provide for all Americans"
+            ],
+            "Independent": [
+                0.7918454935622318,
+                "Yes, a responsibility of the federal government to provide for all Americans"
+            ]
+        }
+    },
+    {
+        "qid": "INEQ8_j_W54",
+        "question": "How much, if at all, do you think the following proposals would do to reduce economic inequality in the U.S.? Breaking up large corporations",
+        "choice": [
+            "A great deal",
+            "A fair amount",
+            "Not too much",
+            "Nothing at all"
+        ],
+        "most_freq_ans": "A fair amount",
+        "polparty_info": {
+            "Democrat": [
+                0.35119047619047616,
+                "A fair amount"
+            ],
+            "Republican": [
+                0.3481781376518219,
+                "Nothing at all"
+            ],
+            "Independent": [
+                0.3008849557522124,
+                "Not too much"
+            ],
+            "Other": [
+                0.3333333333333333,
+                "A fair amount"
+            ]
+        }
+    },
+    {
+        "qid": "BIOTECHC_W34",
+        "question": "Do you think genetic engineering of mosquitoes that would prevent them from reproducing in order to prevent the spread of some mosquito-borne diseases would be",
+        "choice": [
+            "An appropriate use of technology",
+            "Taking technology too far"
+        ],
+        "most_freq_ans": "An appropriate use of technology",
+        "polparty_info": {
+            "Independent": [
+                0.7213114754098361,
+                "An appropriate use of technology"
+            ],
+            "Democrat": [
+                0.7253218884120172,
+                "An appropriate use of technology"
+            ],
+            "Republican": [
+                0.7847222222222222,
+                "An appropriate use of technology"
+            ],
+            "Other": [
+                0.676056338028169,
+                "An appropriate use of technology"
+            ]
+        }
+    },
+    {
+        "qid": "FAMSURV1_W50",
+        "question": "At this point in your life, which of the following would be best for you personally?",
+        "choice": [
+            "Working full-time for pay",
+            "Working part-time for pay",
+            "Not working for pay at all"
+        ],
+        "most_freq_ans": "Working full-time for pay",
+        "polparty_info": {
+            "Republican": [
+                0.43894899536321486,
+                "Working full-time for pay"
+            ],
+            "Independent": [
+                0.5088757396449705,
+                "Working full-time for pay"
+            ],
+            "Democrat": [
+                0.4950603732162459,
+                "Working full-time for pay"
+            ],
+            "Other": [
+                0.507537688442211,
+                "Working full-time for pay"
+            ]
+        }
+    },
+    {
+        "qid": "GOVSIZE2_W92",
+        "question": "When you say you favor a smaller government providing fewer services, do you think it would be better to",
+        "choice": [
+            "Eliminate most current government services",
+            "Modestly reduce current government services"
+        ],
+        "most_freq_ans": "Modestly reduce current government services",
+        "polparty_info": {
+            "Independent": [
+                0.6987654320987654,
+                "Modestly reduce current government services"
+            ],
+            "Other": [
+                0.6601307189542484,
+                "Modestly reduce current government services"
+            ],
+            "Republican": [
+                0.7284345047923323,
+                "Modestly reduce current government services"
+            ],
+            "Democrat": [
+                0.8870967741935484,
+                "Modestly reduce current government services"
+            ]
+        }
+    },
+    {
+        "qid": "MOVERURAL_W32",
+        "question": "If you could move to a different community, would you want to",
+        "choice": [
+            "Stay in a rural area",
+            "Move to an urban area",
+            "Move to a suburban area"
+        ],
+        "most_freq_ans": "Stay in a rural area",
+        "polparty_info": {
+            "Democrat": [
+                0.5483870967741935,
+                "Move to a suburban area"
+            ],
+            "Independent": [
+                0.4146341463414634,
+                "Stay in a rural area"
+            ],
+            "Other": [
+                0.4,
+                "Stay in a rural area"
+            ],
+            "Republican": [
+                0.5277777777777778,
+                "Stay in a rural area"
+            ]
+        }
+    },
+    {
+        "qid": "MADEUPRESe_W45",
+        "question": "Has the issue of made-up news and information led you to change the way you use social media?",
+        "choice": [
+            "Yes, have done this",
+            "No, have not done this"
+        ],
+        "most_freq_ans": "Yes, have done this",
+        "polparty_info": {
+            "Democrat": [
+                0.5204991087344029,
+                "Yes, have done this"
+            ],
+            "Independent": [
+                0.5780487804878048,
+                "Yes, have done this"
+            ],
+            "Other": [
+                0.5389221556886228,
+                "Yes, have done this"
+            ],
+            "Republican": [
+                0.5529100529100529,
+                "Yes, have done this"
+            ]
+        }
+    },
+    {
+        "qid": "ADMISSIONf_W43",
+        "question": "Do you think scores on standardized tests, such as the SAT or act should be a major factor, minor factor, or not a factor in college admissions?",
+        "choice": [
+            "Major factor",
+            "Minor factor",
+            "Not a factor"
+        ],
+        "most_freq_ans": "Major factor",
+        "polparty_info": {
+            "Other": [
+                0.46111111111111114,
+                "Major factor"
+            ],
+            "Republican": [
+                0.5353260869565217,
+                "Major factor"
+            ],
+            "Independent": [
+                0.45202020202020204,
+                "Major factor"
+            ],
+            "Democrat": [
+                0.45441176470588235,
+                "Minor factor"
+            ]
+        }
+    },
+    {
+        "qid": "BETTERBIZ1F2E_W36",
+        "question": "In general, do you think men or women in top executive business positions are better at being willing to take risks?",
+        "choice": [
+            "Men are better",
+            "Women are better",
+            "No difference"
+        ],
+        "most_freq_ans": "No difference",
+        "polparty_info": {
+            "Other": [
+                0.6129032258064516,
+                "No difference"
+            ],
+            "Democrat": [
+                0.4444444444444444,
+                "No difference"
+            ],
+            "Republican": [
+                0.4946236559139785,
+                "No difference"
+            ],
+            "Independent": [
+                0.4647887323943662,
+                "Men are better"
+            ]
+        }
+    },
+    {
+        "qid": "INEQ5_g_W54",
+        "question": "How much, if at all, do you think our tax system contributes to economic inequality in this country?",
+        "choice": [
+            "Contributes a great deal",
+            "Contributes a fair amount",
+            "Contributes not too much",
+            "Contributes not at all"
+        ],
+        "most_freq_ans": "Contributes a great deal",
+        "polparty_info": {
+            "Democrat": [
+                0.5654761904761905,
+                "Contributes a great deal"
+            ],
+            "Republican": [
+                0.41295546558704455,
+                "Contributes a fair amount"
+            ],
+            "Independent": [
+                0.4646017699115044,
+                "Contributes a great deal"
+            ],
+            "Other": [
+                0.4444444444444444,
+                "Contributes a great deal"
+            ]
+        }
+    },
+    {
+        "qid": "GAP21Q33_l_W82",
+        "question": "Thinking about long-range foreign policy goals, how much priority, if any, do you think promoting and defending human rights in other countries should be given?",
+        "choice": [
+            "Top priority",
+            "Some priority",
+            "No priority"
+        ],
+        "most_freq_ans": "Some priority",
+        "polparty_info": {
+            "Democrat": [
+                0.5111111111111111,
+                "Some priority"
+            ],
+            "Republican": [
+                0.7159090909090909,
+                "Some priority"
+            ],
+            "Independent": [
+                0.5058823529411764,
+                "Some priority"
+            ],
+            "Other": [
+                0.6153846153846154,
+                "Some priority"
+            ]
+        }
+    },
+    {
+        "qid": "HAVEKIDS1_W50",
+        "question": "Thinking about the future, how likely, if at all, is it that you will have children someday?",
+        "choice": [
+            "Very likely",
+            "Somewhat likely",
+            "Not too likely",
+            "Not at all likely"
+        ],
+        "most_freq_ans": "Very likely",
+        "polparty_info": {
+            "Republican": [
+                0.3595505617977528,
+                "Very likely"
+            ],
+            "Independent": [
+                0.28823529411764703,
+                "Not at all likely"
+            ],
+            "Democrat": [
+                0.3073394495412844,
+                "Very likely"
+            ],
+            "Other": [
+                0.3424657534246575,
+                "Somewhat likely"
+            ]
+        }
+    },
+    {
+        "qid": "IMPROVE3_W36",
+        "question": "How much, if anything, do you think having more women in top leadership positions in business and government would do to improve the quality of life for all Americans?",
+        "choice": [
+            "A lot",
+            "Some",
+            "Not much",
+            "Nothing at all"
+        ],
+        "most_freq_ans": "Some",
+        "polparty_info": {
+            "Democrat": [
+                0.5178997613365155,
+                "A lot"
+            ],
+            "Independent": [
+                0.4234875444839858,
+                "Some"
+            ],
+            "Republican": [
+                0.36875,
+                "Some"
+            ],
+            "Other": [
+                0.33613445378151263,
+                "A lot"
+            ]
+        }
+    },
+    {
+        "qid": "GAP21Q7_d_W82",
+        "question": "Would you say the World Health Organization, or WHO has done a good or bad job dealing with the coronavirus outbreak?",
+        "choice": [
+            "Very good",
+            "Somewhat good",
+            "Somewhat bad",
+            "Very bad"
+        ],
+        "most_freq_ans": "Somewhat good",
+        "polparty_info": {
+            "Republican": [
+                0.33152173913043476,
+                "Very bad"
+            ],
+            "Independent": [
+                0.3888888888888889,
+                "Somewhat good"
+            ],
+            "Democrat": [
+                0.5975609756097561,
+                "Somewhat good"
+            ],
+            "Other": [
+                0.46153846153846156,
+                "Somewhat good"
+            ]
+        }
+    },
+    {
+        "qid": "SCM4b_W42",
+        "question": "How important do you think scientific research that advances knowledge, even if there are no immediate benefits types of scientific research is for society?",
+        "choice": [
+            "Essential",
+            "Important, but not essential",
+            "Not too important",
+            "Not important at all"
+        ],
+        "most_freq_ans": "Essential",
+        "polparty_info": {
+            "Other": [
+                0.45390070921985815,
+                "Important, but not essential"
+            ],
+            "Democrat": [
+                0.6020671834625323,
+                "Essential"
+            ],
+            "Independent": [
+                0.51985559566787,
+                "Essential"
+            ],
+            "Republican": [
+                0.5187713310580204,
+                "Important, but not essential"
+            ]
+        }
+    },
+    {
+        "qid": "ROBJOB8D_W27",
+        "question": "Do you think it is very likely, somewhat likely, not very likely, or not at all likely that the job of a construction worker will be mostly replaced by robots or computers in your lifetime?",
+        "choice": [
+            "Very likely",
+            "Somewhat likely",
+            "Not very likely",
+            "Not at all likely"
+        ],
+        "most_freq_ans": "Not very likely",
+        "polparty_info": {
+            "Democrat": [
+                0.421195652173913,
+                "Not very likely"
+            ],
+            "Republican": [
+                0.45263157894736844,
+                "Not very likely"
+            ],
+            "Independent": [
+                0.44947735191637633,
+                "Not very likely"
+            ],
+            "Other": [
+                0.43529411764705883,
+                "Not very likely"
+            ]
+        }
+    },
+    {
+        "qid": "E5_W36",
+        "question": "This question is about your household is your spouse now employed full-time, part-time or not employed?",
+        "choice": [
+            "Full-time",
+            "Part-time",
+            "Not employed"
+        ],
+        "most_freq_ans": "Full-time",
+        "polparty_info": {
+            "Democrat": [
+                0.5079365079365079,
+                "Full-time"
+            ],
+            "Republican": [
+                0.45539906103286387,
+                "Full-time"
+            ],
+            "Other": [
+                0.5633802816901409,
+                "Full-time"
+            ],
+            "Independent": [
+                0.4340659340659341,
+                "Not employed"
+            ]
+        }
+    },
+    {
+        "qid": "POP1_W42",
+        "question": "Which of these statements comes closer to your view, even if neither is exactly right?",
+        "choice": [
+            "Ordinary people would do a better job solving the country's problems than elected officials",
+            "Ordinary people would do no better solving the country's problems than elected officials"
+        ],
+        "most_freq_ans": "Ordinary people would do a better job solving the country's problems than elected officials",
+        "polparty_info": {
+            "Other": [
+                0.5177304964539007,
+                "Ordinary people would do a better job solving the country's problems than elected officials"
+            ],
+            "Democrat": [
+                0.49870801033591733,
+                "Ordinary people would do a better job solving the country's problems than elected officials"
+            ],
+            "Independent": [
+                0.5342960288808665,
+                "Ordinary people would do a better job solving the country's problems than elected officials"
+            ],
+            "Republican": [
+                0.5972696245733788,
+                "Ordinary people would do a better job solving the country's problems than elected officials"
+            ]
+        }
+    },
+    {
+        "qid": "RACESURV53e_W43",
+        "question": "Please indicate whether or not each has happened to you because of your race or ethnicity. Been subject to slurs or jokes",
+        "choice": [
+            "Yes, has happened to me",
+            "No, has not happened to me"
+        ],
+        "most_freq_ans": "No, has not happened to me",
+        "polparty_info": {
+            "Other": [
+                0.5222222222222223,
+                "Yes, has happened to me"
+            ],
+            "Republican": [
+                0.6304347826086957,
+                "No, has not happened to me"
+            ],
+            "Independent": [
+                0.5151515151515151,
+                "No, has not happened to me"
+            ],
+            "Democrat": [
+                0.5102941176470588,
+                "Yes, has happened to me"
+            ]
+        }
+    },
+    {
+        "qid": "ESSENBIZF2E_W36",
+        "question": "In general, how important, if at all, is it to you for someone in a top executive business position to be willing to take risks?",
+        "choice": [
+            "Essential",
+            "Important, but not essential",
+            "Not important"
+        ],
+        "most_freq_ans": "Important, but not essential",
+        "polparty_info": {
+            "Other": [
+                0.5161290322580645,
+                "Important, but not essential"
+            ],
+            "Democrat": [
+                0.5656565656565656,
+                "Important, but not essential"
+            ],
+            "Republican": [
+                0.5376344086021505,
+                "Important, but not essential"
+            ],
+            "Independent": [
+                0.6338028169014085,
+                "Important, but not essential"
+            ]
+        }
+    }
+]
