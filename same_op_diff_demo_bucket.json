@@ -1,0 +1,332 @@
+{
+    "Guns": {
+        "bucket": [
+            {
+                "4": 2229,
+                "8": 15247,
+                "16": 139751,
+                "32": 146018,
+                "999": 944
+            }
+        ],
+        "total_pairs_per_bucket": [
+            {
+                "4": 3139,
+                "8": 23252,
+                "16": 237663,
+                "32": 276140,
+                "999": 2167
+            }
+        ],
+        "total_pairs_with_diff_ideology": 304189,
+        "total_pairs": 542361
+    },
+    "Automation and driverless vehicles": {
+        "bucket": [
+            {
+                "4": 53,
+                "8": 729,
+                "16": 20230,
+                "32": 215071,
+                "999": 61195
+            }
+        ],
+        "total_pairs_per_bucket": [
+            {
+                "4": 84,
+                "8": 1120,
+                "16": 33671,
+                "32": 384105,
+                "999": 114048
+            }
+        ],
+        "total_pairs_with_diff_ideology": 297278,
+        "total_pairs": 533028
+    },
+    "Views on gender": {
+        "bucket": [
+            {
+                "4": 23,
+                "8": 2290,
+                "16": 120659,
+                "32": 285566,
+                "999": 7791
+            }
+        ],
+        "total_pairs_per_bucket": [
+            {
+                "4": 38,
+                "8": 3363,
+                "16": 196975,
+                "32": 519960,
+                "999": 18384
+            }
+        ],
+        "total_pairs_with_diff_ideology": 416329,
+        "total_pairs": 738720
+    },
+    "Community types & sexual harassment": {
+        "bucket": [
+            {
+                "4": 14,
+                "8": 681,
+                "16": 10933,
+                "32": 472182,
+                "999": 214305
+            }
+        ],
+        "total_pairs_per_bucket": [
+            {
+                "4": 18,
+                "8": 831,
+                "16": 14742,
+                "32": 756479,
+                "999": 447071
+            }
+        ],
+        "total_pairs_with_diff_ideology": 698115,
+        "total_pairs": 1219141
+    },
+    "Biomedical & food issues": {
+        "bucket": [
+            {
+                "4": 2,
+                "8": 62,
+                "16": 2215,
+                "32": 80789,
+                "999": 30501
+            }
+        ],
+        "total_pairs_per_bucket": [
+            {
+                "4": 4,
+                "8": 89,
+                "16": 3640,
+                "32": 139892,
+                "999": 57036
+            }
+        ],
+        "total_pairs_with_diff_ideology": 113569,
+        "total_pairs": 200661
+    },
+    "Gender & Leadership": {
+        "bucket": [
+            {
+                "4": 78603,
+                "8": 100901,
+                "16": 87818,
+                "32": 102522,
+                "999": 9963
+            }
+        ],
+        "total_pairs_per_bucket": [
+            {
+                "4": 125632,
+                "8": 174348,
+                "16": 151777,
+                "32": 183940,
+                "999": 20388
+            }
+        ],
+        "total_pairs_with_diff_ideology": 379807,
+        "total_pairs": 656085
+    },
+    "America in 2050": {
+        "bucket": [
+            {
+                "4": 8,
+                "8": 165,
+                "16": 6624,
+                "32": 85479,
+                "999": 21414
+            }
+        ],
+        "total_pairs_per_bucket": [
+            {
+                "4": 12,
+                "8": 267,
+                "16": 10551,
+                "32": 145718,
+                "999": 42217
+            }
+        ],
+        "total_pairs_with_diff_ideology": 113690,
+        "total_pairs": 198765
+    },
+    "Trust in science": {
+        "bucket": [
+            {
+                "4": 1874,
+                "8": 22821,
+                "16": 135175,
+                "32": 90981,
+                "999": 102314
+            }
+        ],
+        "total_pairs_per_bucket": [
+            {
+                "4": 2688,
+                "8": 35212,
+                "16": 237081,
+                "32": 158824,
+                "999": 188365
+            }
+        ],
+        "total_pairs_with_diff_ideology": 353165,
+        "total_pairs": 622170
+    },
+    "Race": {
+        "bucket": [
+            {
+                "4": 721,
+                "8": 3995,
+                "16": 37575,
+                "32": 534489,
+                "999": 255567
+            }
+        ],
+        "total_pairs_per_bucket": [
+            {
+                "4": 956,
+                "8": 4827,
+                "16": 49491,
+                "32": 822803,
+                "999": 497234
+            }
+        ],
+        "total_pairs_with_diff_ideology": 832347,
+        "total_pairs": 1375311
+    },
+    "Misinformation": {
+        "bucket": [
+            {
+                "4": 1,
+                "8": 48,
+                "16": 2827,
+                "32": 170886,
+                "999": 483343
+            }
+        ],
+        "total_pairs_per_bucket": [
+            {
+                "4": 2,
+                "8": 78,
+                "16": 4325,
+                "32": 293618,
+                "999": 873192
+            }
+        ],
+        "total_pairs_with_diff_ideology": 657105,
+        "total_pairs": 1171215
+    },
+    "Privacy & Surveilance": {
+        "bucket": [
+            {
+                "4": 95,
+                "8": 1659,
+                "16": 52202,
+                "32": 221123,
+                "999": 39264
+            }
+        ],
+        "total_pairs_per_bucket": [
+            {
+                "4": 150,
+                "8": 2909,
+                "16": 94832,
+                "32": 400480,
+                "999": 71407
+            }
+        ],
+        "total_pairs_with_diff_ideology": 314343,
+        "total_pairs": 569778
+    },
+    "Family & Relationships": {
+        "bucket": [
+            {
+                "4": 3829,
+                "8": 73250,
+                "16": 674216,
+                "32": 836855,
+                "999": 112478
+            }
+        ],
+        "total_pairs_per_bucket": [
+            {
+                "4": 5494,
+                "8": 116104,
+                "16": 1183623,
+                "32": 1503250,
+                "999": 211182
+            }
+        ],
+        "total_pairs_with_diff_ideology": 1700628,
+        "total_pairs": 3019653
+    },
+    "Economic inequality": {
+        "bucket": [
+            {
+                "4": 29,
+                "8": 830,
+                "16": 59812,
+                "32": 553732,
+                "999": 216422
+            }
+        ],
+        "total_pairs_per_bucket": [
+            {
+                "4": 39,
+                "8": 1106,
+                "16": 82442,
+                "32": 930026,
+                "999": 463008
+            }
+        ],
+        "total_pairs_with_diff_ideology": 830825,
+        "total_pairs": 1476621
+    },
+    "Global attitudes": {
+        "bucket": [
+            {
+                "4": 2,
+                "8": 61,
+                "16": 3729,
+                "32": 64515,
+                "999": 48531
+            }
+        ],
+        "total_pairs_per_bucket": [
+            {
+                "4": 3,
+                "8": 101,
+                "16": 5189,
+                "32": 97766,
+                "999": 107217
+            }
+        ],
+        "total_pairs_with_diff_ideology": 116838,
+        "total_pairs": 210276
+    },
+    "Political views": {
+        "bucket": [
+            {
+                "4": 299,
+                "8": 4245,
+                "16": 165938,
+                "32": 1266044,
+                "999": 428568
+            }
+        ],
+        "total_pairs_per_bucket": [
+            {
+                "4": 519,
+                "8": 4973,
+                "16": 187891,
+                "32": 1931775,
+                "999": 1137577
+            }
+        ],
+        "total_pairs_with_diff_ideology": 1865094,
+        "total_pairs": 3262735
+    }
+}
