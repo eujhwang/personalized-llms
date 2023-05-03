@@ -179,21 +179,24 @@ def calculate_accuracy(model_generation_path):
         for demo_key, model_value in model_choice_dict.items():
             if demo_key in user_choice_dict.keys():
                 user_value = user_choice_dict[demo_key]
-                if user_value in model_value:
+                if model_value.endswith(user_value):
                     correct_key.append(demo_key)
                     correct += 1
                 else:
                     incorrect_key.append(demo_key)
                     incorrect += 1
-        accuracy_per_user = correct / (correct+incorrect)
-        user_accuracy_list.append({user_id: accuracy_per_user})
-        user_choice_list.append({
-            str(user_id): {
-                "correct": correct_key,
-                "incorrect": incorrect_key
-            }
-        })
-        accuracy_list.append(accuracy_per_user)
+
+        # when user did not respond to ideology categories, (correct + incorrect) becomes 0
+        if (correct + incorrect) > 0:
+            accuracy_per_user = correct / (correct+incorrect)
+            user_accuracy_list.append({user_id: accuracy_per_user})
+            user_choice_list.append({
+                str(user_id): {
+                    "correct": correct_key,
+                    "incorrect": incorrect_key
+                }
+            })
+            accuracy_list.append(accuracy_per_user)
 
     final_accuracy = sum(accuracy_list) / len(accuracy_list)
     return {"accuracy": final_accuracy, "user-accuracy": user_accuracy_list, "answer-choices": user_choice_list}
