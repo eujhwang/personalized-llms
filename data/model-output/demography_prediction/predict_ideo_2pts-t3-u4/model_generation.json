@@ -1,0 +1,158 @@
+[
+    {
+        "user_id": 53,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 204,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 217,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 244,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 4172,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 4194,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 4226,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 4262,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 8320,
+        "topic": "Views on gender",
+        "model_choice": "Political party: D. Other\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 8367,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 8379,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 8423,
+        "topic": "Views on gender",
+        "model_choice": "Political party: D. Other\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    }
+]

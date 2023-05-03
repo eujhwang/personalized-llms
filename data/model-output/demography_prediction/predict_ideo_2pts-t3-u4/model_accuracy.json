@@ -1,0 +1,158 @@
+{
+    "accuracy": 0.2916666666666667,
+    "user-accuracy": [
+        {
+            "53": 0.5
+        },
+        {
+            "204": 0.0
+        },
+        {
+            "217": 0.5
+        },
+        {
+            "244": 0.0
+        },
+        {
+            "4172": 0.0
+        },
+        {
+            "4194": 0.5
+        },
+        {
+            "4226": 0.0
+        },
+        {
+            "4262": 0.5
+        },
+        {
+            "8320": 0.0
+        },
+        {
+            "8367": 0.5
+        },
+        {
+            "8379": 0.5
+        },
+        {
+            "8423": 0.5
+        }
+    ],
+    "answer-choices": [
+        {
+            "53": {
+                "correct": [
+                    "Political ideology"
+                ],
+                "incorrect": [
+                    "Political party"
+                ]
+            }
+        },
+        {
+            "204": {
+                "correct": [],
+                "incorrect": [
+                    "Political party",
+                    "Political ideology"
+                ]
+            }
+        },
+        {
+            "217": {
+                "correct": [
+                    "Political party"
+                ],
+                "incorrect": [
+                    "Political ideology"
+                ]
+            }
+        },
+        {
+            "244": {
+                "correct": [],
+                "incorrect": [
+                    "Political party",
+                    "Political ideology"
+                ]
+            }
+        },
+        {
+            "4172": {
+                "correct": [],
+                "incorrect": [
+                    "Political party",
+                    "Political ideology"
+                ]
+            }
+        },
+        {
+            "4194": {
+                "correct": [
+                    "Political ideology"
+                ],
+                "incorrect": [
+                    "Political party"
+                ]
+            }
+        },
+        {
+            "4226": {
+                "correct": [],
+                "incorrect": [
+                    "Political party",
+                    "Political ideology"
+                ]
+            }
+        },
+        {
+            "4262": {
+                "correct": [
+                    "Political ideology"
+                ],
+                "incorrect": [
+                    "Political party"
+                ]
+            }
+        },
+        {
+            "8320": {
+                "correct": [],
+                "incorrect": [
+                    "Political party",
+                    "Political ideology"
+                ]
+            }
+        },
+        {
+            "8367": {
+                "correct": [
+                    "Political party"
+                ],
+                "incorrect": [
+                    "Political ideology"
+                ]
+            }
+        },
+        {
+            "8379": {
+                "correct": [
+                    "Political party"
+                ],
+                "incorrect": [
+                    "Political ideology"
+                ]
+            }
+        },
+        {
+            "8423": {
+                "correct": [
+                    "Political ideology"
+                ],
+                "incorrect": [
+                    "Political party"
+                ]
+            }
+        }
+    ]
+}

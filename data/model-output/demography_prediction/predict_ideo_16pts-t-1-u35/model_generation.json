@@ -1,0 +1,6773 @@
+[
+    {
+        "user_id": 53,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 204,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 217,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 244,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 260,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 262,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 355,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 375,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 385,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 458,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 520,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 542,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 569,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 584,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 645,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 653,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 712,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 744,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 759,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 767,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 792,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 827,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 837,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 839,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 898,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 912,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 1022,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 1133,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 1143,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 1170,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 1252,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 1273,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 1307,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 1310,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 1332,
+        "topic": "Guns",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 4172,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 4194,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 4226,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 4262,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 4327,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 4340,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 4425,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 4611,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 4642,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 4650,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 4664,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 4692,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 4720,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 4734,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 4748,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 4749,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 4785,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 4813,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 4869,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 4940,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 4962,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 4970,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 4974,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 5039,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 5063,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 5081,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 5084,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 5106,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 5159,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 5198,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 5219,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 5251,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 5316,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 5420,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 5463,
+        "topic": "Automation and driverless vehicles",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 8320,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 8367,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 8379,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 8423,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 8628,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 8713,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: B. Conservative",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 8717,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 8768,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 8771,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 8782,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 8783,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 8802,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 8859,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 8864,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 8866,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 8897,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 8903,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 8959,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 8974,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 9067,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: B. Conservative",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 9122,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 9151,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 9179,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 9248,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: B. Conservative",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 9285,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 9375,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 9388,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 9403,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 9571,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 9576,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 9592,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 9595,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 9651,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 9665,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 9825,
+        "topic": "Views on gender",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 13199,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 13249,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 13363,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 13373,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 13396,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 13465,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 13487,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 13496,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 13512,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 13531,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 13586,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 13738,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: B. Conservative",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 13786,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 13926,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 14012,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 14055,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 14086,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 14114,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 14214,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 14241,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 14383,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 14391,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 14436,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 14474,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 14493,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 14501,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 14620,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 14639,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 14752,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 14804,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 14837,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 14890,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 14992,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 14996,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 15034,
+        "topic": "Community types & sexual harassment",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 19422,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 19427,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 19443,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 19521,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 19577,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 19602,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 19610,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 19626,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 19707,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 19719,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 19768,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 19803,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 19857,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 19865,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 19894,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 19918,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 19931,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 19942,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 20024,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 20025,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 20116,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 20133,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 20141,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 20152,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 20199,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 20206,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 20217,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 20228,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 20236,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 20281,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 20296,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 20317,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 20341,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 20383,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 20420,
+        "topic": "Biomedical & food issues",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 22006,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 22116,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 22118,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: B. Conservative",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 22178,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 22180,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 22195,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 22212,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 22287,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 22369,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 22384,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 22468,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 22484,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 22520,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 22592,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 22618,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 22628,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 22645,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 23003,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: B. Conservative",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 23050,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 23069,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 23091,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: B. Conservative",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 23193,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: A. Very conservative",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 23209,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 23261,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 23310,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 23446,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 23591,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: A. Very conservative",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 23652,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 23691,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: B. Conservative",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 23710,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 23755,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 23764,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 23794,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 23852,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 23878,
+        "topic": "Gender & Leadership",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 26586,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 26596,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 26615,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 26628,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 26650,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 26662,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 26713,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 26827,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 26856,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 26895,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 26899,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 26926,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 26962,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 26977,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 26987,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 27013,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 27014,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 27040,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 27062,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 27169,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 27171,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 27215,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 27232,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 27266,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 27289,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 27327,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 27357,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 27413,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 27437,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 27452,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 27522,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 27529,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 27533,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 27539,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 27543,
+        "topic": "America in 2050",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 29090,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 29169,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 29184,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 29336,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Refused"
+            }
+        ]
+    },
+    {
+        "user_id": 29441,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 29489,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 29508,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 29515,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 29562,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 29604,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 29652,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 29675,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 29683,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 29734,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 29766,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 29881,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 29892,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 29909,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 30003,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 30009,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 30039,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 30048,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 30057,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 30103,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 30105,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 30291,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 30311,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 30351,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 30355,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 30492,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 30538,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Refused"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 30579,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 30585,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 30638,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 30646,
+        "topic": "Trust in science",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 33542,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 33702,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 33744,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 33833,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 33859,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 33862,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 33977,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political party": "Refused"
+            }
+        ]
+    },
+    {
+        "user_id": 34021,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 34117,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 34191,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 34254,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 34280,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 34281,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 34389,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 34482,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 34551,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 34698,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 34753,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 34850,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 34892,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 34968,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 35019,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 35069,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 35374,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 35408,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 35584,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 35600,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 35709,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 35740,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 35763,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 35811,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 35894,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 35897,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 36024,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 36052,
+        "topic": "Race",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 40191,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 40282,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 40406,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 40473,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 40527,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 40592,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 40741,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 40933,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 40986,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 40992,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 41099,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 41132,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 41164,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 41204,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 41243,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 41288,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 41354,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 41387,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 41416,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 41431,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 41467,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 41715,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 41731,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 41837,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 42010,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 42083,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 42126,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 42130,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 42166,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 42357,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 42358,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 42409,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 42433,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 42487,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 42529,
+        "topic": "Misinformation",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 46363,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 46373,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 46422,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 46476,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 46534,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 46570,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 46591,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 46619,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 46673,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 46698,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 46756,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 46857,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 46902,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 46909,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 46943,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 46954,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 47035,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 47037,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 47092,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 47103,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 47120,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 47170,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 47373,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 47379,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 47417,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 47469,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 47477,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 47489,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 47561,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 47591,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 47659,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 47689,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 47731,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 47735,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 47772,
+        "topic": "Privacy & Surveilance",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 50615,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 50797,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 50918,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 50979,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 51105,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 51178,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 51311,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Refused"
+            },
+            {
+                "Political party": "Refused"
+            }
+        ]
+    },
+    {
+        "user_id": 51397,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 51561,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 51604,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 51693,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: B. Conservative",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 51802,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: B. Conservative",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 52048,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 52070,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 52161,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 52191,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 52196,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 52344,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 52455,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: B. Conservative",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 52471,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 52480,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 52570,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 52593,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 52632,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 52791,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: B. Conservative",
+        "user_choice": [
+            {
+                "Political ideology": "Refused"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 52859,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 52875,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 52986,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 53100,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 53264,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: B. Conservative",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 53678,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 53931,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 53963,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 54044,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 54107,
+        "topic": "Family & Relationships",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 60524,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 60532,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 60614,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 60658,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 60758,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 60832,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 60901,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 60923,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 60941,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 61005,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 61064,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 61181,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 61215,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 61287,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 61296,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 61303,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 61334,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 61340,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 61436,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Refused"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 61441,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 61467,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 61482,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 61588,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 61618,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 61830,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 61832,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 62164,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 62217,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 62274,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 62352,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 62456,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 62576,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 62655,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 62818,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 62873,
+        "topic": "Economic inequality",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 67306,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 67388,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 67399,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 67406,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 67484,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: B. Conservative",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 67491,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 67496,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 67526,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 67555,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: B. Conservative",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 67566,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 67615,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 67628,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 67630,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 67654,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 67656,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 67662,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 67676,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 67705,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 67724,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 67735,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 67747,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 67751,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 67781,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 67813,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 67862,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 67867,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 67906,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Refused"
+            }
+        ]
+    },
+    {
+        "user_id": 67914,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 67918,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 67925,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Refused"
+            }
+        ]
+    },
+    {
+        "user_id": 68019,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 68024,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 68152,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 68162,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 68163,
+        "topic": "Global attitudes",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 70002,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: B. Conservative",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 70003,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 70184,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 70218,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 70570,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 70621,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 70774,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 70995,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 71057,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 71111,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 71128,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 71152,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 71165,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 71320,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 71561,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 71611,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 71745,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 71764,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 71842,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 71993,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 72125,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 72276,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 72296,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 72350,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 72381,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 72631,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 72692,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Republican"
+            }
+        ]
+    },
+    {
+        "user_id": 72719,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 72755,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: D. Liberal",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 72779,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Other"
+            }
+        ]
+    },
+    {
+        "user_id": 73053,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 73109,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Moderate"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 73226,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Independent"
+            }
+        ]
+    },
+    {
+        "user_id": 73337,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Conservative"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    },
+    {
+        "user_id": 73489,
+        "topic": "Political views",
+        "model_choice": "Political party: C. Independent\nPolitical ideology: C. Moderate",
+        "user_choice": [
+            {
+                "Political ideology": "Very liberal"
+            },
+            {
+                "Political party": "Democrat"
+            }
+        ]
+    }
+]
