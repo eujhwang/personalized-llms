@@ -91,17 +91,17 @@ class EmbeddingSaver:
 
                 # get topk declarative opinions
                 topk_op = [[decl_op[anno_index], distances[i]] for i, anno_index in enumerate(ann)]
-            
+
             persona_qa["topk_opinions"] = topk_op
 
         return user_responses_jsons
 
 
 if __name__ == '__main__':
-    in_path = "../data/opinionqa/sampled_user_responses_decl.json"
-    out_path1 = "../data/opinionqa/sampled_user_responses_decl_emb.json"
-    out_path2 = "../data/opinionqa/sampled_user_responses_decl_topk.json"
-    cache_path="../data/cache/emb_cache.jsonl"
+    in_path = "data/opinionqa/sampled_user_responses_decl.json"
+    out_path1 = "data/opinionqa/sampled_user_responses_decl_emb.json"
+    out_path2 = "data/opinionqa/sampled_user_responses_decl_topk.json"
+    cache_path="data/cache/emb_cache.jsonl"
     generator = EmbeddingGenerator(engine="text-embedding-ada-002", encoding="cl100k_base", max_tokens=512, openai_wrapper=OpenAIWrapper(cache_path=cache_path))
     enhanced_json_with_embedding = EmbeddingSaver().generate_embedding(
         generator=generator, user_responses_jsons=read_jsonl_or_json(in_path))
