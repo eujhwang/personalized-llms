@@ -4,3 +4,4 @@ pandas
 scipy
 Jinja2
 faiss-cpu
+sklearn

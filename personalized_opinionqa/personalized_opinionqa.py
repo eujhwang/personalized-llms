@@ -11,6 +11,8 @@ from gptinference.base_prompt import Prompt
 from gptinference.openai_wrapper import OpenAIWrapper
 from gptinference.utils import read_jsonl_or_json, write_json
 
+from demography_prediction import filter_demographs
+
 OUTPUT_MAP = "ABCDEFGHIJKLMNOPQRSTUVWXYZ"
 
 class PersonaCreator(Prompt):
@@ -28,7 +30,8 @@ class PersonaCreator(Prompt):
         if implicit_persona:
             implicit_persona_list = []
             for persona in implicit_persona:
-                implicit_persona_list.append(persona["declarative_opinion"])
+                # implicit_persona_list.append(persona["declarative_opinion"])
+                implicit_persona_list.append(persona)
             implicit_persona_list = [f"{i+1}. {persona}\n" for i, persona in enumerate(implicit_persona_list)]
             implicit_persona_str = "".join(implicit_persona_list)
 
@@ -143,6 +146,22 @@ class PersonalizedQA:
     """
     def __init__(self, args):
         self.num_implicit = args.num_implicit
+        self.implicit_sampling = args.implicit_sampling
+        self.explicit_definition = args.explicit_definition
+
+    def mk_implicit_persona(self, option, persona_qa, random_qa):
+        user_profile = []
+        if option == -1:
+            return None
+        elif self.implicit_sampling == "random":
+            user_profile = [x["declarative_opinion"] for x in random_qa]
+        elif self.implicit_sampling == "topk":
+            # "topk_opinions": {
+            #     "Gun owners who have children in their home should keep their shooting skills up-to-date, but it is not essential.": 0.8729113543065781,
+            #     "I worry a little about being the victim of a violent crime.": 0.7769040591312351
+            #  }
+            user_profile = [x for x, score in persona_qa["topk_opinions"].items()]
+        return utils.take(num=self.num_implicit, arr=user_profile) if option == 0 or option == 2 else None
 
     def personalized_qa(self, persona: PersonaCreator, user_responses_jsons: Dict, option: int,
                         max_users:int, max_ques: int, max_topics: int):
@@ -187,16 +206,16 @@ class PersonalizedQA:
                 continue
 
             if option == -1:
-                implicit_persona = None
+                # implicit_persona = None
                 explicit_persona = None
             else:
-                if self.num_implicit > len(user_response_json["implicit_persona"]):
-                    num_implicit = len(user_response_json["implicit_persona"])
-                else:
-                    num_implicit = self.num_implicit
-                implicit_persona = user_response_json["implicit_persona"][:num_implicit] if option == 0 or option == 2 else None
-                explicit_persona = user_response_json["explicit_persona"] if option == 1 or option == 2 else None
-
+                # user_profile = user_response_json["implicit_persona"]
+                # if self.num_implicit > len(user_profile):
+                #     num_implicit = len(user_profile)
+                # else:
+                #     num_implicit = self.num_implicit
+                # # implicit_persona = user_profile[:num_implicit] if option == 0 or option == 2 else None
+                explicit_persona = self.mk_explicit_persona(all_traits=user_response_json["explicit_persona"]) if option == 1 or option == 2 else None
 
             generated_output = []
             all_user_implicit_ques = user_response_json["implicit_questions"]
@@ -208,7 +227,7 @@ class PersonalizedQA:
                         choice_idx = persona_qa["choices"].index(user_choice)
                         user_choice = OUTPUT_MAP[choice_idx]
                         model_choice = persona(
-                            implicit_persona=implicit_persona,
+                            implicit_persona=self.mk_implicit_persona(option=option, persona_qa=persona_qa, random_qa=user_response_json["implicit_persona"]),
                             explicit_persona=explicit_persona,
                             topic=topic,
                             question=persona_qa["question"],
@@ -225,10 +244,15 @@ class PersonalizedQA:
                             "user_choice": user_choice,
                             "qid": persona_qa["qid"],
                         })
-                        print(f"{exc}")
+                        print(f"Exception: {exc}")
 
             model_generated.append({"user_id": user_id, "topic": topic, "generated_output": generated_output})
         return model_generated
+
+    def mk_explicit_persona(self, all_traits):
+        # ideo_demo, ideo, demo
+        return filter_demographs(all_demo_ideo=all_traits, filter_on=self.explicit_definition)
+
 
 def calculate_accuracy(model_generation_path):
     model_generation = read_jsonl_or_json(model_generation_path)
@@ -265,6 +289,8 @@ if __name__ == '__main__':
     parser.add_argument("--max_ques", type=int, default=30, help="max ques to test inference on.")
     parser.add_argument("--max_topics", type=int, default=-1, help="max topics to test inference on (currently, ~15).")
     parser.add_argument("--max_retries", type=int, default=2, help="max number of openai retries when a call fails.")
+    parser.add_argument("--implicit_sampling", type=str, default="random", help="random or topk past opinions")
+    parser.add_argument("--explicit_definition", type=str, default="ideo_demo", help="ideo_demo, ideo, demo")
     parser.add_argument("--option", type=int, default=0, choices=[-1, 0, 1, 2], help="-1: no-persona, 0: implicit, 1: explicit, 2: both")
     args = parser.parse_args()
     os.environ["OPENAI_MAX_TRIES_INT"] = str(args.max_retries)
@@ -279,6 +305,9 @@ if __name__ == '__main__':
         dir_name = f"no-persona"
 
     dir_name += f"-t{args.max_topics}-u{args.max_users}-q{args.max_ques}"
+    if args.explicit_definition != "ideo_demo":
+        dir_name += f"-explicit-means-{args.explicit_definition}"
+
     print(f"\nStart experiment: {dir_name} ...")
 
     persona = PersonaCreator(engine="text-davinci-003", openai_wrapper=OpenAIWrapper(cache_path=args.cache_path))

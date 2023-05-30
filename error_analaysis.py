@@ -10,7 +10,7 @@ import pandas as pd
 import tqdm
 from gptinference import utils
 from gptinference.utils import read_jsonl_or_json, write_json
-from sklearn.metrics import cohen_kappa_score
+# from sklearn.metrics import cohen_kappa_score
 
 from synthesize_opinionqa.utils import set_seed
 
@@ -448,15 +448,18 @@ def main(args):
     # correct answer with explicit info, but incorrect answer with implicit info
     # extract_error_samples(imp_gen, exp_gen, imexp_gen, qinfo_dict, user_responses)
 
-    all_user_responses = read_jsonl_or_json("data/all_user_responses.json")
+
     # sample_path = "sampled1000_user_responses.json"
     # sampled_responses = random.sample(sampled_user_responses, 1000)
     # with open(sample_path, "w") as f:
     #     json.dump(sampled_responses, f)
 
     # sampled_user_responses = read_jsonl_or_json("sampled1000_user_responses.json")
-    same_demo_diff_op(all_user_responses)
-    same_op_diff_demo(all_user_responses, num_implicit=8)
+
+    # (TODO) uncomment this when needed
+    # all_user_responses = read_jsonl_or_json("data/all_user_responses.json")
+    # same_demo_diff_op(all_user_responses)
+    # same_op_diff_demo(all_user_responses, num_implicit=8)
 
 
 if __name__ == '__main__':
