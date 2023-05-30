@@ -1,0 +1,317 @@
+[
+    {
+        "user_id": 53,
+        "topic": "Guns",
+        "generated_output": [
+            {
+                "model_choice": "A",
+                "user_choice": "A",
+                "qid": "GUNCONTRIBB_W26"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "B",
+                "qid": "GUN1_W26"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "A",
+                "qid": "GUNCOMMUNITY_W26"
+            }
+        ]
+    },
+    {
+        "user_id": 4172,
+        "topic": "Automation and driverless vehicles",
+        "generated_output": [
+            {
+                "model_choice": "B",
+                "user_choice": "A",
+                "qid": "CAREGIV6F_W27"
+            },
+            {
+                "model_choice": "C",
+                "user_choice": "B",
+                "qid": "PREDICTD_W27"
+            },
+            {
+                "model_choice": "D",
+                "user_choice": "A",
+                "qid": "CAREREL_W27"
+            }
+        ]
+    },
+    {
+        "user_id": 8320,
+        "topic": "Views on gender",
+        "generated_output": [
+            {
+                "model_choice": "C",
+                "user_choice": "B",
+                "qid": "MAN1A_W29"
+            },
+            {
+                "model_choice": "C",
+                "user_choice": "B",
+                "qid": "TRANSGEND3_W29"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "C",
+                "qid": "TRAITSD_W29"
+            }
+        ]
+    },
+    {
+        "user_id": 13199,
+        "topic": "Community types & sexual harassment",
+        "generated_output": [
+            {
+                "model_choice": "D",
+                "user_choice": "D",
+                "qid": "COMMYRS_W32"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "C",
+                "qid": "SATLIFEE_W32"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "C",
+                "qid": "COMMIMPG_W32"
+            }
+        ]
+    },
+    {
+        "user_id": 19422,
+        "topic": "Biomedical & food issues",
+        "generated_output": [
+            {
+                "model_choice": "UNKNOWN",
+                "user_choice": "Artificial sweeteners",
+                "qid": "EAT3I_W34"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "B",
+                "qid": "MED2G_W34"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "A",
+                "qid": "MED1_W34"
+            }
+        ]
+    },
+    {
+        "user_id": 22006,
+        "topic": "Gender & Leadership",
+        "generated_output": [
+            {
+                "model_choice": "C",
+                "user_choice": "C",
+                "qid": "E5_W36"
+            },
+            {
+                "model_choice": "C",
+                "user_choice": "B",
+                "qid": "WHYNOTBIZF2N_W36"
+            },
+            {
+                "model_choice": "C",
+                "user_choice": "C",
+                "qid": "BETTERBIZ1F2F_W36"
+            }
+        ]
+    },
+    {
+        "user_id": 26586,
+        "topic": "America in 2050",
+        "generated_output": [
+            {
+                "model_choice": "B",
+                "user_choice": "B",
+                "qid": "FTRWORRYd_W41"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "A",
+                "qid": "HAPPEN2e_W41"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "A",
+                "qid": "FTRWORRYf_W41"
+            }
+        ]
+    },
+    {
+        "user_id": 29090,
+        "topic": "Trust in science",
+        "generated_output": [
+            {
+                "model_choice": "B",
+                "user_choice": "B",
+                "qid": "PQ5_F2B_W42"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "B",
+                "qid": "SCM4b_W42"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "A",
+                "qid": "PQ7_F2B_W42"
+            }
+        ]
+    },
+    {
+        "user_id": 33542,
+        "topic": "Race",
+        "generated_output": [
+            {
+                "model_choice": "A",
+                "user_choice": "A",
+                "qid": "RACESURV19a_W43"
+            },
+            {
+                "model_choice": "C",
+                "user_choice": "D",
+                "qid": "RACESURV14_W43"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "B",
+                "qid": "RACESURV7_W43"
+            }
+        ]
+    },
+    {
+        "user_id": 40191,
+        "topic": "Misinformation",
+        "generated_output": [
+            {
+                "model_choice": "A",
+                "user_choice": "B",
+                "qid": "INFOKNOWd_W45"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "A",
+                "qid": "INFOCONFUSEd_W45"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "A",
+                "qid": "MADEUPSMFOL1_W45"
+            }
+        ]
+    },
+    {
+        "user_id": 46363,
+        "topic": "Privacy & Surveilance",
+        "generated_output": [
+            {
+                "model_choice": "B",
+                "user_choice": "C",
+                "qid": "DATAUSEa_W49"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "B",
+                "qid": "HOMEIOT_W49"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "A",
+                "qid": "DATAUSEc_W49"
+            }
+        ]
+    },
+    {
+        "user_id": 50615,
+        "topic": "Family & Relationships",
+        "generated_output": [
+            {
+                "model_choice": "B",
+                "user_choice": "B",
+                "qid": "FAMSURV2Me_W50"
+            },
+            {
+                "model_choice": "D",
+                "user_choice": "A",
+                "qid": "SATLIFEc_W50"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "A",
+                "qid": "FAMSURV32a_W50"
+            }
+        ]
+    },
+    {
+        "user_id": 60524,
+        "topic": "Economic inequality",
+        "generated_output": [
+            {
+                "model_choice": "A",
+                "user_choice": "B",
+                "qid": "ECONFAIR_W53"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "C",
+                "qid": "GOVPRIORITYc_W54"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "B",
+                "qid": "WORKHARD_W53"
+            }
+        ]
+    },
+    {
+        "user_id": 67306,
+        "topic": "Global attitudes",
+        "generated_output": [
+            {
+                "model_choice": "A",
+                "user_choice": "A",
+                "qid": "GAP21Q34_e_W82"
+            },
+            {
+                "model_choice": "A",
+                "user_choice": "A",
+                "qid": "GAP21Q43_f_W82"
+            },
+            {
+                "model_choice": "C",
+                "user_choice": "A",
+                "qid": "GAP21Q10_W82"
+            }
+        ]
+    },
+    {
+        "user_id": 70002,
+        "topic": "Political views",
+        "generated_output": [
+            {
+                "model_choice": "A",
+                "user_choice": "A",
+                "qid": "DIFFPARTY_W92"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "B",
+                "qid": "INSTN_MSCENT_W92"
+            },
+            {
+                "model_choice": "B",
+                "user_choice": "A",
+                "qid": "PPLRESP_W92"
+            }
+        ]
+    }
+]
